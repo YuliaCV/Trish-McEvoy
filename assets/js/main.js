@@ -21,8 +21,9 @@ jQuery(function($) {
 
         $('.nav-mobile').on('click', function() {
             $(this).toggleClass('open');
+            $('.nav-mobile').not(this).removeClass('open');
             $(this).siblings('.subcat').slideToggle(400);
-            $('.nav-mobile').not(this).siblings('.subcat').slideToggle(400);
+            $('.nav-mobile').not(this).siblings('.subcat').slideUp(400);
         });
 
 
