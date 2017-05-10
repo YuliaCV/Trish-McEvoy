@@ -308,28 +308,28 @@ body {
   position: relative;
 }
 
+.nav-mobile {
+  color: #666;
+  top: 15px !important;
+  right: 20px !important;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/plus.png) no-repeat;
+  transition: 0.3s;
+
+  &.open {
+    background: url(../img/minus.png) 50% 50% no-repeat;
+    transition: 0.3s;
+  }
+}
 nav {
   .nav-toggle {
     width: 35px;
     height: 18px;
     display: inline-block;
     margin: 17px 15px 17px;
-  }
-  .nav-mobile {
-    color: #666;
-    top: 15px !important;
-    right: 20px !important;
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url(../img/plus.png) no-repeat;
-    transition: 0.3s;
-
-    &.open {
-      background: url(../img/minus.png) 50% 50% no-repeat;
-      transition: 0.3s;
-    }
   }
   #nav-icon {
     width: 35px;
