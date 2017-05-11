@@ -11,6 +11,7 @@
 @xs:           ~"only screen and (max-width: 767px)";
 @sm:           ~"only screen and (min-width: 768px) and (max-width: 991px)";
 @md:           ~"only screen and (min-width: 992px) and (max-width: 1199px)";
+@not-mobile:   ~"only screen and (min-width: 768px)";
 @lg:           ~"only screen and (min-width: 1200px)";
 
 
@@ -155,47 +156,6 @@ table {
   font-style: normal;
 }
 
-/*
-  Flaticon icon font: Flaticon
-  Creation date: 10/05/2017 17:07
-  */
-
-@font-face {
-  font-family: "Flaticon";
-  src: url("../fonts/flaticons/Flaticon.eot");
-  src: url("../fonts/flaticons/Flaticon.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/flaticons/Flaticon.woff") format("woff"),
-  url("../fonts/flaticons/Flaticon.ttf") format("truetype"),
-  url("../fonts/flaticons/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/flaticons/Flaticon.svg#Flaticon") format("svg");
-  }
-}
-
-[class^="icon-"]:before, [class*=" icon-"]:before,
-[class^="icon-"]:after, [class*=" icon-"]:after {
-  font-family: Flaticon;
-  font-size: 20px;
-  font-style: normal;
-  margin: 0 10px;
-}
-
-.icon-mail:before { content: "\f100"; }
-.icon-location-1:before { content: "\f101"; }
-.icon-placeholder-point:before { content: "\f102"; }
-.icon-youtube:before { content: "\f103"; }
-.icon-pinterest:before { content: "\f104"; }
-.icon-gplus:before { content: "\f105"; }
-.icon-facebook:before { content: "\f106"; }
-.icon-twitter:before { content: "\f107"; }
-.icon-instagram:before { content: "\f108"; }
-
 
 body {
   background: #fff;
@@ -220,14 +180,18 @@ body {
     padding-left: 5px;
   }
 }
+.header {
+  text-align: center;
+  padding: 20px 0 10px;
+}
 .header-icons {
   position: absolute;
   right: 20px;
-  bottom: 62px;
+  bottom: 68px;
   z-index: 9;
 
   @media @xs {
-    bottom: 8px;
+    bottom: 16px;
   }
 }
 .top-line-header {
@@ -241,7 +205,7 @@ body {
   }
 
   p {
-    margin: 7px 0;
+    margin: 8px 0;
     font-size: 12px;
 
     @media @xs {
@@ -275,6 +239,7 @@ body {
 
     @media @xs {
       text-align: left;
+      padding: 0;
     }
 
     #nav-icon {
@@ -298,14 +263,36 @@ body {
   z-index: 12;
 }
 .hero.fixed {
-  padding-top: 54px;
-}
+  padding-top: 44px;
 
+  @media @xs {
+    padding-top: 54px;
+  }
+}
+#user-login {
+  text-decoration: none;
+}
+.cart {
+  margin-left: 15px;
+  @media @xs {
+    margin-left: 0;
+  }
+}
+.login-lnk {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  vertical-align: top;
+  position: relative;
+  top: 9px;
+  margin-right: 10px;
+}
 .items-counter {
   display: inline-block;
   width: 22px;
   height: 22px;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
   border-radius: 50%;
   text-align: center;
   font-size: 11px;
@@ -314,6 +301,11 @@ body {
   position: absolute;
   left: 11px;
   top: 0;
+
+  @media @xs {
+    background-color: #fff;
+    color: #000
+  }
 }
 .login,
 .cart {
@@ -323,21 +315,25 @@ body {
 
 .nav-mobile {
   color: #666;
-  top: 15px !important;
+  top: 14px !important;
   right: 20px !important;
   position: absolute;
   display: block;
   width: 20px;
-  height: 20px;
-  background: url(../img/plus.png) no-repeat;
+  height: 15px;
+  background: url(../img/homepage-sprite.png) no-repeat;
+  background-position-y: -96px;
   transition: 0.3s;
 
   &.open {
-    background: url(../img/minus.png) 50% 50% no-repeat;
+    background-position-x: -25px;
+    background-position-y: -97px;
     transition: 0.3s;
   }
 }
 nav {
+  position: relative;
+
   .nav-toggle {
     width: 35px;
     height: 18px;
@@ -542,7 +538,7 @@ nav {
     .name {
       text-transform: uppercase;
       font-family: 'RobotoLight';
-      font-size: 38px;
+      font-size: 48px;
 
       @media @xs {
         font-size: 26px;
@@ -566,7 +562,9 @@ nav {
       width: 100%;
       display: block;
       font-size: 18px;
+      line-height: 25px;
       margin-bottom: 30px;
+      margin-top: 20px;
       @media @xs {
         display: none;
       }
@@ -669,6 +667,10 @@ nav {
         }
       }
 
+      .short-name {
+        color: #fff;
+      }
+
       .action a {
         @media @xs {
           color: #000;
@@ -685,6 +687,11 @@ nav {
 
       .description {
         text-align: left;
+        .short-name {
+          @media @xs {
+            color: #000;
+          }
+        }
       }
       .description .name {
         font-size: 60px;
@@ -713,6 +720,8 @@ nav {
         line-height: 45px;
         font-size: 30px;
         position: relative;
+        display: block;
+        margin: 0 auto;
 
         &:hover {
           background: #fff;
@@ -722,7 +731,13 @@ nav {
       }
       i {
         position: relative;
-        left: -5px;
+        left: 4px;
+        top: 5px;
+        background: url(../img/homepage-sprite.png) no-repeat;
+        background-position: 0px -110px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
       }
     }
     .description {
@@ -768,10 +783,14 @@ nav {
 
     i.icon-mail {
       position: absolute;
-      top: 19px;
-      left: 2px;
+      top: 23px;
+      left: 8px;
       color: #666;
       font-size: 18px;
+      background: url(../img/homepage-sprite.png) no-repeat;
+      background-position: -73px -83px;
+      width: 26px;
+      height: 18px;
     }
     .find-a-store {
       text-align: center;
@@ -791,6 +810,8 @@ nav {
         margin-bottom: 15px;
         color: #9f9f9f;
         font-size: 20px;
+        background-position-x: -119px;
+        margin: 0 auto 15px;
       }
     }
     .footer-nav {
@@ -799,9 +820,11 @@ nav {
       }
       h2.menu-title:after {
         @media @xs {
+          content: '';
           display: inline-block;
-          content: '\f107';
           transform: rotate(-90deg);
+          background: url(../img/homepage-sprite.png) no-repeat;
+          background-position: -98px -88px;
           color: #a7a7a7;
           padding-left: 5px;
           transition: 0.3s;
@@ -810,10 +833,12 @@ nav {
           position: absolute;
           top: 13px;
           right: -25px;
+          width: 15px;
+          height: 15px;
         }
       }
       h2.menu-title.item-open:after {
-        transform: rotate(0deg) translateY(-5px);
+        transform: rotate(0deg);
         transition: 0.3s;
       }
     }
@@ -830,7 +855,7 @@ nav {
       }
     }
     ul.footer-menu-list {
-      padding: 10px 0;
+      padding: 0 0 10px;
       margin-bottom: 15px;
 
       @media @xs {
@@ -842,7 +867,8 @@ nav {
 
       li a {
         color: #000;
-        line-height: 35px;
+        line-height: 40px;
+        text-decoration: none;
       }
     }
     .field.newsletter {
@@ -857,7 +883,7 @@ nav {
 
       input#newsletter {
         width: 100%;
-        height: 30px;
+        height: 38px;
         padding: 5px 20px 5px 40px;
         border: 1px solid #c2c2c2;
 
@@ -867,8 +893,8 @@ nav {
       }
     }
     button.subscribe-btn {
-      width: 80px;
-      height: 30px;
+      width: 90px;
+      height: 38px;
       text-transform: uppercase;
       color: #fff;
       background: #000;
@@ -895,15 +921,17 @@ nav {
       }
       .form.subscribe {
         position: relative;
+        top: -10px;
 
         @media @xs {
           max-width: ~'calc(100% - 30px)';
           margin: 0 auto;
+          top: 0px;
         }
       }
     }
     .social-media {
-      padding: 35px 0 10px;
+      padding: 15px 0 10px;
 
       @media @xs {
         text-align: center;
@@ -914,10 +942,22 @@ nav {
         width: 100%;
       }
       i {
-        font-size: 20px;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        background: url(../img/homepage-sprite.png) no-repeat;
+
+        &.icon-instagram { background-position: 0 0; }
+        &.icon-twitter { background-position: -25px 0; }
+        &.icon-facebook { background-position: -49px 0; }
+        &.icon-gplus { background-position: -70px 0; }
+        &.icon-pinterest { background-position: -97px 0; }
+        &.icon-youtube { background-position: -120px 0; }
       }
       a {
         color: #000;
+        text-decoration: none;
+        margin: 0 8px;
       }
     }
   }
@@ -971,9 +1011,11 @@ nav {
   width: 20px;
   height: 20px;
   position: absolute;
+  background: url(../img/homepage-sprite.png) no-repeat;
 
   &.icon-close {
-    background: url(../img/X-Icon.png) no-repeat;
+    background-position-y: -76px;
+    background-position-x: -30px;
     top: 15px;
     right: 20px;
   }
@@ -981,23 +1023,132 @@ nav {
   &.icon-cart,
   &.icon-login {
     width: 30px;
-    height: 30px;
+    height: 22px;
     position: relative;
   }
   &.icon-search {
-    background: url(../img/search-white.png) no-repeat;
+    height: 20px;
+  }
+  &.icon-search {
+    background-position-y: -76px;
   }
   &.icon-cart {
-    background: url(../img/bag-white.png) no-repeat;
+    background-position-y: -53px;
+    background-position-x: -28px;
+    @media @xs {
+      background-position-x: 0px;
+    }
   }
   &.icon-login {
-    background: url(../img/user-white.png) no-repeat;
+    background-position-y: -26px;
+    background-position-x: -22px;
+    @media @xs {
+      background-position-x: 0px;
+    }
+  }
+}
+.icon-location-1 {
+  background: url(../img/homepage-sprite.png) no-repeat;
+  background-position-y: -79px;
+  background-position-x: -54px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-header.fixed {
+  .icon.icon-cart {
+    background-position-x: 0px;
+  }
+  .icon.icon-login {
+    background-position-x: 0px;
+  }
+  .items-counter {
+    background-color: #fff;
+    color: #000;
   }
 }
 
-
 @media screen and (min-width: 768px) {
+  .top-line-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  .page-footer .footer-content .social-media a:nth-child(2) {
+    margin-left: 0;
+  }
+  header.page-header.fixed {
+    z-index: 15;
+
+    .sections.nav-sections {
+      position: fixed;
+      width: 100%;
+      top: 28px;
+    }
+    .white-logo {
+      display: inline-block;
+      margin-right: 40px;
+    }
+    .sections.nav-sections nav {
+      text-align: left;
+    }
+    .header-icons {
+      bottom: 10px;
+    }
+  }
+  .header {
+    text-align: center;
+    padding: 20px 0 10px;
+    margin-top: 28px;
+  }
+  nav {
+    .search {
+      position: absolute;
+      top: 11px;
+      right: -50px;
+      left: auto;
+    }
+    .menu {
+      display: inline-block;
+      width: auto;
+      position: relative;
+    }
+  }
+  .white-logo,
+  .main-menu {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .white-logo {
+    display: none;
+  }
+  i.icon-instagram:before {
+    margin-left: 0;
+  }
+  .page-footer .footer-content .social-media .menu-title {
+    margin-bottom: 0;
+  }
   .section {
+    &.hero .separate-txt-xs {
+      .hero-img {
+        img {
+          width: 100%;
+        }
+        .description {
+          text-align: left;
+          max-width: 410px;
+          right: 180px;
+          top: 80px;
+        }
+      }
+
+    }
+    .separate-txt-xs .main-img img {
+      object-fit: cover;
+      height: 100%;
+    }
     .description {
       bottom: 0;
       z-index: 10;
@@ -1043,16 +1194,17 @@ nav {
         left: 0;
         right: 0;
       }
-      .divided .description {
-        padding: 20px 10px 20px;
-        max-width: 265px;
-        text-align: right;
-        right: 20px;
-      }
-      .divided .main-img:last-child .description {
-        left: 20px;
-        text-align: left;
-      }
+    }
+    .divided .description {
+      padding: 20px 10px 20px;
+      z-index: 9;
+      max-width: 280px;
+      text-align: right;
+      right: 20px;
+    }
+    .divided .video .description {
+      left: 20px;
+      text-align: left;
     }
   }
 }

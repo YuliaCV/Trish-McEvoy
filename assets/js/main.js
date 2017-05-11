@@ -9,9 +9,10 @@ jQuery(function($) {
 
 
 		// Header dropdown menu
-        $('#nav-icon').on('click', function() {
+       $('#nav-icon').on('click', function() {
             $(this).toggleClass('open');
             $('.subcat').slideUp();
+           $('.nav-mobile').removeClass('open');
             $('.main-menu').fadeToggle(400);
 
             $('body').toggleClass('nav-opened');
@@ -21,9 +22,9 @@ jQuery(function($) {
 
         $('.nav-mobile').on('click', function() {
             $(this).toggleClass('open');
-            $('.nav-mobile').not(this).removeClass('open');
             $(this).siblings('.subcat').slideToggle(400);
             $('.nav-mobile').not(this).siblings('.subcat').slideUp(400);
+            $('.nav-mobile').not(this).removeClass('open');
         });
 
 
@@ -42,6 +43,16 @@ jQuery(function($) {
         	} else {
         		$('.hero, .sections').removeClass('fixed');
         	}
+        })
+    } else {
+        var menuOffset = $('.sections').offset().top - 28;
+
+        $(window).scroll(function() {
+            if ( $(window).scrollTop() > menuOffset ) {
+                $('.hero, .page-header').addClass('fixed');
+            } else {
+                $('.hero, .page-header').removeClass('fixed');
+            }
         })
     }
 });
