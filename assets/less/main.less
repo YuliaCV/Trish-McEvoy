@@ -777,7 +777,11 @@ nav {
   transition: 0.3s;
 
   .footer-content {
-    padding: 25px 0 40px;
+    padding: 25px 0 0;
+
+    @media @xs {
+      padding: 25px 0 45px;
+    }
 
     i.icon-mail {
       position: absolute;
@@ -1332,8 +1336,9 @@ ul.subcat .col-sm-5 {
       height: 100%;
     }
     .description {
+      padding-top: 40px;
       bottom: 0;
-      z-index: 10;
+      z-index: 9;
     }
     .main-img:not(.video) {
       .action,
@@ -1378,14 +1383,14 @@ ul.subcat .col-sm-5 {
       }
     }
     .divided .description {
-      padding: 20px 10px 20px;
+      padding: 40px 10px 40px;
       z-index: 9;
       max-width: 280px;
       text-align: right;
-      right: 20px;
+      right: 40px;
     }
     .divided .video .description {
-      left: 20px;
+      left: 40px;
       text-align: left;
     }
   }
