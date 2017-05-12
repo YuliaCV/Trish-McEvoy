@@ -1080,10 +1080,15 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 .page-header.fixed .main-menu {
   margin-left: 0;
 }
+.page-header.fixed .login-lnk {
+  display: none;
+}
 @media only screen and (max-width: 767px) {
   ul.subcat .col-sm-8,
   ul.subcat .col-sm-12,
-  ul.subcat .col-sm-4 {
+  ul.subcat .col-sm-4,
+  ul.subcat .col-sm-7,
+  ul.subcat .col-sm-5 {
     padding: 0;
   }
 }
@@ -1116,6 +1121,38 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     float: right;
     top: -48px;
     right: 0;
+  }
+  nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .prod-img + a {
+    text-transform: none;
+    font-size: 15px;
+  }
+  .prod-img {
+    max-height: 320px;
+    margin-right: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  img.img-label {
+    position: absolute;
+    top: 65px;
+    left: -20px;
+  }
+  .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk {
+    color: #000;
+    font-family: 'RobotoLight';
+    font-size: 15px;
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk:hover {
+    text-decoration: underline;
+    transition: 0.3s;
   }
   .mega-menu-img {
     position: relative;
@@ -1176,6 +1213,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     color: #000;
     text-transform: uppercase;
+    font-size: 18px;
   }
   nav ul.main-menu li.level1.ui-menu-item.all-items {
     width: 100% !important;
@@ -1188,7 +1226,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     margin-top: 30px;
   }
   nav ul.main-menu li.level0.ui-menu-item > ul.subcat {
-    background: #fff;
+    background: #f9f8f8;
     position: absolute;
     top: 44px;
     left: 0;
@@ -1214,6 +1252,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     display: inline-block;
     top: 5px;
     left: 0;
+  }
+  nav ul.main-menu li.level0.ui-menu-item ul.subcat .all-offers-lnk ~ li.level1.ui-menu-item {
+    width: calc((100% - 30px) / 3);
+  }
+  li.level1.ui-menu-item.hidden-xs {
+    width: 100% !important;
   }
   .top-line-header {
     position: fixed;
