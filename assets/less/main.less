@@ -722,7 +722,7 @@ nav {
         margin: 0 auto;
 
         &:hover {
-          background: #fff;
+          background: transparent;
           color: #000;
           transition: 0.3s;
         }
@@ -1087,6 +1087,9 @@ ul.subcat .col-sm-5 {
 }
 
 @media screen and (min-width: 768px) {
+  .description .name .hidden-md.hidden-lg {
+    display: block !important;
+  }
   .sections.nav-sections {
     li.level0.ui-menu-item {
       display: inline-block;
