@@ -298,6 +298,12 @@ body {
     color: #000
   }
 }
+.cart .items-counter {
+  @media @xs {
+    background-color: #fff;
+    color: #000
+  }
+}
 .login,
 .cart {
   display: inline-block;
@@ -1564,6 +1570,67 @@ ul.subcat .col-sm-5 {
   margin: 0 auto;
 }
 /***************************Page HTML************************/
+.footer-menu-list{
+  text-transform: capitalize;
+}
+.page-footer .copyrights .links{
+  max-width: 290px;
+  text-transform: uppercase;
+}
+.sections.nav-sections .header-icons{
+  right: 100px;
+}
+.page-header.fixed .header-icons{
+  right: 0;
+}
+@media (max-width: 1200px) {
+  .page-footer .footer-content {
+    width: auto;
+  }
+}
+@media (max-width: 1040px){
+  .page-header.fixed .white-logo{
+    margin-right: 15px;
+  }
+  .page-header.fixed .header-icons{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1000px){
+  .sections.nav-sections li.level0.ui-menu-item {
+    padding: 15px 5px;
+  }
+}
+@media (max-width: 990px){
+  .page-header.fixed .header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 900px){
+  .sections.nav-sections .header-icons{
+    right: 0;
+  }
+}
+@media (max-width: 768px){
+  .mega-menu-img .img-actions .title{
+    font-size: 40px;
+  }
+  .sections.nav-sections .header-icons{
+    right: 0;
+  }
+}
+@media (max-width: 767px) {
+  nav ul.main-menu {
+    height: ~"calc(100vh - 54px)";
+    overflow-y: scroll;
+  }
+  .sections.nav-sections .header-icons{
+    right: 20px;
+  }
+}
+.catalog{
 .hero.fixed{
   padding-top: 0;
 }
@@ -1639,13 +1706,6 @@ ul.subcat .col-sm-5 {
 .section.hero .separate-txt-xs .hero-img.bg-b .action a{
   width: 154px;
 }
-.footer-menu-list{
-  text-transform: capitalize;
-}
-.page-footer .copyrights .links{
-  max-width: 290px;
-  text-transform: uppercase;
-}
 .section.hero .separate-txt-xs .hero-img .description.center-text span{
   display: flex;
   align-items: center;
@@ -1655,31 +1715,9 @@ ul.subcat .col-sm-5 {
 .section.hero .separate-txt-xs .hero-img .description.center-text span a:first-child{
   margin-right: 10px;
 }
-.sections.nav-sections .header-icons{
-  right: 100px;
-}
-.page-header.fixed .header-icons{
-  right: 0;
-}
-@media (max-width: 1040px){
-  .page-header.fixed .white-logo{
-    margin-right: 15px;
-  }
-  .page-header.fixed .header-icons{
-    margin-left: 10px;
-  }
-}
 @media (max-width: 1200px){
-  .page-footer .footer-content{
-    width: auto;
-  }
   .section.hero .separate-txt-xs .hero-img .description{
     max-width: 340px;
-  }
-}
-@media (max-width: 1000px){
-  .sections.nav-sections li.level0.ui-menu-item {
-    padding: 15px 5px;
   }
 }
 @media (max-width: 991px){
@@ -1687,35 +1725,13 @@ ul.subcat .col-sm-5 {
     margin-right: 0;
   }
 }
-@media (max-width: 990px){
-  .page-header.fixed .header-icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (max-width: 768px){
-  .mega-menu-img .img-actions .title{
-    font-size: 40px;
-  }
-  .sections.nav-sections .header-icons{
-    right: 0;
-  }
-}
 @media (max-width: 767px){
-  .sections.nav-sections .header-icons{
-    right: 20px;
-  }
   .section.hero .separate-txt-xs .hero-img .description.base-element{
     margin: 0 auto;
   }
   .section.hero .separate-txt-xs .hero-img .description.base-element span{
     flex-direction: initial;
     display: flex;
-  }
-  nav ul.main-menu{
-    height: ~"calc(100vh - 54px)";
-    overflow-y: scroll;
   }
   .section.hero .separate-txt-xs .hero-img img{
     width: 100%;
@@ -1808,5 +1824,6 @@ ul.subcat .col-sm-5 {
 }
 @media (max-width: 320px){
 
+}
 }
 /***************************Page HTML END************************/
