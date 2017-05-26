@@ -44,6 +44,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  letter-spacing: 0.4px;
 }
 ol, ul {
   list-style: none;
@@ -198,6 +199,9 @@ body {
   p {
     margin: 8px 0;
     font-size: 12px;
+    font-family: "RobotoLight";
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
 
     @media @xs {
       max-width: 320px;
@@ -999,7 +1003,7 @@ nav {
     top: 0;
     left: 0;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     transition: 0.3s;
     z-index: 9;
   }
@@ -1191,7 +1195,7 @@ ul.subcat .col-sm-5 {
       .lnk {
         color: #000 !important;
         display: inline-block;
-        padding: 12px 23px;
+        padding: 13px 23px;
         border: 1px solid #000;
         margin-top: 15px;
         transition: 0.3s;
@@ -1219,7 +1223,9 @@ ul.subcat .col-sm-5 {
         a {
           color: #000;
           text-transform: uppercase;
-          font-size: 18px;
+          font-size: 18pt;
+          font-family: 'RobotoLight';
+          letter-spacing: 0.4px;
         }
       }
       li.level1.ui-menu-item.all-items {
@@ -1356,7 +1362,7 @@ ul.subcat .col-sm-5 {
           transition: 0.3s;
         }
         &:hover:after {
-          background: rgba(0, 0, 0, 0.7);
+          background: rgba(0, 0, 0, 0.6);
           transition: 0.3s all;
         }
         .name,
@@ -1570,12 +1576,72 @@ ul.subcat .col-sm-5 {
   margin: 0 auto;
 }
 /***************************Page HTML************************/
+
+.section .separate-txt-xs .description .name, .section .description .short-name, .section .description .name, .mega-menu-img .img-actions .title{
+  letter-spacing: 0.4px;
+}
+.mega-menu-img .img-actions .lnk{
+  padding: 13px 23px;
+}
+nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-btn, .sections.nav-sections li.level0.ui-menu-item a.menu-btn{
+  font-size: 14pt;
+  font-family: 'RobotoRegular';
+  letter-spacing: 0.2px;
+}
+.mega-menu-img .img-actions .title{
+  letter-spacing: 0.2px;
+}
+.page-footer .footer-content h2.menu-title{
+  font-size: 15pt;
+  letter-spacing: 0.4px;
+}
+.center-element{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.description .name > span{
+  display: block;
+}
+.section .description .action a{
+  padding: 0;
+  height: 40px;
+  text-align: center;
+  line-height: 37px;
+  font-size: 14pt;
+  letter-spacing: 0.2px;
+}
+.section .video .description .action a{
+  line-height: 64px;
+}
+.s-bth{
+  width: 188px;
+}
+.b-bth{
+  width: 250px;
+}
+.main-img:hover img{
+  -webkit-transform: scale(1.05,1.05);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 550ms;
+  -moz-transform: scale(1.05,1.05);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 550ms;
+}
+.main-img img{
+  transition: 0.4s;
+}
 .footer-menu-list{
   text-transform: capitalize;
 }
 .page-footer .copyrights .links{
-  max-width: 290px;
+  max-width: 400px;
+}
+.page-footer .copyrights .links a{
   text-transform: uppercase;
+  font-size: 14pt;
+  text-decoration: none;
+  letter-spacing: 0.4px;
 }
 .sections.nav-sections .header-icons{
   right: 100px;
@@ -1693,7 +1759,7 @@ ul.subcat .col-sm-5 {
 .section .description .action a{
   color: #000000;
   text-align: center;
-  padding: 13px 20px;
+  width: 188px;
 }
 .section.hero .separate-txt-xs .hero-img .description{
   display: flex;
@@ -1704,7 +1770,7 @@ ul.subcat .col-sm-5 {
   max-width: 320px;
 }
 .section.hero .separate-txt-xs .hero-img.bg-b .action a{
-  width: 154px;
+  width: 188px;
 }
 .section.hero .separate-txt-xs .hero-img .description.center-text span{
   display: flex;
@@ -1822,8 +1888,16 @@ ul.subcat .col-sm-5 {
     padding: 17px 0;
   }
 }
-@media (max-width: 320px){
-
 }
+@media (max-width: 400px){
+  .page-footer .copyrights .links a {
+    font-size: 13pt;
+    letter-spacing: 0.2px;
+  }
+}
+@media (max-width: 350px){
+  .page-footer .copyrights .links a {
+    font-size: 11pt;
+  }
 }
 /***************************Page HTML END************************/
