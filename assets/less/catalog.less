@@ -257,34 +257,22 @@
   letter-spacing: 0.2px;
 }
   /*********************POP UP************/
-    .prod-pop_up{
-      display: none;
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.6);
-      top: 0;
-      left: 0;
-      z-index: 9999;
-        .bg-pop_up{
-          position: absolute;
-          background-color: #ffffff;
-          padding: 50px 40px;
-          max-width: 1280px;
-          width: 100%;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          display: flex;
-          align-items: flex-start;
-          justify-content: space-between;
-        }
-    }
-    .popup_act{
-      display: block;
-    }
+.mfp-content{
+  background-color: #ffffff;
+  padding: 50px 40px;
+  max-width: 1280px;
+
+}
+.bg-pop_up{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .block-popup_slider{
   width: 725px;
+}
+#example5{
+  padding-left: 110px!important;
 }
 .block-popup_info{
   width: 430px;
@@ -329,7 +317,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 21px;
+  margin-top: 15px;
 }
 .color-element{
   width: 44px;
@@ -437,6 +425,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   letter-spacing: -0.1px;
+  line-height: 1.6;
 }
 .link-see_full{
   font-size: 14px;
@@ -445,6 +434,53 @@
   margin-top: 33px;
   display: block;
   color: #000000;
+}
+.block-popup_info{
+  .wSelect-theme-classic.wSelect{
+    width: 428px!important;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    max-width: 100%;
+    border-radius: 0;
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #000000;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .wSelect-theme-classic .wSelect-options-holder{
+    width: 100%;
+    max-width: 100%;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid transparent;
+    border-radius: 0;
+  }
+  .wSelect-option-value{
+    background-size: 19px;
+    padding: 10px 0;
+  }
+  .wSelect-selected{
+    padding: 9px 0;
+    margin: 0px 35px 0px 12px;
+  }
+  .wSelect-option-icon {
+    padding-left: 28px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+  }
+  .wSelect-options{
+    max-height: 250px!important;
+    height: 160px!important;
+  }
+  .wSelect-theme-classic .wSelect-options{
+    border-radius: 0;
+    border: none;
+  }
+  .zoomContainer{
+    z-index: 999999!important;
+  }
 }
   /*********************POP UP END************/
 

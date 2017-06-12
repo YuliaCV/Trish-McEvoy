@@ -64,11 +64,8 @@ jQuery(function($) {
             $(this).addClass('borders_act') }
 
     );
-    $('.btn-product').click(function(){
-        $('.prod-pop_up').addClass('popup_act')
-    });
 });
-$('select').each(function(){
+$('.block-select select').each(function(){
     var $this = $(this), numberOfOptions = $(this).children('option').length;
 
     $this.addClass('select-hidden');
@@ -112,31 +109,50 @@ $('select').each(function(){
         $list.hide();
     });
 });
-$( document ).ready(function( $ ) {
-    $( '#example5' ).sliderPro({
-        autoplay: false,
-        width: 612,
-        height: 650,
-        orientation: 'vertical',
-        loop: false,
-        arrows: false,
-        buttons: false,
-        thumbnailsPosition: 'left',
-        thumbnailPointer: true,
-        thumbnailWidth: 80,
-        breakpoints: {
-            800: {
-                thumbnailsPosition: 'bottom',
-                thumbnailWidth: 270,
-                thumbnailHeight: 100
-            },
-            500: {
-                thumbnailsPosition: 'bottom',
-                thumbnailWidth: 120,
-                thumbnailHeight: 50
+$(document).ready(function() {
+    $('select').wSelect();
+    $('.popup-with-form').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#name',
+
+        // When elemened is focused, some mobile browsers in some cases zoom in
+        // It looks not nice, so we disable it:
+        callbacks: {
+            beforeOpen: function() {
+                if($(window).width() < 700) {
+                    this.st.focus = false;
+                } else {
+                    this.st.focus = '#name';
+                }
             }
         }
     });
+    $('.btn-product').click(function(){
+        $("#zoom_mw").elevateZoom({scrollZoom : true});
+        $( '#example5' ).sliderPro({
+            autoplay: false,
+            width: 612,
+            height: 650,
+            orientation: 'vertical',
+            loop: false,
+            arrows: false,
+            buttons: false,
+            thumbnailsPosition: 'left',
+            thumbnailPointer: true,
+            thumbnailWidth: 80,
+            breakpoints: {
+                800: {
+                    thumbnailsPosition: 'bottom',
+                    thumbnailWidth: 270,
+                    thumbnailHeight: 100
+                },
+                500: {
+                    thumbnailsPosition: 'bottom',
+                    thumbnailWidth: 120,
+                    thumbnailHeight: 50
+                }
+            }
+        });
+    });
 });
-
-

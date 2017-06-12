@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slider-pro.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="assets/css/examples.css" media="screen"/>
+    <link rel="Stylesheet" type="text/css" href="assets/css/wSelect.css" />
+    <link rel="Stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
 </head>
 <!----------------------HEADER----------------->
 <div class="page-wrapper">
@@ -246,7 +248,7 @@
                         <div class="product-element_img">
                             <img class="prod-block" src="assets/img/prod1.png" alt="product">
                             <img class="prod-none" src="assets/img/prod-hover.png">
-                            <a class="btn-product">Preview 8 Shades</a>
+                            <a class="btn-product popup-with-form"  href="#test-form">Preview 8 Shades</a>
                         </div>
                         <div class="product-text">
                             <div class="collection">NEW SHADES</div>
@@ -256,15 +258,14 @@
                                 <img src="assets/img/stars.png" alt="stars">
                             </div>
                         </div>
-                        <div class="prod-pop_up">
+                        <form id="test-form" class="white-popup-block mfp-hide prod-pop_up">
                             <div class="bg-pop_up">
                                 <div class="block-popup_slider">
                                     <div id="example5" class="slider-pro">
                                         <div class="sp-slides">
                                             <div class="sp-slide">
-                                                <img class="sp-image" src="assets/img/prod1.png"
-                                                     data-src="assets/img/prod1.png"
-                                                     data-retina="assets/img/prod1.png"/>
+                                                <img style="float: left; margin: 0 3em 0 0;" class="sp-image" id="zoom_mw" src="assets/img/prod1.png"
+                                                     data-zoom-image="assets/img/cherry.jpg" />
                                             </div>
                                             <div class="sp-slide">
                                                 <img class="sp-image" src="assets/img/prod2.png"
@@ -313,7 +314,13 @@
                                         <a href="" class="star-comment">(302)</a>
                                     </div>
                                     <p class="popup-money">$28.50</p>
-                                    <div class="select-img"></div>
+                                    <select id="demo" tabindex="1">
+                                        <option value="1" data-icon="assets/img/select-img.png">White Peach</option>
+                                        <option value="2" data-icon="assets/img/select-img.png">White Peach2</option>
+                                        <option value="3" data-icon="assets/img/select-img.png">White Peach3</option>
+                                        <option value="4" data-icon="assets/img/select-img.png">White Peach4</option>
+                                        <option value="5" data-icon="assets/img/select-img.png">White Peach5</option>
+                                    </select>
                                     <div class="block-color">
                                         <div class="color-element">
                                             <img class="img-color" src="assets/img/blue.png">
@@ -403,13 +410,13 @@
                                     <div class="popup_text-info">
                                         <p class="popup_text-headline">Description</p>
                                         <div class="popup_text-b">
-                                            Trish’s innovative Sheer Lip Colors combine buildab
+                                            Trish’s innovative Sheer Lip Colors combine buildab color, a sheer finish and lip care all in one. The weightless formula conditions lips and is infused with a collagen synthesizer to boost lips moisture levels and volume with continued wear.
                                         </div>
                                         <a href="" class="link-see_full">SEE Full Product Details</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </section>
                     <section class="product-element">
                         <div class="product-element_img">
@@ -656,8 +663,10 @@
     <!----------------------FOOTER END----------------->
 </div>
 <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="assets/js/jquery.magnific-popup.js"></script>
 <script type="text/javascript" src="assets/js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript" src="assets/js/wSelect.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.elevatezoom.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
