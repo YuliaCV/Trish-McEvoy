@@ -202,7 +202,7 @@ body {
     font-size: 12px;
     font-family: "RobotoLight";
     text-transform: uppercase;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.5px;
 
     @media @xs {
       max-width: 320px;
@@ -280,8 +280,8 @@ body {
   font-size: 10px;
   vertical-align: top;
   position: relative;
-  top: 9px;
-  margin-right: 10px;
+  top: 10px;
+  margin-right: 2px;
 }
 .items-counter {
   display: inline-block;
@@ -295,8 +295,8 @@ body {
   line-height: 22px;
   font-family: 'RobotoBold';
   position: absolute;
-  left: 11px;
-  top: 0;
+  left: 21px;
+  top: 1px;
 
   @media @xs {
     background-color: #fff;
@@ -547,12 +547,31 @@ nav {
         font-size: 26px;
       }
     }
+    h2.name2{
+      letter-spacing: -1px;
+      line-height: 51px;
+    }
+    h2.name3{
+      margin-top: 50px;
+      letter-spacing: -3px;
+    }
+    h2.name4{
+      margin-top: 7px;
+      letter-spacing: -0.4px;
+      font-size: 38px;
+    }
     .short-name {
       text-transform: uppercase;
       font-family: 'RobotoLight';
+      margin-top: 0;
       @media @xs {
         display: none;
       }
+    }
+    h4.short-name2{
+      margin-top: 14px;
+      letter-spacing: 0.8px;
+      margin-bottom: 7px;
     }
     .action {
       @media @xs {
@@ -566,17 +585,18 @@ nav {
       display: block;
       font-size: 18px;
       line-height: 25px;
-      margin-bottom: 30px;
-      margin-top: 20px;
+      margin-bottom: 25px;
+      margin-top: 14px;
+      letter-spacing: -0.4px;
       @media @xs {
         display: none;
       }
     }
     .action {
       a {
-        min-width: 150px;
+        //min-width: 150px;
         margin-bottom: 10px;
-        padding: 10px 20px;
+        padding: 14px 21px;
         color: #fff;
         text-transform: uppercase;
         font-size: 14px;
@@ -657,6 +677,7 @@ nav {
   &.hero .separate-txt-xs {
     .hero-img {
       overflow: hidden;
+      max-height: 548px;
 
       img {
         width: 100%;
@@ -691,6 +712,7 @@ nav {
       .description {
         text-align: left;
         .short-name {
+          letter-spacing: 0.9px;
           @media @xs {
             color: #000;
           }
@@ -699,6 +721,8 @@ nav {
       .description .name {
         font-size: 60px;
         color: #fff;
+        line-height: 49px;
+        margin-top: 14px;
 
         @media @xs {
           font-size: 35px;
@@ -780,7 +804,7 @@ nav {
   transition: 0.3s;
 
   .footer-content {
-    padding: 25px 0 0;
+    padding: 30px 0 10px;
 
     @media @xs {
       padding: 25px 0 45px;
@@ -874,6 +898,8 @@ nav {
         color: #000;
         line-height: 40px;
         text-decoration: none;
+        letter-spacing: 0px;
+        font-size: 14px;
       }
     }
     .field.newsletter {
@@ -906,6 +932,7 @@ nav {
       border: none;
       padding: 5px;
       font-size: 12px;
+      letter-spacing: 1px;
 
       @media @xs {
         position: absolute;
@@ -936,7 +963,8 @@ nav {
       }
     }
     .social-media {
-      padding: 15px 0 10px;
+      padding: 11px 0 10px;
+      letter-spacing: -0.4px;
 
       @media @xs {
         text-align: center;
@@ -962,14 +990,14 @@ nav {
       a {
         color: #000;
         text-decoration: none;
-        margin: 0 8px;
+        margin: 0 6px;
       }
     }
   }
   .copyrights {
     background: #1c1c1c;
     color: #fff;
-    padding: 34px 0;
+    padding: 39px 0;
 
     .links {
       max-width: 240px;
@@ -1039,14 +1067,14 @@ nav {
   }
   &.icon-cart {
     background-position-y: -53px;
-    background-position-x: -28px;
+    background-position-x: -18px;
     @media @xs {
       background-position-x: 0px;
     }
   }
   &.icon-login {
     background-position-y: -26px;
-    background-position-x: -22px;
+    background-position-x: -19px;
     @media @xs {
       background-position-x: 0px;
     }
@@ -1130,6 +1158,8 @@ ul.subcat .col-sm-5 {
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .prod-img + a {
     text-transform: none;
     font-size: 15px;
+    font-family: 'RobotoMedium';
+    letter-spacing: -0.2px;
   }
   .prod-img {
     max-height: 320px;
@@ -1140,6 +1170,10 @@ ul.subcat .col-sm-5 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+  }
+  .prod-img_b{
+    width: 100%;
   }
   img.img-label {
     position: absolute;
@@ -1223,20 +1257,20 @@ ul.subcat .col-sm-5 {
         a {
           color: #000;
           text-transform: uppercase;
-          font-size: 18pt;
+          font-size: 18px;
           font-family: 'RobotoLight';
-          letter-spacing: 0.4px;
+          letter-spacing: 0.2px;
         }
       }
       li.level1.ui-menu-item.all-items {
         width: 100% !important;
         text-align: center;
         border-top: 1px solid #e9e9e9;
-        padding-top: 22px;
+        padding-top: 27px;
         font-size: 15px;
         color: #666;
         font-family: 'RobotoLight';
-        margin-top: 30px;
+        margin-top: 47px;
       }
       li.level0.ui-menu-item > ul.subcat {
         background: #f9f8f8;
@@ -1247,12 +1281,15 @@ ul.subcat .col-sm-5 {
         text-align: left;
         padding: ~'40px calc((100% - 1170px) / 2)';
       }
+      li.level0.ui-menu-item > ul.subcat > div{
+        margin-top: 7px;
+      }
       li.level0.level-top.ui-menu-item.parent:hover ul.subcat {
         display: block;
       }
       li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .subcat li a {
         text-transform: none;
-        line-height: 40px;
+        line-height: 43px;
         font-size: 16px;
       }
     }
@@ -1265,7 +1302,7 @@ ul.subcat .col-sm-5 {
       position: relative;
       display: inline-block;
       top: 5px;
-      left: 0;
+      left: 17px;
     }
   }
   nav ul.main-menu li.level0.ui-menu-item ul.subcat .all-offers-lnk ~ li.level1.ui-menu-item {
@@ -1332,9 +1369,9 @@ ul.subcat .col-sm-5 {
         }
         .description {
           text-align: left;
-          max-width: 410px;
-          right: 180px;
-          top: 80px;
+          max-width: 427px;
+          right: 154px;
+          top: 41px;
           z-index: 1;
         }
       }
@@ -1572,25 +1609,27 @@ ul.subcat .col-sm-5 {
   margin-left: 50px;
 }
 .page-footer .footer-content {
-  width: 1200px;
+  width: 1230px;
   margin: 0 auto;
 }
-.section .separate-txt-xs .description .name, .section .description .short-name, .section .description .name, .mega-menu-img .img-actions .title{
+.section .separate-txt-xs .description .name, .section .description .short-name, .section .description .name{
   letter-spacing: 0.4px;
 }
+.mega-menu-img .img-actions .title{
+  letter-spacing: -2px;
+}
 .mega-menu-img .img-actions .lnk{
-  padding: 13px 23px;
+  padding: 12px 19px;
+  letter-spacing: -0.2px;
 }
 nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-btn, .sections.nav-sections li.level0.ui-menu-item a.menu-btn{
-  font-size: 14pt;
-  font-family: 'RobotoRegular';
-  letter-spacing: 0.2px;
-}
-.mega-menu-img .img-actions .title{
-  letter-spacing: 0.2px;
+  font-size: 14px;
+  font-family: 'RobotoLight';
+  font-weight: 300;
+  letter-spacing: 0.7px;
 }
 .page-footer .footer-content h2.menu-title{
-  font-size: 15pt;
+  font-size: 15px;
   letter-spacing: 0.4px;
 }
 .center-element{
@@ -1598,26 +1637,44 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   justify-content: center;
   flex-direction: column;
 }
+.divided .main-img .center-element span.action a{
+  display: flex!important;
+  margin-left: 65px;
+  margin-top: 10px;
+  position: relative;
+  top: 2px;
+}
 .description .name > span{
   display: block;
 }
 .section .description .action a{
-  padding: 0;
-  height: 40px;
-  text-align: center;
-  line-height: 37px;
-  font-size: 14pt;
+  //padding: 0;
+  //height: 40px;
+  //text-align: center;
+  //line-height: 37px;
+  //font-size: 14pt;
   letter-spacing: 0.2px;
 }
 .section .video .description .action a{
   line-height: 64px;
 }
+.section .description .action .short-descr2{
+  margin-top: 37px;
+  margin-bottom: 14px;
+}
 .s-bth{
-  width: 188px;
+  padding: 13px 17px;
+  width: 153px;
 }
-.b-bth{
-  width: 250px;
-}
+//.b-bth{
+//  width: 250px;
+//}
+//.section > div.left{
+//  width: 37.3%;
+//}
+//.section > div.right{
+//  width: 62.7%;s
+//}
 .main-img:hover img{
   -webkit-transform: scale(1.05,1.05);
   -webkit-transition-timing-function: ease-out;
@@ -1633,13 +1690,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   text-transform: capitalize;
 }
 .page-footer .copyrights .links{
-  max-width: 400px;
+  max-width: 300px;
 }
 .page-footer .copyrights .links a{
-  text-transform: uppercase;
-  font-size: 14pt;
+  //text-transform: uppercase;
+  font-size: 14px;
   text-decoration: none;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.2px;
+  text-decoration: underline;
 }
 .sections.nav-sections .header-icons{
   right: 100px;
@@ -1647,9 +1705,25 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
 .page-header.fixed .header-icons{
   right: 0;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1340px){
+  .section .divided .description2{
+    max-width: 317px;
+  }
+  .description2 .s-bth{
+    float: left;
+  }
+  .description2 .s-bth:last-child{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1230px) {
   .page-footer .footer-content {
     width: auto;
+  }
+}
+@media (max-width: 1200px){
+  .section .description h2.name2{
+    line-height: 1;
   }
 }
 @media (max-width: 1040px){
@@ -1659,6 +1733,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   .page-header.fixed .header-icons{
     margin-left: 10px;
   }
+
 }
 @media (max-width: 1000px){
   .sections.nav-sections li.level0.ui-menu-item {
@@ -1672,6 +1747,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     justify-content: center;
   }
 }
+@media (max-width: 940px){
+  .section .description h2.name3{
+    margin-top: 0;
+  }
+}
 @media (max-width: 900px){
   .sections.nav-sections .header-icons{
     right: 0;
@@ -1683,6 +1763,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   }
   .sections.nav-sections .header-icons{
     right: 0;
+  }
+}
+@media (max-width: 880px){
+  .section .description .action .short-descr2{
+    margin-top: 24px;
+  }
+  .section .description h2.name2{
+    line-height: 40px;
   }
 }
 @media (max-width: 767px) {
