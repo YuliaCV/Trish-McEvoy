@@ -641,6 +641,19 @@
 .block-popup_info .zoomContainer {
   z-index: 999999!important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003485}}
+.zoomWindow {
+  width: 460px;
+  height: 450px;
+  border: none!important;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  top: 70px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003492}}
+.zoomWindowContainer {
+  cursor: pointer;
+}
 /*********************POP UP END************/
 /**********************CATALOG PRODUCT END*******************/
 /*# sourceMappingURL=catalog.css.map */
