@@ -992,15 +992,23 @@
   .img-headline img {
     height: 180px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003766}}
+  .img-headline .catalog-headline_m {
+    font-size: 13px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003769}}
+  .img-headline .catalog-headline_b {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 450px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003768}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003774}}
   .block-popup_info {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003773}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003779}}
   .block-color {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1008,32 +1016,32 @@
   }
 }
 @media screen and (max-width: 400px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003778}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003784}}
   .quantity-block p {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003781}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003787}}
   .wSelect-theme-classic .wSelect-options-holder {
     min-width: 68px!important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003784}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003790}}
   .block-popup_info .quantity-block .wSelect-theme-classic.wSelect {
     margin-left: 0;
     margin-right: 0;
     width: 68px!important;
     min-width: 68px!important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003790}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003796}}
   .block-popup_info .quantity-block .wSelect-arrow {
     right: 15px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003793}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003799}}
   .block-popup_info .quantity-block .wSelect-option-value {
     margin: 0 16px;
   }
 }
 @media screen and (max-width: 360px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003798}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/catalog\.less}line{font-family:\00003804}}
   .add-element .wish-btn {
     margin-left: 14px;
     margin-right: 0;
