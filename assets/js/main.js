@@ -155,11 +155,11 @@ $(document).ready(function() {
                     width: 400,
                     height: 550
                 },
-                980: {
+                1000: {
                     width: 300,
                     height: 450
                 },
-                880: {
+                920: {
                     width: 200,
                     height: 350
                 }
@@ -167,7 +167,9 @@ $(document).ready(function() {
         });
     });
     $('.mobile-preview').click(function(){
+        $(this).toggleClass('mobile-preview_bg');
         $(this).next().next().toggleClass('mobile-preview_act');
-        $('.product-text').toggleClass('product-text_act');
+        $(this).siblings('.product-text').toggleClass('product-text_act');
+
     });
 });
