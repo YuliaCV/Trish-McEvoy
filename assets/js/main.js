@@ -133,6 +133,37 @@ $(document).ready(function() {
             }
         }
     });
+    //$(".zoom_mw2").elevateZoom({scrollZoom : true});
+    $( '.example6' ).sliderPro({
+        autoplay: false,
+        width: 612,
+        height: 650,
+        orientation: 'vertical',
+        loop: false,
+        arrows: false,
+        buttons: false,
+        thumbnailsPosition: 'left',
+        thumbnailPointer: true,
+        thumbnailWidth: 80,
+        breakpoints: {
+            1253: {
+                width: 500,
+                height: 650
+            },
+            1106: {
+                width: 400,
+                height: 550
+            },
+            1000: {
+                width: 300,
+                height: 450
+            },
+            920: {
+                width: 200,
+                height: 350
+            }
+        }
+    });
     $('.btn-product').click(function(){
         $(".zoom_mw").elevateZoom({scrollZoom : true});
         $( '.example5' ).sliderPro({
