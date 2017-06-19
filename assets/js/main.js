@@ -161,6 +161,13 @@ $(document).ready(function() {
             920: {
                 width: 200,
                 height: 350
+            },
+            480:{
+                //width: 200,
+                //height: 350,
+                //thumbnailsPosition: 'bottom',
+                //thumbnailWidth: 120,
+                //thumbnailHeight: 50
             }
         }
     });
@@ -201,6 +208,9 @@ $(document).ready(function() {
         $(this).toggleClass('mobile-preview_bg');
         $(this).next().next().toggleClass('mobile-preview_act');
         $(this).siblings('.product-text').toggleClass('product-text_act');
-
+    });
+    $('.brn-mobile_ing').click(function(){
+        $('.wrap-ingredients ').stop().slideToggle();
+        $('.brn-mobile_ing div img').toggleClass('m-r');
     });
 });
