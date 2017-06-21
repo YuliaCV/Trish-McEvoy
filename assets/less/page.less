@@ -9,7 +9,7 @@
   }
   .precatalog_headline{
     text-align: center;
-    padding: 46px 0;
+    padding: 46px 0 40px;
     .headline_h3{
       font-family: 'RobotoLight';
       font-size: 15px;
@@ -84,9 +84,55 @@
   .section.hero .separate-txt-xs .hero-img .description.center-text span a:first-child{
     margin-right: 10px;
   }
-  @media (max-width: 1200px){
-    .section.hero .separate-txt-xs .hero-img .description{
-      max-width: 340px;
+  .hero-element  .separate-txt-xs .hero-img{
+   max-height: 100%;
+    .description{
+      padding: 20px 20px 47px 20px;
+      .name{
+        font-size: 55px;
+        letter-spacing: -0.2px;
+      }
+    }
+    .description.center-text{
+      max-width: 100%;
+    }
+    .description.center-text span.action{
+      width: auto;
+        a{
+          padding: 0;
+          height: 42px;
+          width: 157px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    }
+    .description.base-element{
+      right: 25px;
+      max-width: 500px;
+      span.action{
+        a{
+          width: 157px;
+          height: 42px;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .name{
+        font-size: 75px;
+        line-height: 63px;
+      }
+    }
+  }
+  @media (max-width: 1150px){
+    .hero-element .separate-txt-xs .hero-img .description.base-element{
+      right: 0;
+      max-width: 380px;
+    }
+    .hero-element .separate-txt-xs .hero-img .description.base-element .name{
+      font-size: 55px;
     }
   }
   @media (max-width: 991px){
@@ -96,7 +142,14 @@
   }
   @media (max-width: 767px){
     .section.hero .separate-txt-xs .hero-img .description.base-element{
-      margin: 0 auto;
+      //margin: 0 auto;
+      width: 100%;
+      padding: 20px;
+      align-items: flex-start;
+    }
+    .section.hero .separate-txt-xs .hero-img .description.base-element .name{
+      margin: 0 0 17px 0!important;
+      line-height: 1.0;
     }
     .section.hero .separate-txt-xs .hero-img .description.base-element span{
       flex-direction: initial;
@@ -122,7 +175,8 @@
       border-color: #ffffff;
     }
     .section.hero .separate-txt-xs .hero-img .description.center-text{
-      padding: 10px;
+      padding: 20px;
+      align-items: flex-start;
     }
     .section.hero .separate-txt-xs .hero-img .description{
       padding: 10px;
@@ -146,10 +200,13 @@
     .section .description .action .first-btn{
       margin-right: 10px;
     }
+    .hero-element .separate-txt-xs .hero-img .description .name{
+      font-size: 35px!important;
+    }
   }
   @media (max-width: 440px){
     .section.hero .separate-txt-xs .hero-img .description.center-text{
-      width: 300px;
+      width: 100%;
       align-items: flex-start;
       transform: none;
       left: auto;
