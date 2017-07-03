@@ -42,6 +42,11 @@ jQuery(function($) {
             } else {
                 $('.hero, .sections').removeClass('fixed');
             }
+            if ($(window).scrollTop() > menuOffset) {
+                $('.block_mini-cart').addClass('fixed-cart');
+            } else {
+                $('.block_mini-cart').removeClass('fixed-cart');
+            }
         });
     } else {
         var menuOffset = $('.sections').offset().top - 28;
@@ -51,6 +56,11 @@ jQuery(function($) {
                 $('.hero, .page-header').addClass('fixed');
             } else {
                 $('.hero, .page-header').removeClass('fixed');
+            }
+            if ($(window).scrollTop() > menuOffset) {
+                $('.block_mini-cart').addClass('fixed-cart');
+            } else {
+                $('.block_mini-cart').removeClass('fixed-cart');
             }
         });
     }
@@ -224,5 +234,8 @@ $(document).ready(function() {
     });
     $('.search').click(function(){
         $('.search-visible').stop().slideToggle()
+    });
+    $('.cart').click(function(){
+        $('.block_mini-cart').toggle();
     });
 });

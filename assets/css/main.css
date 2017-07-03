@@ -253,30 +253,34 @@ header {
 .page-header .find-a-store a {
   padding-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003229}}
+.page-header.fixed .items-counter {
+  left: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003233}}
 .header {
   text-align: center;
   padding: 20px 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003237}}
 .header a.logo img {
   width: 238px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003240}}
 .top-line-header {
   background: #e9e9e9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003243}}
 .top-line-header strong {
   font-family: 'RobotoMedium';
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003241}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003246}}
   .top-line-header {
     padding: 7px 45px 7px 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003250}}
 .top-line-header p {
   margin: 8px 0;
   font-size: 12px;
@@ -285,7 +289,7 @@ header {
   letter-spacing: 0.5px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003252}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003257}}
   .top-line-header p {
     max-width: 320px;
     margin: 0 auto 2px !important;
@@ -294,40 +298,40 @@ header {
     line-height: 18px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003268}}
 .sections.nav-sections {
   position: relative;
   background: #080503;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003272}}
 .sections.nav-sections li.level0.ui-menu-item {
   display: inline-block;
   padding: 15px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003277}}
 .sections.nav-sections li.level0.ui-menu-item a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003283}}
 .sections.nav-sections nav {
   text-align: center;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003281}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003286}}
   .sections.nav-sections nav {
     text-align: left;
     padding: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003291}}
 .sections.nav-sections nav #nav-icon {
   left: 10px;
   width: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003296}}
 .sections.nav-sections span.nav-mobile {
   color: #666;
   top: 5px;
@@ -335,38 +339,39 @@ header {
   position: absolute;
   font-size: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003305}}
 .sections.nav-sections.fixed {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 12;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003314}}
 .hero.fixed {
   padding-top: 44px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003312}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003317}}
   .hero.fixed {
     padding-top: 54px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003321}}
 #user-login {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003324}}
 .cart {
+  cursor: pointer;
   margin-left: 15px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003321}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003327}}
   .cart {
     margin-left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003331}}
 .login-lnk {
   color: #000;
   text-transform: uppercase;
@@ -376,7 +381,7 @@ header {
   top: 10px;
   margin-right: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003340}}
 .items-counter {
   display: inline-block;
   width: 22px;
@@ -393,26 +398,26 @@ header {
   top: 1px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003349}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003355}}
   .items-counter {
     background-color: #fff;
     color: #000000;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003355}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003361}}
   .cart .items-counter {
     background-color: #fff;
     color: #000000;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003366}}
 .login,
 .cart {
   display: inline-block;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003372}}
 .nav-mobile {
   color: #666;
   top: 14px !important;
@@ -426,25 +431,25 @@ header {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003384}}
 .nav-mobile.open {
   background-position-x: -25px;
   background-position-y: -97px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003390}}
 nav {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003393}}
 nav .nav-toggle {
   width: 35px;
   height: 18px;
   display: inline-block;
   margin: 17px 15px 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003399}}
 nav #nav-icon {
   width: 35px;
   height: 35px;
@@ -455,7 +460,7 @@ nav #nav-icon {
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003407}}
 nav #nav-icon span {
   display: block;
   position: absolute;
@@ -470,46 +475,46 @@ nav #nav-icon span {
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003419}}
 nav #nav-icon span:nth-child(1) {
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003422}}
 nav #nav-icon span:nth-child(2) {
   top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003425}}
 nav #nav-icon span:nth-child(3) {
   top: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003431}}
 nav #nav-icon.open span:nth-child(1) {
   top: 8px;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003435}}
 nav #nav-icon.open span:nth-child(2) {
   opacity: 0;
   left: -60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003439}}
 nav #nav-icon.open span:nth-child(3) {
   top: 8px;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003445}}
 nav .search {
   position: absolute;
   top: 16px;
   left: 65px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003450}}
 nav .header-content {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003453}}
 nav .mobile-logo {
   margin: 0 auto;
   left: 0;
@@ -518,7 +523,7 @@ nav .mobile-logo {
   top: 17px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003456}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003462}}
   nav ul.main-menu {
     width: 270px;
     position: absolute;
@@ -528,7 +533,7 @@ nav .mobile-logo {
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003465}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003471}}
   nav ul.main-menu li.level0.ui-menu-item {
     display: inline-block;
     padding: 15px;
@@ -537,12 +542,12 @@ nav .mobile-logo {
     border-bottom: 1px solid #333;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003479}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003476}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003482}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat {
     background: #333;
     margin: 0 -15px;
@@ -551,18 +556,18 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat {
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003484}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003490}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item {
     padding: 15px 0 15px 45px;
     border-bottom: 1px solid #404040;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003495}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: none;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003504}}
 .search-visible {
   display: none;
   position: absolute;
@@ -570,7 +575,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   left: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003511}}
 .search-visible:before {
   content: '';
   display: block;
@@ -579,7 +584,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003519}}
 .block-header_search {
   height: 90px;
   width: 100%;
@@ -587,7 +592,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-bottom: 1px solid #e1e1e1;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003526}}
 .wrap-search {
   padding-left: 20px;
   padding-right: 20px;
@@ -604,7 +609,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: relative;
   z-index: 999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003537}}
 .wrap-search .search-element {
   border-bottom: 1px solid #c2c2c2;
   margin: 0 auto;
@@ -616,7 +621,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
           align-items: center;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003543}}
 .wrap-search .search-element input {
   width: 100%;
   border-radius: 0;
@@ -629,19 +634,19 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-right: 18px;
   letter-spacing: 0.1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003555}}
 .wrap-search .search-element a {
   color: #000000;
   font-size: 13px;
   text-transform: uppercase;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003563}}
 .block_search-product {
   background-color: #f5f5f5;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003566}}
 .block_search-product .all-catalog_product {
   padding-top: 20px;
   margin-top: 0;
@@ -649,22 +654,22 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003571}}
 .block_search-product .wrap-catalog {
   max-width: 1020px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003575}}
 .block_search-product .all-catalog_product .product-element {
   width: 237px;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003579}}
 .block_search-product .all-catalog_product .product-element_img {
   width: 237px;
   height: 237px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003583}}
 .block_search-product .search-position {
   text-align: left;
   font-size: 14px;
@@ -673,7 +678,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-top: 29px;
   letter-spacing: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003591}}
 .block_search-product .search-position a {
   font-family: "RobotoLight";
   font-weight: 300;
@@ -682,7 +687,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-left: 25px;
   letter-spacing: 0.6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003601}}
 .search-line {
   font-family: "RobotoMedium";
   font-weight: 500;
@@ -690,23 +695,297 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-align: center;
   margin-top: 20px;
 }
-/*******Global main*******************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003603}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003608}}
+.block_mini-cart {
+  width: 402px;
+  height: auto;
+  background-color: #ffffff;
+  position: absolute;
+  top: 59px;
+  right: 92px;
+  z-index: 10;
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  padding: 27px 30px 30px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003609}}
+.block_mini-cart:before {
+  display: block;
+  content: '';
+  width: 13px;
+  height: 13px;
+  border: 1px solid #c2c2c2;
+  position: absolute;
+  top: -7px;
+  right: 21px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  background-color: #fff;
+  border-right: 0;
+  border-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003635}}
+.block_mini-cart .mini-cart_headline {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003644}}
+.block_mini-cart .mini-cart_headline span {
+  font-size: 18px;
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003649}}
+.block_mini-cart .mini-cart_prod {
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003653}}
+.block_mini-cart .mini-cart_prod .mini-cart_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003656}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_info {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003658}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_info .mini-cart_img {
+  width: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003662}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003664}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003668}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt .edit-btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  letter-spacing: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003675}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt .remove-btn {
+  display: block;
+  background-image: url("../img/mob-close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003687}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .mini-block_name .mini-headline {
+  font-family: "RobotoMedium";
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0px;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003694}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .mini-block_name .mini-secondline {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003701}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .line-btn {
+  margin-left: 7px;
+  margin-right: 7px;
+  height: 20px;
+  width: 1px;
+  background-color: #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003708}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 39px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003712}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003715}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .mini_qty {
+  letter-spacing: 0;
+  font-size: 13px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003722}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .qty-number {
+  font-family: "RobotoBold";
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003728}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .mini-cart_color {
+  width: 12px;
+  height: 12px;
+  margin-left: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003734}}
+.block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-cart_money {
+  font-family: "RobotoLight";
+  font-weight: 300;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003742}}
+.block_mini-cart .all-mini_money {
+  text-align: right;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003749}}
+.block_mini-cart .all-mini_money span {
+  font-size: 18px;
+  font-family: "RobotoBold";
+  font-weight: 500;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003756}}
+.block_mini-cart .block-mini_buy {
+  margin-top: 25px;
+  letter-spacing: -0.3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003759}}
+.block_mini-cart .block-mini_buy p {
+  font-size: 15px;
+  font-family: "RobotoBold";
+  font-weight: 500;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003765}}
+.block_mini-cart .block-mini_buy .mini_buy_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003769}}
+.block_mini-cart .block-mini_buy .mini_buy_btns a {
+  display: block;
+  width: 166px;
+  height: 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003775}}
+.block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-1 {
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003782}}
+.block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-2 {
+  text-transform: uppercase;
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003791}}
+.block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-2 img {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003797}}
+.block_mini-cart .in_basket {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003806}}
+.fixed-cart {
+  top: 72px;
+  position: fixed;
+  right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003811}}
+.all_mini-prod {
+  max-height: 414px;
+  overflow-y: scroll;
+}
+/*******Global main*******/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003816}}
 .section {
   margin-right: 0;
   margin-left: 0;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003608}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003821}}
   .section .right .description .name {
     color: #fff;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003612}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003825}}
 .section > div {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003828}}
 .section .main-img {
   position: relative;
   padding: 0;
@@ -714,33 +993,33 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 0;
   padding-bottom: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003622}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003835}}
 .section .main-img.rectangle-lg {
   padding-bottom: 50%;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003625}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003838}}
   .section .main-img.rectangle-lg {
     padding-bottom: 100%;
   }
 }
 @media only screen and (min-width: 440px) and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003628}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003841}}
   .section .main-img.rectangle-lg {
     padding-bottom: 50%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003845}}
 .section .main-img.square-lg {
   padding-bottom: 100%;
 }
 @media only screen and (min-width: 440px) and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003635}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003848}}
   .section .main-img {
     padding-bottom: 50%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003851}}
 .section .main-img img {
   height: auto;
   width: 100%;
@@ -753,43 +1032,43 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   max-width: none;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003649}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003862}}
   .section .main-img img {
     height: 100%;
     width: auto;
   }
 }
 @media only screen and (min-width: 440px) and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003653}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003866}}
   .section .main-img img {
     height: auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003871}}
 .section .divided {
   color: #fff;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003662}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003875}}
   .section .divided .main-img {
     width: 50%;
     height: auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003880}}
 .section .divided .description {
   padding: 20px 10px 20px;
   z-index: 9;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003672}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003885}}
   .section .divided .description .name {
     font-size: 40px;
     text-align: left;
     max-width: 180px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003894}}
 .section .description {
   position: absolute;
   top: 0;
@@ -798,65 +1077,65 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding: 20px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003687}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003900}}
   .section .description {
     top: auto;
     bottom: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003905}}
 .section .description .name {
   text-transform: uppercase;
   font-family: 'RobotoLight';
   font-size: 48px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003697}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003910}}
   .section .description .name {
     font-size: 26px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003914}}
 .section .description h2.name2 {
   letter-spacing: -1px;
   line-height: 51px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003918}}
 .section .description h2.name3 {
   margin-top: 50px;
   letter-spacing: -3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003922}}
 .section .description h2.name4 {
   margin-top: 7px;
   letter-spacing: -0.4px;
   font-size: 38px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003927}}
 .section .description .short-name {
   text-transform: uppercase;
   font-family: 'RobotoLight';
   margin-top: 0;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003718}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003931}}
   .section .description .short-name {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003935}}
 .section .description h4.short-name2 {
   margin-top: 14px;
   letter-spacing: 0.8px;
   margin-bottom: 7px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003728}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003941}}
   .section .description .action {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003945}}
 .section .description .short-descr {
   font-family: 'RobotoMedium';
   color: #fff;
@@ -869,12 +1148,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: -0.4px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003742}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003955}}
   .section .description .short-descr {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003960}}
 .section .description .action a {
   margin-bottom: 10px;
   padding: 14px 21px;
@@ -887,7 +1166,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003972}}
 .section .description .action a:hover {
   color: #000;
   background: #fff;
@@ -895,7 +1174,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   transition: 0.3s;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003770}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003983}}
   .section .separate-txt-xs .main-img {
     height: auto;
     padding-bottom: 0;
@@ -915,7 +1194,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003779}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003992}}
   .section .separate-txt-xs .main-img img {
     max-height: 220px;
     position: static;
@@ -926,85 +1205,85 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media only screen and (min-width: 440px) and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003787}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031000}}
   .section .separate-txt-xs .main-img img {
     max-height: 400px;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003794}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031007}}
   .section .separate-txt-xs .main-img .short-name,
   .section .separate-txt-xs .hero-img .short-name {
     display: block;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003799}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031012}}
   .section .separate-txt-xs .description {
     position: relative;
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031016}}
 .section .separate-txt-xs .description .name {
   font-family: 'PlayfairDisplayRegular';
   font-size: 55px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003806}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031019}}
   .section .separate-txt-xs .description .name {
     margin: 5px 0 10px;
     font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003812}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031025}}
   .section .separate-txt-xs .description .action {
     display: inline-block;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003821}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031034}}
   .section:not(.hero) .separate-txt-xs .description {
     background: #000;
     color: #fff;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003829}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031042}}
 .section.hero .separate-txt-xs .hero-img {
   overflow: hidden;
   max-height: 548px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003833}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031046}}
 .section.hero .separate-txt-xs .hero-img img {
   width: 100%;
   height: 100%;
 }
 @media only screen and (max-width: 440px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003837}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031050}}
   .section.hero .separate-txt-xs .hero-img img {
     max-height: 220px;
   }
 }
 @media only screen and (min-width: 440px) and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003840}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031053}}
   .section.hero .separate-txt-xs .hero-img img {
     max-height: 400px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003845}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031058}}
 .section.hero .separate-txt-xs .hero-img .short-name {
   color: #fff;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003850}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031063}}
   .section.hero .separate-txt-xs .hero-img .action a {
     color: #000;
     border-color: #000;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003855}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031068}}
   .section.hero .separate-txt-xs .hero-img .action a:hover {
     color: #fff;
     background: #000;
@@ -1012,21 +1291,21 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     transition: 0.3s;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003863}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031076}}
 .section.hero .separate-txt-xs .hero-img .description {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031078}}
 .section.hero .separate-txt-xs .hero-img .description .short-name {
   letter-spacing: 0.9px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003867}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031080}}
   .section.hero .separate-txt-xs .hero-img .description .short-name {
     color: #000;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003872}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031085}}
 .section.hero .separate-txt-xs .hero-img .description .name {
   font-size: 60px;
   color: #fff;
@@ -1034,19 +1313,19 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 14px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003878}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031091}}
   .section.hero .separate-txt-xs .hero-img .description .name {
     font-size: 35px;
     color: #000;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003888}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031101}}
   .section .video.main-img img {
     left: auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003893}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031106}}
 .section .video .description .action a {
   border-radius: 50%;
   width: 70px;
@@ -1058,14 +1337,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: block;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003904}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031117}}
 .section .video .description .action a:hover {
   background: transparent;
   color: #000;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031123}}
 .section .video .description .action i {
   position: relative;
   left: 4px;
@@ -1077,7 +1356,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 30px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003922}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031135}}
   .section .video .description {
     height: 100%;
     display: -webkit-box;
@@ -1093,20 +1372,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003930}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031143}}
   .section .video .description .name {
     display: none;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003937}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031150}}
   .section .video .action,
   .section .video .short-descr {
     display: block;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003944}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031157}}
   .section .short-descr {
     position: absolute;
     bottom: 0;
@@ -1115,23 +1394,23 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 /*************************FOOTER********************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003953}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031166}}
 .page-footer {
   position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003957}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031170}}
 .page-footer .footer-content {
   padding: 30px 0 10px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003960}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031173}}
   .page-footer .footer-content {
     padding: 25px 0 45px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003964}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031177}}
 .page-footer .footer-content i.icon-mail {
   position: absolute;
   top: 23px;
@@ -1143,7 +1422,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 26px;
   height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003975}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031188}}
 .page-footer .footer-content .find-a-store {
   text-align: center;
   padding-top: 20px;
@@ -1152,13 +1431,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin: 10px auto 0;
   border-top: 1px solid #e5e5e5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003983}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031196}}
 .page-footer .footer-content .find-a-store a {
   text-transform: uppercase;
   color: #000;
   font-family: 'RobotoLight';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003988}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031201}}
 .page-footer .footer-content .find-a-store i {
   display: block;
   margin-bottom: 15px;
@@ -1168,13 +1447,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin: 0 auto 15px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\00003998}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031211}}
   .page-footer .footer-content .footer-nav {
     text-align: center;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031002}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031215}}
   .page-footer .footer-content .footer-nav h2.menu-title:after {
     content: '';
     display: inline-block;
@@ -1195,14 +1474,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     height: 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031233}}
 .page-footer .footer-content .footer-nav h2.menu-title.item-open:after {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031025}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031238}}
 .page-footer .footer-content h2.menu-title {
   position: relative;
   font-family: 'RobotoLight';
@@ -1210,20 +1489,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding: 15px 0;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031031}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031244}}
   .page-footer .footer-content h2.menu-title {
     text-align: center;
     width: auto;
     display: inline-block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031250}}
 .page-footer .footer-content ul.footer-menu-list {
   padding: 0 0 10px;
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031041}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031254}}
   .page-footer .footer-content ul.footer-menu-list {
     display: none;
     text-align: center;
@@ -1231,7 +1510,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     border-bottom: 1px solid #e9e9e9;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031048}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031261}}
 .page-footer .footer-content ul.footer-menu-list li a {
   color: #000;
   line-height: 40px;
@@ -1239,20 +1518,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: 0px;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031056}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031269}}
 .page-footer .footer-content .field.newsletter {
   width: calc(100% - 100px);
   display: inline-block;
   margin-right: 5px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031061}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031274}}
   .page-footer .footer-content .field.newsletter {
     width: 100%;
     margin-right: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031066}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031279}}
 .page-footer .footer-content .field.newsletter input#newsletter {
   width: 100%;
   height: 38px;
@@ -1260,12 +1539,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border: 1px solid #c2c2c2;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031072}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031285}}
   .page-footer .footer-content .field.newsletter input#newsletter {
     padding: 5px 85px 5px 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031077}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031290}}
 .page-footer .footer-content button.subscribe-btn {
   width: 90px;
   height: 38px;
@@ -1278,7 +1557,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: 1px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031088}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031301}}
   .page-footer .footer-content button.subscribe-btn {
     position: absolute;
     top: 14px;
@@ -1286,7 +1565,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031095}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031308}}
   .page-footer .footer-content .footer-subscribe-form {
     margin: 25px -15px 0 -15px;
     border-top: 1px solid #e9e9e9;
@@ -1295,107 +1574,107 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031315}}
 .page-footer .footer-content .footer-subscribe-form .menu-title {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031318}}
 .page-footer .footer-content .footer-subscribe-form .form.subscribe {
   position: relative;
   top: -10px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031109}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031322}}
   .page-footer .footer-content .footer-subscribe-form .form.subscribe {
     max-width: calc(100% - 30px);
     margin: 0 auto;
     top: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031329}}
 .page-footer .footer-content .social-media {
   padding: 11px 0 10px;
   letter-spacing: -0.4px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031120}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031333}}
   .page-footer .footer-content .social-media {
     text-align: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031336}}
 .page-footer .footer-content .social-media .menu-title {
   border-bottom: none;
   margin-bottom: 20px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031341}}
 .page-footer .footer-content .social-media i {
   width: 25px;
   height: 25px;
   display: inline-block;
   background: url(../img/homepage-sprite.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031347}}
 .page-footer .footer-content .social-media i.icon-instagram {
   background-position: 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031348}}
 .page-footer .footer-content .social-media i.icon-twitter {
   background-position: -25px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031349}}
 .page-footer .footer-content .social-media i.icon-facebook {
   background-position: -49px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031350}}
 .page-footer .footer-content .social-media i.icon-gplus {
   background-position: -70px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031351}}
 .page-footer .footer-content .social-media i.icon-pinterest {
   background-position: -97px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031352}}
 .page-footer .footer-content .social-media i.icon-youtube {
   background-position: -120px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031354}}
 .page-footer .footer-content .social-media a {
   color: #000;
   text-decoration: none;
   margin: 0 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031361}}
 .page-footer .copyrights {
   background: #1c1c1c;
   color: #fff;
   padding: 39px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031366}}
 .page-footer .copyrights .links {
   max-width: 240px;
   margin: 0 auto;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031371}}
 .page-footer .copyrights .links a {
   color: #fff;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031375}}
 .page-footer .copyrights .links .dash {
   color: #9d9d9d;
   padding: 0 8px;
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031380}}
 .page-footer .copyrights .links span {
   margin-top: 20px;
   display: inline-block;
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031390}}
 .nav-opened main#maincontent:after,
 .nav-opened .page-footer:after {
   content: '';
@@ -1409,7 +1688,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   transition: 0.3s;
   z-index: 9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031406}}
 .icon {
   display: inline-block;
   width: 20px;
@@ -1417,14 +1696,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: absolute;
   background: url(../img/homepage-sprite.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031413}}
 .icon.icon-close {
   background-position-y: -76px;
   background-position-x: -30px;
   top: 15px;
   right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031419}}
 .icon.icon-search,
 .icon.icon-cart,
 .icon.icon-login {
@@ -1432,38 +1711,38 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 22px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031426}}
 .icon.icon-search {
   height: 20px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031430}}
 .icon.icon-search {
   background-position-y: -76px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031433}}
 .icon.icon-cart {
   background-position-y: -53px;
   background-position-x: -18px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031223}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031436}}
   .icon.icon-cart {
     background-position-x: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031440}}
 .icon.icon-login {
   background-position-y: -26px;
   background-position-x: -19px;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031230}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031443}}
   .icon.icon-login {
     background-position-x: 0px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031448}}
 .icon-location-1 {
   background: url(../img/homepage-sprite.png) no-repeat;
   background-position-y: -79px;
@@ -1473,29 +1752,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: inline-block;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031458}}
 .page-header.fixed .icon.icon-cart {
   background-position-x: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031461}}
 .page-header.fixed .icon.icon-login {
   background-position-x: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031464}}
 .page-header.fixed .items-counter {
   background-color: #fff;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031468}}
 .page-header.fixed .main-menu {
   margin-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031471}}
 .page-header.fixed .login-lnk {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031267}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031480}}
   ul.subcat .col-sm-8,
   ul.subcat .col-sm-12,
   ul.subcat .col-sm-4,
@@ -1505,21 +1784,21 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media screen and (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031273}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031486}}
   .description .name .hidden-md.hidden-lg {
     display: block !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031277}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031490}}
   .sections.nav-sections li.level0.ui-menu-item {
     display: inline-block;
     padding: 15px;
     position: initial;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031283}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031496}}
   .sections.nav-sections li.level0.ui-menu-item.parent a {
     position: relative;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031286}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031499}}
   .sections.nav-sections li.level0.ui-menu-item.parent:hover > a:after {
     content: '';
     width: 0;
@@ -1532,7 +1811,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     margin-left: -7px;
     left: 50%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031300}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031513}}
   .sections.nav-sections .header-icons {
     position: relative;
     bottom: 68px;
@@ -1542,14 +1821,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     top: -48px;
     right: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031310}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031523}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .prod-img + a {
     text-transform: none;
     font-size: 15px;
     font-family: 'RobotoMedium';
     letter-spacing: -0.2px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031316}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031529}}
   .prod-img {
     max-height: 320px;
     margin-right: 15px;
@@ -1570,17 +1849,17 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
             justify-content: center;
     background-color: #ffffff;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031327}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031540}}
   .prod-img_b {
     width: 100%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031330}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031543}}
   img.img-label {
     position: absolute;
     top: 65px;
     left: -20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031335}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031548}}
   .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk {
     color: #000;
     font-family: 'RobotoLight';
@@ -1591,13 +1870,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031344}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031557}}
   .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk:hover {
     text-decoration: underline;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031349}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031562}}
   .mega-menu-img {
     position: relative;
     padding: 0;
@@ -1607,7 +1886,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     display: block;
     top: -15px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031358}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031571}}
   .mega-menu-img img {
     height: 100%;
     width: auto;
@@ -1618,13 +1897,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     right: -50%;
     margin: auto;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031368}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031581}}
   .mega-menu-img .img-actions {
     position: absolute;
     top: 0;
     padding: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031373}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031586}}
   .mega-menu-img .img-actions .title {
     color: #000;
     font-family: 'RobotoLight';
@@ -1633,7 +1912,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     width: 100%;
     display: inline-block;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031381}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031594}}
   .mega-menu-img .img-actions .lnk {
     color: #000 !important;
     display: inline-block;
@@ -1643,28 +1922,28 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031389}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031602}}
   .mega-menu-img .img-actions .lnk:hover {
     color: #fff !important;
     background: #000;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031397}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031610}}
   nav {
     position: initial;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031400}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031613}}
   nav .level1 ul.subcat {
     margin-top: 15px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031404}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031617}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item {
     display: inline-block;
     vertical-align: top;
     width: calc((100% - 30px) / 4);
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031409}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031622}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     color: #000;
     text-transform: uppercase;
@@ -1672,7 +1951,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     font-family: 'RobotoLight';
     letter-spacing: 0.2px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031417}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031630}}
   nav ul.main-menu li.level1.ui-menu-item.all-items {
     width: 100% !important;
     text-align: center;
@@ -1683,7 +1962,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     font-family: 'RobotoLight';
     margin-top: 47px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031427}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031640}}
   nav ul.main-menu li.level0.ui-menu-item > ul.subcat {
     background: #f9f8f8;
     position: absolute;
@@ -1693,108 +1972,108 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: left;
     padding: 40px calc((100% - 1170px) / 2);
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031436}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031649}}
   nav ul.main-menu li.level0.ui-menu-item > ul.subcat > div {
     margin-top: 7px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031439}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031652}}
   nav ul.main-menu li.level0.level-top.ui-menu-item.parent:hover ul.subcat {
     display: block;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031442}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031655}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .subcat li a {
     text-transform: none;
     line-height: 43px;
     font-size: 16px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031448}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031661}}
   nav .menu {
     position: initial;
     display: inline-block;
     width: auto;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031453}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031666}}
   nav .search {
     position: relative;
     display: inline-block;
     top: 5px;
     left: 17px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031460}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031673}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat .all-offers-lnk ~ li.level1.ui-menu-item {
     width: calc((100% - 30px) / 3);
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031463}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031676}}
   li.level1.ui-menu-item.hidden-xs {
     width: 100% !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031466}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031679}}
   .top-line-header {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 10;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031472}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031685}}
   .page-footer .footer-content .social-media a:nth-child(2) {
     margin-left: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031475}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031688}}
   .page-header.fixed {
     z-index: 15;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031478}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031691}}
   .page-header.fixed .sections.nav-sections {
     position: fixed;
     width: 100%;
     top: 28px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031483}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031696}}
   .page-header.fixed .white-logo {
     display: inline-block;
     margin-right: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031487}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031700}}
   .page-header.fixed .sections.nav-sections nav {
     text-align: left;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031490}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031703}}
   .page-header.fixed .header-icons {
     top: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031494}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031707}}
   .header {
     text-align: center;
     padding: 20px 0 10px;
     margin-top: 28px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031499}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031712}}
   .white-logo,
   .main-menu {
     display: inline-block;
     vertical-align: middle;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031504}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031717}}
   .main-menu {
     margin-left: 115px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031507}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031720}}
   .white-logo {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031510}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031723}}
   i.icon-instagram:before {
     margin-left: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031513}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031726}}
   .page-footer .footer-content .social-media .menu-title {
     margin-bottom: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031519}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031732}}
   .section.hero .separate-txt-xs .hero-img img {
     width: 100%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031522}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031735}}
   .section.hero .separate-txt-xs .hero-img .description {
     text-align: left;
     max-width: 427px;
@@ -1802,44 +2081,44 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     top: 41px;
     z-index: 1;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031531}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031744}}
   .section .separate-txt-xs .main-img img {
     -o-object-fit: cover;
        object-fit: cover;
     height: 100%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031535}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031748}}
   .section .description {
     padding-top: 40px;
     bottom: 0;
     z-index: 9;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031541}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031754}}
   .section .main-img:not(.video) .action,
   .section .main-img:not(.video) .short-descr {
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031548}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031761}}
   .section .main-img:not(.video):hover .action,
   .section .main-img:not(.video):hover .short-descr {
     opacity: 1;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031553}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031766}}
   .section .main-img:not(.video):hover:hover:after {
     background: rgba(0, 0, 0, 0.6);
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031557}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031770}}
   .section .main-img:not(.video):hover .name,
   .section .main-img:not(.video):hover .short-name {
     color: #fff;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031563}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031776}}
   .section .main-img:not(.video):after {
     content: '';
     position: absolute;
@@ -1851,7 +2130,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031574}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031787}}
   .section .main-img:not(.video) .action {
     position: absolute;
     top: 50%;
@@ -1859,7 +2138,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     left: 0;
     right: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031582}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031795}}
   .section .divided .description {
     padding: 40px 10px 40px;
     z-index: 9;
@@ -1867,165 +2146,165 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: right;
     right: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031589}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031802}}
   .section .divided .video .description {
     left: 40px;
     text-align: left;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031599}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031812}}
   .section .description {
     padding-top: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031602}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031815}}
   .section .description .name {
     font-size: 34px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031606}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031819}}
   .section .separate-txt-xs .description .name {
     font-size: 50px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031610}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031823}}
   .section .divided .description {
     padding: 20px 10px 20px;
     right: 20px;
     max-width: 215px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031615}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031828}}
   .section .divided .description .short-descr {
     margin-bottom: 5px;
     margin-top: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031620}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031833}}
   .section .divided .video .description {
     left: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031623}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031836}}
   .section .divided .video .description .short-descr {
     margin-bottom: 30px;
     margin-top: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031631}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031844}}
   .section.hero .separate-txt-xs .hero-img .description {
     right: 60px;
     top: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031637}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031850}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031643}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031856}}
   .section .separate-txt-xs .description .name {
     font-size: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031647}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031860}}
   .section .divided .description {
     padding: 20px 10px 20px;
     right: 20px;
     max-width: 215px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031652}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031865}}
   .section .divided .description .short-descr {
     margin-bottom: 5px;
     margin-top: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031657}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031870}}
   .section .divided .video .description {
     left: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031660}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031873}}
   .section .divided .video .description .short-descr {
     margin-bottom: 5px;
     margin-top: 5px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031666}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031879}}
   .section .description {
     padding: 20px 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031669}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031882}}
   .section .description .name {
     font-size: 28px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031672}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031885}}
   .section .description .short-descr {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031681}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031894}}
   .section.hero .separate-txt-xs .hero-img .description {
     right: 20px;
     top: 0;
     max-width: 330px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031686}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031899}}
   .section.hero .separate-txt-xs .hero-img .description .name {
     font-size: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031691}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031904}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .subcat li a {
     line-height: 30px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031694}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031907}}
   nav .menu,
   .main-menu {
     width: 100%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031698}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031911}}
   .main-menu {
     margin-left: 0;
     width: auto;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031702}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031915}}
   .page-header.fixed .white-logo {
     margin-right: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031705}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031918}}
   .fixed a.white-logo.hidden-xs {
     display: inline-block;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031709}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031922}}
   .sections.nav-sections li.level0.ui-menu-item a {
     text-transform: capitalize;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031712}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031925}}
   .sections.nav-sections li.level0.ui-menu-item.parent:hover > a:after {
     bottom: -14px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031715}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031928}}
   .sections.nav-sections span.nav-mobile {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031718}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031931}}
   .sections.nav-sections .header-icons {
     top: -94px;
     height: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031722}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031935}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 5px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031725}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031938}}
   .sections.nav-sections li.level0.ui-menu-item a {
     font-size: 12px !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031729}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031942}}
   .page-header.fixed .header-icons {
     top: -34px;
   }
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031734}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031947}}
   .container {
     width: 100% !important;
   }
 }
 @media only screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031739}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031952}}
   .header-icons {
     position: absolute;
     right: 20px;
@@ -2034,12 +2313,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031750}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031963}}
   .container {
     width: 100% !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031967}}
 .page-header.fixed .nav-sections > .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2051,32 +2330,32 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031972}}
 .page-header.fixed .header-icons {
   top: 0;
   margin-left: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031763}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031976}}
 .page-footer .footer-content {
   width: 1230px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031767}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031980}}
 .section .separate-txt-xs .description .name,
 .section .description .short-name,
 .section .description .name {
   letter-spacing: 0.4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031983}}
 .mega-menu-img .img-actions .title {
   letter-spacing: -2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031986}}
 .mega-menu-img .img-actions .lnk {
   padding: 12px 19px;
   letter-spacing: -0.2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031777}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031990}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-btn,
 .sections.nav-sections li.level0.ui-menu-item a.menu-btn {
   font-size: 14px;
@@ -2084,12 +2363,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-weight: 300;
   letter-spacing: 0.7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031996}}
 .page-footer .footer-content h2.menu-title {
   font-size: 15px;
   letter-spacing: 0.4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032000}}
 .center-element {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2102,7 +2381,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031792}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032005}}
 .divided .main-img .center-element span.action a {
   display: -webkit-box!important;
   display: -ms-flexbox!important;
@@ -2112,29 +2391,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   position: relative;
   top: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032012}}
 .description .name > span {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032015}}
 .section .description .action a {
   letter-spacing: 0.2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031810}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032023}}
 .section .video .description .action a {
   line-height: 64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031813}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032026}}
 .section .description .action .short-descr2 {
   margin-top: 37px;
   margin-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031817}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032030}}
 .s-bth {
   padding: 13px 17px;
   width: 153px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031830}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032043}}
 .main-img:hover img {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-transition-timing-function: ease-out;
@@ -2143,78 +2422,78 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 550ms;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031838}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032051}}
 .main-img img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031841}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032054}}
 .footer-menu-list {
   text-transform: capitalize;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032057}}
 .page-footer .copyrights .links {
   max-width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031847}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032060}}
 .page-footer .copyrights .links a {
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.2px;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031854}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032067}}
 .sections.nav-sections .header-icons {
   right: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031857}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032070}}
 .page-header.fixed .header-icons {
   right: 0;
 }
 @media (max-width: 1340px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031861}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032074}}
   .section .divided .description2 {
     max-width: 317px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031864}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032077}}
   .description2 .s-bth {
     float: left;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031867}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032080}}
   .description2 .s-bth:last-child {
     margin-left: 10px;
   }
 }
 @media (max-width: 1230px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031872}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032085}}
   .page-footer .footer-content {
     width: auto;
   }
 }
 @media (max-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031877}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032090}}
   .section .description h2.name2 {
     line-height: 1;
   }
 }
 @media (max-width: 1040px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031882}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032095}}
   .page-header.fixed .white-logo {
     margin-right: 15px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031885}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032098}}
   .page-header.fixed .header-icons {
     margin-left: 10px;
   }
 }
 @media (max-width: 1000px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031891}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032104}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 5px;
   }
 }
 @media (max-width: 990px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031896}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032109}}
   .page-header.fixed .header-icons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2228,68 +2507,99 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   }
 }
 @media (max-width: 940px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031903}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032116}}
   .section .description h2.name3 {
     margin-top: 0;
   }
 }
 @media (max-width: 900px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031908}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032121}}
   .sections.nav-sections .header-icons {
     right: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032124}}
+  .block_mini-cart {
+    right: 5px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032127}}
+  .block_mini-cart:before {
+    right: 12px;
   }
 }
 @media (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031913}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032132}}
+  .items-counter {
+    left: 12px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032135}}
   .mega-menu-img .img-actions .title {
     font-size: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031916}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032138}}
   .sections.nav-sections .header-icons {
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032141}}
+  .block_mini-cart {
+    right: 10px;
+    top: 54px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032145}}
+  .fixed-cart {
+    right: 10px;
+    top: 54px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032149}}
+  .block_mini-cart:before {
+    right: 19px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032152}}
+  .fixed-cart:before {
+    right: 19px;
+    left: auto;
+  }
 }
 @media (max-width: 880px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031921}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032158}}
   .section .description .action .short-descr2 {
     margin-top: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031924}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032161}}
   .section .description h2.name2 {
     line-height: 40px;
   }
 }
 @media (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031929}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032166}}
   nav ul.main-menu {
     height: calc(100vh - 54px);
     overflow-y: scroll;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031933}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032170}}
   .sections.nav-sections .header-icons {
     right: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031936}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032173}}
   .section .description h2.name4 {
     font-size: 26px!important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031939}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032176}}
   .divided .main-img .center-element span.action a {
     margin-left: auto;
     margin-top: auto;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031943}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032180}}
   .section.hero .separate-txt-xs .hero-img .description .name {
     line-height: 1;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031946}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032183}}
   .section .description h4.short-name2 {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
 @media (max-width: 583px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031953}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032190}}
   .block_search-product .all-catalog_product {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2299,41 +2609,41 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031958}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032195}}
   .search-element img {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031961}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032198}}
   .search-clear {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031964}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032201}}
   .wrap-search {
     padding-left: 0;
     padding-right: 0;
     height: 50px;
     background-color: #f3f3f3;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031970}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032207}}
   .block-header_search {
     height: 50px;
     background-color: #f3f3f3;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031974}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032211}}
   .search-element .search-inp {
     background-color: #f3f3f3;
     font-size: 20px!important;
     height: 50px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031979}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032216}}
   .block_search-product .all-catalog_product .product-element {
     width: 100%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031982}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032219}}
   .block_search-product {
     background-color: #ffffff;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031985}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032222}}
   .block_search-product .search-position {
     text-align: center;
     display: -webkit-box;
@@ -2350,37 +2660,73 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031992}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032229}}
   .block_search-product .search-position a {
     margin-left: 0;
     margin-top: 15px;
   }
 }
 @media (max-width: 480px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000031998}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032235}}
   .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:before {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032001}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032238}}
   .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail::after {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032004}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032241}}
   .sp-thumbnail-container {
     background-color: #e9e9e9;
     border-radius: 50%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032008}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032245}}
   .sp-selected-thumbnail {
     background-color: #9f9f9f;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032011}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032248}}
   .sp-thumbnail-image {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032014}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032251}}
   .sp-image {
     margin-right: 0!important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032254}}
+  .block_mini-cart {
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    height: 100vh;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032260}}
+  .all_mini-prod {
+    height: calc(100vh - 352px);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032263}}
+  .edit-btn {
+    display: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032266}}
+  .control-bnt .line-btn {
+    display: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032269}}
+  .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-cart_money {
+    font-size: 16px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032272}}
+  .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom {
+    margin-top: 20px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032275}}
+  .fixed-cart::before {
+    right: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/main\.less}line{font-family:\000032278}}
+  .block_mini-cart .mini-cart_prod {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
