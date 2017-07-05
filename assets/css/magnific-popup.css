@@ -123,7 +123,7 @@ button::-moz-focus-inner {
   border: 0; }
 
 .mfp-close {
-  background-image: url("../img/closer.png")!important;
+  background-image: url("../img/Default/closer.png")!important;
   background-repeat: no-repeat!important;
   background-position: center!important;
   width: 44px;
