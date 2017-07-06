@@ -3390,63 +3390,41 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     padding-bottom: 10px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\000032}}
-.in-product {
-  margin-top: 46px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\000034}}
-.in-product .in_bg-popup {
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 62px;
-  margin-bottom: 62px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\000039}}
-.in-product .block-in_video {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 58px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000314}}
-.in-product .block-in_video-left {
-  width: 380px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000316}}
-.in-product .block-in_video-left h3 {
-  font-family: "PlayfairDisplayRegular";
-  font-size: 34px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 31px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000323}}
-.in-product .block-in_video-left p {
-  font-size: 16px;
-  font-family: "GothamProMedium";
-  line-height: 1.7;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000331}}
-.ingredients-block {
-  padding: 60px 0 25px;
-  background-color: #f5f5f5;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000334}}
-.ingredients-block-left {
-  width: 380px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000338}}
-.wrap-ingredients {
-  max-width: 1220px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\000033}}
+.wrap-cart {
+  max-width: 1020px;
+  width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000343}}
-.flex-status {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000310}}
+.bag-items {
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000312}}
+.bag-items .cat-item_text {
+  text-align: center;
+  font-size: 32px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 37px;
+  margin-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000320}}
+.bag-items .cat-item_text span {
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000324}}
+.bag-items .block_promo-code {
+  width: 434px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  margin: 27px auto 10px;
+  letter-spacing: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3457,39 +3435,248 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000351}}
-.ingredients-left_headline {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000336}}
+.bag-items .block_promo-code .promo-text {
+  margin-top: 12px;
+  font-size: 13px;
   text-transform: uppercase;
-  margin-bottom: 38px;
-  font-family: "RobotoLight";
-  font-weight: 300;
-  font-size: 24px;
+  letter-spacing: 0.3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000342}}
+.bag-items .block_promo-code .promo-input_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000347}}
+.bag-items .block_promo-code .promo-input_block .promo-input {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 193px;
+  height: 34px;
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000356}}
+.bag-items .block_promo-code .promo-input_block .promo-btn {
+  height: 34px;
+  width: 68px;
+  background-color: #ffffff;
+  border: 1px solid #e9e9e9;
+  border-left: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #000000;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000371}}
+.bag-items .block_promo-code .center-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000374}}
+.bag-items .block_promo-code .error-cod {
+  color: #ff0000;
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000380}}
+.bag_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 434px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000386}}
+.bag_btn a {
+  width: 212px;
+  height: 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000391}}
+.bag_btn .mini_buy-1 {
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\0000398}}
+.bag_btn .mini_buy-2 {
+  text-transform: uppercase;
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003107}}
+.bag_btn .mini_buy-2 img {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003113}}
+.all-block_cart {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003119}}
+.all-block_cart .congratulations {
   text-align: center;
+  padding: 17px 10px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  margin-bottom: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000359}}
-.ingredients-list {
-  margin-bottom: 27px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003128}}
+.all-block_cart .congratulations span {
+  font-family: "RobotoMedium";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000361}}
-.ingredients-list_headline {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003132}}
+.all-block_cart .cart-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003140}}
+.all-block_cart .cart-items_img .cart_img {
+  max-width: 150px;
+  max-height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003145}}
+.all-block_cart .cart-items_text {
+  width: 100%;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003148}}
+.all-block_cart .cart-items_text_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003152}}
+.all-block_cart .cart-items_text_top .cart-items_text_left {
+  margin-top: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003158}}
+.all-block_cart .cart-items_text_top .cart-items_text_left p {
+  font-size: 15px;
+  font-family: "RobotoMedium";
+  letter-spacing: -0.2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003163}}
+.all-block_cart .cart-items_text_top .cart-items_text_left .cart-prod_color {
+  text-transform: uppercase;
   font-family: "RobotoLight";
   font-weight: 300;
   font-size: 14px;
-  text-transform: uppercase;
-  margin-bottom: 4px;
-  letter-spacing: 0.7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000369}}
-.ingredients-list_text {
-  font-family: "RobotoMedium";
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003172}}
+.all-block_cart .cart-items_text_top .cart-items_text_left .cart-prod_color img {
+  width: 19px;
+  margin-right: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000379}}
-.gl-info {
-  font-family: "RobotoMedium";
-  font-size: 14px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003178}}
+.all-block_cart .cart-items_text_top .cart-items_text_right {
+  width: 406px;
+  margin-top: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003184}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .edit-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3499,78 +3686,28 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-bottom: 23px;
-  letter-spacing: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000388}}
-.gl-img {
-  margin-left: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000391}}
-.ingredients-list_r {
-  margin-bottom: 18px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000394}}
-.claims {
-  font-family: "RobotoMedium";
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\0000399}}
-.claims span {
-  font-family: "RobotoLight";
-  font-weight: 300;
-  text-transform: uppercase;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003105}}
-.like_product-headline {
-  font-family: "RobotoLight";
-  font-weight: 300;
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.6px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003113}}
-.block-like_product {
-  padding: 55px 0 46px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003116}}
-.block-comment {
-  background-color: #f5f5f5;
-  width: 100%;
-  padding: 58px 0 50px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003120}}
-.block-comment .commnet-product_headline {
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003122}}
-.block-comment .commnet-product_headline .comment-headline_top,
-.block-comment .commnet-product_headline .comment-headline_bot {
-  font-family: "RobotoLight";
-  font-weight: 300;
-  font-size: 24px;
-  text-transform: uppercase;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003128}}
-.block-comment .commnet-product_headline .comment-headline_bot {
-  padding: 0 20px;
-  line-height: 1.4;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003132}}
-.block-comment .commnet-product_headline img {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003136}}
-.block-comment .commnet-product_headline .comment-headline_btn {
-  width: 160px;
-  height: 42px;
-  border: 1px solid #464646;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003188}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .edit-block a {
   font-size: 14px;
   text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003194}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .edit-block .line-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 20px;
+  width: 1px;
+  background-color: #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003202}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .edit-block .quantity-block .wSelect-options {
+  height: 81px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003207}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .btn-remove {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3580,11 +3717,71 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-transform: uppercase;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  font-size: 12px;
   color: #000000;
-  margin: 38px auto 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003151}}
-.comment-list .list-element {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003216}}
+.all-block_cart .cart-items_text_top .cart-items_text_right .btn-remove img {
+  margin-left: 10px;
+  width: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003223}}
+.all-block_cart .cart-items_text_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 62px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003228}}
+.all-block_cart .cart-items_text_bottom .cart_wish-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  font-size: 12px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003239}}
+.all-block_cart .cart-items_text_bottom .cart_wish-list:hover span {
+  background-position: 0 -35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003242}}
+.all-block_cart .cart-items_text_bottom .cart_wish-list span {
+  margin-right: 10px;
+  display: block;
+  background-image: url("../img/Default/cart-heart.png");
+  width: 20px;
+  height: 20px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003252}}
+.all-block_cart .cart-items_text_bottom .cart-money {
+  font-size: 18px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003260}}
+.all-block_cart .block_totals {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3594,543 +3791,174 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 42px 0 22px;
-  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003159}}
-.comment-list .comment-user {
-  width: 110px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003162}}
-.comment-list .comment-star {
-  width: 108px;
-  margin-bottom: 27px;
-  margin-top: -2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003168}}
-.comment-list .block_user-info {
-  margin-bottom: 16px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003170}}
-.comment-list .block_user-info .user-top {
-  font-size: 14px;
-  font-family: "RobotoRegular";
-  margin-bottom: 6px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003175}}
-.comment-list .block_user-info .user-bot {
-  font-family: "RobotoLight";
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003182}}
-.comment-list .comment-text {
-  max-width: 955px;
-  width: 100%;
-  margin-left: 20px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003187}}
-.comment-list .comment-text_headline {
-  font-family: "RobotoLight";
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 18px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003265}}
+.all-block_cart .block_totals .block_totals-left .btn-save {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 22px;
-  letter-spacing: 0.6px;
-  line-height: 1.4;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003197}}
-.comment-list .comment-text_headline span {
-  margin-left: 20px;
-  font-family: "RobotoLight";
-  font-weight: 300;
-  font-size: 12px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003204}}
-.comment-list .recommend {
-  font-family: "RobotoMedium";
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0.2px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003210}}
-.comment-list .comment-text_info {
-  margin-bottom: 21px;
-  font-family: "RobotoMedium";
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003217}}
-.comment-list .check-commet {
-  margin-right: 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003221}}
-.comment-list:first-child {
-  border-top: 1px solid #e0e0e0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003224}}
-.comment-more_btn {
-  text-transform: uppercase;
-  font-size: 14px;
-  border: 1px solid #c2c2c2;
-  color: #000000;
-  width: 118px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 210px;
   height: 40px;
-  margin: 0 auto;
+  border: 1px solid #e9e9e9;
+  color: #000000;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003276}}
+.all-block_cart .block_totals .block_totals-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 50px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003237}}
-.popup-money {
-  margin-bottom: 19px;
-  margin-top: 28px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003241}}
-.in-product .block-popup_info .wSelect-option-icon {
-  font-size: 13px;
-  letter-spacing: 0.6px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003245}}
-.in-product .block-popup_info .wSelect-theme-classic.wSelect {
-  margin-top: 0px;
-  margin-right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003249}}
-.product-stars {
-  margin-top: 16px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003252}}
-.ingredients-left_headline2 {
-  margin-bottom: 28px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003255}}
-.block-comment .commnet-product_headline .comment-headline_bot {
-  letter-spacing: 0.8px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003258}}
-.block-in_video-right {
-  width: 740px;
-  height: 416px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003262}}
-.block-in_video-right iframe {
-  border: 1px solid #f7f7f7;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003265}}
-.mobile_headline_top {
-  display: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003268}}
-.in-product .block-popup_slider {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003271}}
-.brn-mobile_ing {
-  display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-  height: 85px;
-  background-color: #f5f5f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003280}}
-.brn-mobile_ing {
-  cursor: pointer;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003281}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money {
+  width: 285px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003282}}
-.brn-mobile_ing div {
-  margin-bottom: 14px;
-  font-size: 14px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003283}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_top {
+  border-bottom: 1px solid #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003285}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_top .block_totals-money_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003290}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_top .block_totals-money_info p:first-child {
+  font-size: 13px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 3px;
+  letter-spacing: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003298}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_top .block_totals-money_info p:last-child {
+  font-size: 18px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 86px;
+  text-align: right;
+  margin-left: 15px;
+  word-break: break-all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003310}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_bottom {
+  margin-top: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003312}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_bottom .current-total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003316}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_bottom .current-total p:first-child {
+  font-size: 13px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003323}}
+.all-block_cart .block_totals .block_totals-right .block_totals-money_bottom .current-total p:last-child {
+  font-size: 18px;
+  font-family: "RobotoMedium";
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003286}}
-.brn-mobile_ing div img {
-  margin-left: 13px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003331}}
+.all-block_cart .block_totals .block_totals-right .bag_btn_text {
+  font-size: 14px;
+  font-family: "RobotoMedium";
+  margin-top: 37px;
+  margin-bottom: 16px;
+  letter-spacing: 0.1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003291}}
-.m-r {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003342}}
+.like_product .wrap-catalog {
+  padding-left: 0;
+  padding-right: 0;
 }
-@media (max-width: 1129px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003296}}
-  .in-product .block-in_video-left p {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003300}}
-  .block-in_video-right {
-    width: calc(80%);
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003345}}
+.like_product .wrap-catalog .hedline-wish {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.7px;
+  margin-top: 37px;
 }
-@media (max-width: 820px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003307}}
-  .mobile_headline_top {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003314}}
-  .block-popup_info .popup_headline,
-  .block-popup_info .product-stars,
-  .block-popup_info .popup-money {
-    display: none;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003318}}
-  .mobile_headline_top * {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003322}}
-  .in-product .block-popup_info {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003327}}
-  .in-product .in-product .in_bg-popup {
-    padding-bottom: 23px;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003354}}
+.like_product .wrap-catalog .all-catalog_product {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-@media (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003333}}
-  .block-in_video-right {
-    width: 100%;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003336}}
-  .block-like_product {
-    display: none;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003356}}
+.like_product .wrap-catalog .all-catalog_product .product-element {
+  margin-right: 0;
+  width: 240px;
+  height: 443px;
+  margin-bottom: 60px;
 }
-@media (max-width: 640px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003341}}
-  .flex-status {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003346}}
-  .ingredients-left {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003351}}
-  .ingredients-right {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003355}}
-  .brn-mobile_ing {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003358}}
-  .comment-list:first-child {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003362}}
-  .ingredients-block {
-    padding: 0 0 0px;
-    margin-bottom: 40px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003366}}
-  .wrap-ingredients {
-    display: none;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003369}}
-  .comment-list:first-child {
-    border-top: none;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003372}}
-  .comment-list .list-element {
-    border-bottom: 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003375}}
-  .comment-list:first-child:before {
-    content: '';
-    display: block;
-    width: calc(100% - 20px);
-    margin: 0 auto;
-    background-color: #e0e0e0;
-    height: 1px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003383}}
-  .comment-list .list-element:after {
-    content: '';
-    display: block;
-    width: calc(100% - 20px);
-    margin: 0 auto;
-    background-color: #e0e0e0;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003393}}
-  .comment-list {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003397}}
-  .comment-list .list-element {
-    padding: 30px 10px 22px 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003400}}
-  .list-element {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003404}}
-  .comment-list .comment-text {
-    margin-left: 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003407}}
-  .comment-list .comment-user {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003414}}
-  .block_user-info {
-    text-align: center;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003417}}
-  .block-line {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    position: relative;
-    width: 190px;
-    margin-bottom: 35px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003425}}
-  .block-line:after {
-    content: '';
-    display: block;
-    width: 1px;
-    height: 40px;
-    background-color: #e0e0e0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003436}}
-  .block-line .block_user-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-    margin-bottom: 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003444}}
-  .wrap-ingredients {
-    padding-bottom: 38px;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003361}}
+.like_product .wrap-catalog .all-catalog_product .product-element .product-element_img {
+  width: 240px;
 }
-@media (max-width: 582px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003449}}
-  .comment-list {
-    padding: 0 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003452}}
-  .in-product .block-in_video-left p,
-  .block-in_video-right {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003456}}
-  .comment-list:first-child {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003460}}
-  .in-product .block-popup_info {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003464}}
-  .mobile_headline_top {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003468}}
-  .in-product .block-popup_info .wSelect-theme-classic.wSelect {
-    margin-top: 32px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003471}}
-  .in-product .quantity-block .wSelect-theme-classic.wSelect {
-    margin-top: 0;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003365}}
+.like_product .wrap-catalog .all-catalog_product .add_bag {
+  font-size: 14px;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  margin: 0 auto;
 }
-@media (max-width: 480px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003477}}
-  .in-product .in_bg-popup {
-    margin-bottom: 34px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003480}}
-  .in-product .block-in_video-left h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003484}}
-  .in-product div.block-in_video-left {
-    margin-bottom: 23px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003487}}
-  .in-product .block-in_video {
-    margin-bottom: 40px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003490}}
-  .block-comment {
-    padding: 36px 0 50px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003493}}
-  .block-comment .commnet-product_headline img {
-    margin-top: 17px;
-    margin-bottom: 14px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003497}}
-  .block-comment .commnet-product_headline .comment-headline_btn {
-    margin: 26px auto 40px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003500}}
-  .comment-list .comment-star {
-    margin-bottom: 17px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003503}}
-  .comment-list .comment-text_headline {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003507}}
-  .comment-list .comment-text_headline span {
-    margin-left: 0;
-    margin-top: 18px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003511}}
-  .comment-list .list-element {
-    padding: 30px 10px 33px 10px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003514}}
-  .comment-list .list-element:last-child:after {
-    display: none;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003517}}
-  .comment-more_btn {
-    margin: 9px auto 0;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003520}}
-  .ingredients-left_headline {
-    margin-bottom: 26px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003523}}
-  .in-product {
-    margin-top: 27px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003527}}
-  .in-product .product-stars {
-    margin-top: 9px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003530}}
-  .in-product .block-add_cart {
-    height: 82px;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003540}}
-  .sp-bottom-thumbnails .sp-thumbnail-container {
-    margin-left: 12px!important;
-    margin-right: 12px!important;
-  }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/PDP\.less}line{font-family:\00003544}}
-  .sp-bottom-thumbnails.sp-has-pointer {
-    margin-top: 37px!important;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy\/assets\/less\/Cart\.less}line{font-family:\00003382}}
+.wish_product {
+  border-top: 1px solid #e0e0e0;
 }
-/*# sourceMappingURL=PDP.css.map */
+/*# sourceMappingURL=Cart.css.map */
