@@ -17,12 +17,14 @@
     text-transform: uppercase;
     margin-top: 37px;
     margin-bottom: 30px;
+    line-height: 1.2;
     span {
       color: #7d7d7d;
     }
   }
   .block_promo-code {
-    width: 434px;
+    max-width: 434px;
+    width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 10px;
@@ -75,6 +77,9 @@
       color: #ff0000;
       margin-top: 8px;
     }
+  }
+  .bag-items_mob-text{
+    display: none;
   }
 }
 .bag_btn {
@@ -140,6 +145,7 @@
       .cart_img {
         max-width: 150px;
         max-height: 150px;
+        width: 100%;
       }
     }
     &_text {
@@ -155,7 +161,10 @@
           align-items: flex-start;
           justify-content: flex-start;
           flex-direction: column;
+          margin-right: 15px;
+          width: 340px;
           p {
+            line-height: 1.2;
             font-size: 15px;
             font-family: "RobotoMedium";
             letter-spacing: -0.2px;
@@ -176,7 +185,8 @@
           }
         }
         .cart-items_text_right {
-          width: 406px;
+          max-width: 406px;
+          width: 100%;
           margin-top: 9px;
           display: flex;
           align-items: center;
@@ -225,6 +235,22 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 62px;
+        .block-wish_bottom{
+          display: flex;
+          .edit-element{
+            font-size: 14px;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+          }
+          .line-btn{
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 20px;
+            width: 1px;
+            background-color: rgb(224, 224, 224);
+          }
+        }
         .cart_wish-list {
           display: flex;
           align-items: center;
@@ -352,12 +378,14 @@
       margin-top: 37px;
     }
     .all-catalog_product {
+      margin-top: 0;
+      margin-bottom: 60px;
       justify-content: space-between;
       .product-element{
         margin-right: 0;
         width: 240px;
         height: 443px;
-        margin-bottom: 60px;
+        margin-top: 20px;
         .product-element_img{
           width: 240px;
         }
@@ -381,4 +409,208 @@
 }
 .wish_product{
   border-top: 1px solid rgb(224, 224, 224);
+}
+.all-block_cart {
+  .cart-items_text_bottom {
+    .block-wish_bottom{
+      .edit-element{
+        display: none;
+      }
+      .line-btn{
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 930px){
+  .all-block_cart{
+    .cart-items_text_top{
+      .cart-items_text_left{
+        width: ~'calc(100% - 30px)';
+      }
+      .cart-items_text_right{
+        max-width: 290px;
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .congratulations{
+    display: none;
+  }
+  .like_product{
+    display: none;
+  }
+  .block_totals-left{
+    display: none;
+  }
+  .all-block_cart{
+    border-bottom: 0;
+    .block_totals{
+      justify-content: flex-end;
+    }
+  }
+  .block_totals-right{
+    width: 100%;
+  }
+  .all-block_cart .block_totals .block_totals-right .block_totals-money{
+    width: 100%;
+  }
+  .block_totals-right{
+    .bag_btn{
+      margin: 0;
+      justify-content: flex-end;
+    }
+  }
+  .all-block_cart{
+    .cart-items_text_top{
+      flex-direction: column;
+      position: relative;
+      .cart-items_text_left{
+        margin-top: 0;
+        margin-bottom: 20px;
+        .cart-prod_color{
+          font-size: 12px;
+          img{
+            width: 13px;
+          }
+        }
+      }
+      .cart-items_text_right{
+        margin-top: 0;
+        justify-content: flex-start;
+        max-width: 20px;
+        .edit-block{
+          //display: none;
+        }
+        .btn-remove{
+          font-size: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          img{
+            width: 13px;
+          }
+        }
+        .edit-block{
+          right: 0;
+          a{
+            display: none;
+          }
+          .line-btn{
+            display: none;
+          }
+          .quantity-block{
+            p{
+              display: none;
+            }
+            .wSelect-theme-classic.wSelect{
+              margin-left: 0;
+              width: 66px !important;
+              max-width: 66px !important;
+              min-width: 66px!important;
+            }
+            .wSelect-options-holder{
+              min-width: 66px!important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .all-block_cart{
+    .cart-items_text_bottom{
+      margin-top: 20px;
+      .block-wish_bottom{
+        align-items: center;
+        justify-content: center;
+        .edit-element{
+          font-size: 13px;
+          display: block;
+        }
+        .line-btn{
+          display: block;
+        }
+      }
+      .cart_wish-list{
+        font-size: 0;
+      }
+      .cart-money{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .bag-items{
+    margin-bottom: 18px;
+    .cat-item_text{
+      font-size: 24px;
+      margin-bottom: 0;
+      margin-top: 15px;
+    }
+    .block_promo-code{
+      margin: 15px auto 10px;
+      width: 100%;
+      padding: 10px;
+      .promo-text{
+        display: none;
+      }
+      .promo-input_block{
+        width: 100%;
+        .center-input{
+          width: 100%;
+          .promo-input{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .bag_btn{
+      a{
+        max-width: 212px;
+      }
+      max-width: 434px;
+      width: 100%;
+      .mini_buy-1{
+        margin-right: 10px;
+      }
+      .mini_buy-2{
+        img{
+          display: none;
+        }
+      }
+    }
+    .bag-items_mob-text{
+      display: block;
+      font-size: 12px;
+      font-family: "RobotoLight";
+      font-weight: 300;
+      text-transform: uppercase;
+      color: #6c6c6c;
+      line-height: 1.2;
+      text-align: center;
+      margin-top: 18px;
+    }
+  }
+  .congratulations{
+    display: none;
+  }
+  .block_totals-right {
+    .bag_btn {
+      justify-content: flex-end;
+      a {
+        width: 123px;
+      }
+      .mini_buy-2 {
+        font-size: 13px;
+        margin-left: 10px;
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
 }
