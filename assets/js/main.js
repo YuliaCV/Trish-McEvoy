@@ -47,6 +47,11 @@ jQuery(function($) {
             } else {
                 $('.block_mini-cart').removeClass('fixed-cart');
             }
+            if ($(window).scrollTop() > menuOffset) {
+                $('.block_mini-log').addClass('fixed-login');
+            } else {
+                $('.block_mini-log').removeClass('fixed-login');
+            }
         });
     } else {
         var menuOffset = $('.sections').offset().top - 28;
@@ -61,6 +66,11 @@ jQuery(function($) {
                 $('.block_mini-cart').addClass('fixed-cart');
             } else {
                 $('.block_mini-cart').removeClass('fixed-cart');
+            }
+            if ($(window).scrollTop() > menuOffset) {
+                $('.block_mini-log').addClass('fixed-login');
+            } else {
+                $('.block_mini-log').removeClass('fixed-login');
             }
         });
     }
@@ -237,5 +247,8 @@ $(document).ready(function() {
     });
     $('.cart').click(function(){
         $('.block_mini-cart').toggle();
+    });
+    $('.login').click(function(){
+        $('.block_mini-log').toggle();
     });
 });
