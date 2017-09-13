@@ -153,7 +153,7 @@ $(document).ready(function() {
             }
         }
     });
-    $(".zoom_mw2").elevateZoom({scrollZoom : true});
+    //$(".zoom_mw2").elevateZoom({scrollZoom : true});
     $( '.example6' ).sliderPro({
         autoplay: false,
         width: 612,
@@ -193,7 +193,7 @@ $(document).ready(function() {
         }
     });
     $('.btn-product').click(function(){
-        $(".zoom_mw").elevateZoom({scrollZoom : true});
+        //$(".zoom_mw").elevateZoom({scrollZoom : true});
         $( '.example5' ).sliderPro({
             autoplay: false,
             width: 612,
