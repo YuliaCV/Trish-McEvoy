@@ -65,6 +65,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/GothamProRegular/Gotham-Medium.eot");
+  src: url("../fonts/GothamProRegular/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/Gotham-Medium.woff") format("woff"), url("../fonts/GothamProRegular/Gotham-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
   font-family: "GothamProRegular";
   src: url("../fonts/GothamProRegular/GothamProRegular.eot");
   src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
