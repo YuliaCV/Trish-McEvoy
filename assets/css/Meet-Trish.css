@@ -3591,25 +3591,17 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
 .meet-element_global img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000319}}
-.meet-element_1,
-.meet-element_2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000318}}
+.meet-element_1 {
   margin-top: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000321}}
-.meet-element_1 .meet_left,
-.meet-element_2 .meet_left,
-.meet-element_1 .meet-right,
-.meet-element_2 .meet-right {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000320}}
+.meet-element_1 .meet_left {
   width: 47%;
   margin: 0 auto;
-  padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000325}}
-.meet-element_1 .meet_left .headline,
-.meet-element_2 .meet_left .headline,
-.meet-element_1 .meet-right .headline,
-.meet-element_2 .meet-right .headline {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000323}}
+.meet-element_1 .meet_left .headline {
   font-size: 60px;
   text-transform: uppercase;
   font-family: "PlayfairDisplayRegular";
@@ -3619,10 +3611,52 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000334}}
-.meet-element_1 .meet_left .headline span,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000332}}
+.meet-element_1 .meet_left .headline span {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  display: block;
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000342}}
+.meet-element_1 .meet_left .meet-text {
+  font-size: 16px;
+  margin-bottom: 29px;
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+  font-family: "RobotoRegular";
+  padding-left: 14%;
+  padding-right: 14%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000352}}
+.meet-element_1 .meet-right {
+  width: 53%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000357}}
+.meet-element_2 .meet_left,
+.meet-element_2 .meet-right {
+  width: 53%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000360}}
+.meet-element_2 .meet_left .headline,
+.meet-element_2 .meet-right .headline {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: "RobotoLight";
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  margin-top: 92px;
+  margin-bottom: 29px;
+  padding-left: 14%;
+  padding-right: 14%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000371}}
 .meet-element_2 .meet_left .headline span,
-.meet-element_1 .meet-right .headline span,
 .meet-element_2 .meet-right .headline span {
   font-size: 15px;
   text-transform: uppercase;
@@ -3632,10 +3666,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   letter-spacing: 0.3px;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000344}}
-.meet-element_1 .meet_left .meet-text,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000381}}
 .meet-element_2 .meet_left .meet-text,
-.meet-element_1 .meet-right .meet-text,
 .meet-element_2 .meet-right .meet-text {
   font-size: 16px;
   margin-bottom: 29px;
@@ -3645,71 +3677,157 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000354}}
-.meet-element_1 .meet-right,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000391}}
 .meet-element_2 .meet-right {
-  width: 53%;
+  width: 47%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000359}}
-.meet-element_1 .meet-right {
-  padding-right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000364}}
-.meet-element_2 .meet_left {
-  padding-right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000368}}
-.meet-element_2 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  margin-top: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000372}}
-.meet-element_2 .meet-right img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000394}}
+.meet-element_2 .img-trish_2 {
   position: relative;
   top: -30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000376}}
-.meet-element_2 .meet-right .meet-text {
-  padding-right: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000381}}
-.meet-element_2 .meet_left .headline,
-.meet-element_2 .meet-right .headline {
-  font-size: 34px;
-  text-transform: uppercase;
-  font-family: "RobotoLight";
-  font-weight: 300;
-  letter-spacing: -1.5px;
-  line-height: 1.1;
-  margin-top: 79px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000398}}
 .meet-element_2 .book-trish {
   max-width: 415px;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003103}}
+.meet-element_2 .meet_left .headline {
+  margin-top: 62px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003106}}
+.meet-element_2 .meet_left .meet-text {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003109}}
+.meet-element_2 .meet_left .disabled_text {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003114}}
 .meet-video {
   width: 100%;
   max-width: 900px;
   height: 510px;
   margin: 30px auto 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003121}}
 .meet_img_b1 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003125}}
 .meet_img_b2 {
   text-align: center;
   margin-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003128}}
 .meet_img_b2 img {
   width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003132}}
+.meet-element_1 .meet_left .img-trish_1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003135}}
+.meet-element_2 .meet_left .disabled_text_2 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003138}}
+.meet-element_2 .meet_left .disabled_text {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003141}}
+.meet-element_2 .meet-right .disabled_text {
+  display: none;
+}
+@media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003145}}
+  .meet-element_2 .meet_left .disabled_text_2 {
+    display: block;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003148}}
+  .meet-element_2 .meet-right .disabled_text {
+    display: block;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003151}}
+  .meet-element_1 {
+    margin-top: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003154}}
+  .meet-element_1 .meet_left .headline {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003158}}
+  .meet-element_1 .meet_left .img-trish_1 {
+    display: block;
+    margin-bottom: 30px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003164}}
+  .meet-element_1 .meet-right {
+    display: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003167}}
+  .meet-element_1 .meet_left,
+  .meet-element_2 .meet_left,
+  .meet-element_1 .meet-right,
+  .meet-element_2 .meet-right {
+    width: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003172}}
+  .meet-element_1 .meet_left .headline,
+  .meet-element_2 .meet_left .headline,
+  .meet-element_1 .meet-right .headline,
+  .meet-element_2 .meet-right .headline {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003177}}
+  .meet-element_1 .meet_left .meet-text,
+  .meet-element_2 .meet_left .meet-text,
+  .meet-element_1 .meet-right .meet-text,
+  .meet-element_2 .meet-right .meet-text {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003183}}
+  .meet-element_2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003186}}
+  .meet-element_2 .meet_left .headline {
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003190}}
+  .meet-element_2 .meet_left .img-trish_2 {
+    top: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003193}}
+  .meet-element_2 .meet_left .disabled_text {
+    display: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003197}}
+  .meet-element_2 .meet-right {
+    text-align: center;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003199}}
+  .meet-element_2 .meet-right .headline {
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003203}}
+  .meet-element_2 .meet-right .book-trish {
+    float: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Meet-Trish\.less}line{font-family:\00003206}}
+  .meet-element_2 .meet-right .disabled_text_2 {
+    display: none;
+  }
 }
 /***************************Page HTML END**************************/
 /*# sourceMappingURL=Meet-Trish.css.map */

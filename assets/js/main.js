@@ -1,5 +1,6 @@
 jQuery(function($) {
     if ($(window).width() <= 767) {
+
         // Footer dropdown menu
         $('.menu-title').on('click', function () {
             $(this).toggleClass('item-open');
@@ -74,7 +75,9 @@ jQuery(function($) {
             }
         });
     }
-
+    $(".img-trish_1").clone().insertAfter(".meet-element_1 .meet_left .headline");
+    $(".meet-element_2 .meet-right .headline, .meet-element_2 .meet-right .meet-text").clone().insertAfter(".meet-element_2 .meet_left .img-trish_2");
+    $(".meet-element_2 .meet_left .disabled_text, .meet-element_2 .meet_left .disabled_text").clone().insertAfter(".meet-element_2 .meet-right .book-trish");
     $('.level0.parent > a').on('touchstart click', function(e){
         e.preventDefault();
     });
@@ -251,4 +254,5 @@ $(document).ready(function() {
     $('.login').click(function(){
         $('.block_mini-log').toggle();
     });
+
 });
