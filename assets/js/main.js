@@ -254,5 +254,16 @@ $(document).ready(function() {
     $('.login').click(function(){
         $('.block_mini-log').toggle();
     });
+    $('.checkout-select_btn').click(function(){
+        $(this).next().stop().slideToggle();
+    });
+    $(".input-effect_focus input").val("");
 
+    $(".input-effect input").focusout(function(){
+        if($(this).val() != ""){
+            $(this).addClass("has-content");
+        }else{
+            $(this).removeClass("has-content");
+        }
+    })
 });

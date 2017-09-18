@@ -11,10 +11,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/examples.css" media="screen"/>
     <link rel="Stylesheet" type="text/css" href="assets/css/wSelect.css"/>
     <link rel="Stylesheet" type="text/css" href="assets/css/magnific-popup.css"/>
-    <link rel="Stylesheet" type="text/css" href="assets/css/My-Account.css"/>
+    <link rel="Stylesheet" type="text/css" href="assets/css/Checkout.css"/>
 </head>
 
-<body>
+<body class="checkout_page">
 <div class="page-wrapper">
     <div class="top-line-header">
         <div class="container">
@@ -1308,16 +1308,267 @@
         </div>
     </header>
     <main>
-        <div class="container wrap-account">
-            <div class="my-account-block">
-                <div class="my-account_left">
-                    <div class="headline">
-                        My Trish Account
+        <div class="container wrap-checkout">
+            <div class="checkout-block">
+                <div class="checkout-block_left">
+                    <div class="checkout-select">
+                        <div class="checkout-select_btn">Shipping INFO</div>
+                        <div class="checkout-select_info">
+                            <div class="block_login">
+                                <p>Already registered?<a href="#">Log in</a></p>
+                                <span>Log in for faster checkout or provide a password below to create an account</span>
+                            </div>
+                            <form>
+                                <p class="form-headline">Shipping Address</p>
+                                <div class="form_block-element form_block-element_two">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>First Name</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Last Name</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Address Line 1</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Address Line 2 (optional)</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_three">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Zip Code</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>City</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="block_select-effect">
+                                        <select class="select-effect">
+                                            <option value="State1">State</option>
+                                            <option value="State2" rel="icon-temperature">State</option>
+                                            <option value="State3">State3</option>
+                                            <option value="State4">State4</option>
+                                            <option value="State5">State5</option>
+                                            <option value="State6">State6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="block_select-effect">
+                                        <select class="select-effect">
+                                            <option value="United States1">United States</option>
+                                            <option value="United States2" rel="icon-temperature">United States</option>
+                                            <option value="United States3">United States3</option>
+                                            <option value="United States4">United States4</option>
+                                            <option value="United States5">United States5</option>
+                                            <option value="United States6">United States6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_two">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Email</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Confirm Email</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="subtitle">Create an account to check order status</div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Enter a Password (optional)</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="checkbox-block">
+                                    <div class="checkbox_element">
+                                        <input type="checkbox" id="c1" name="cc"/>
+                                        <label for="c1"><span></span>This is also my billing address</label>
+                                    </div>
+                                    <div class="checkbox_element">
+                                        <input type="checkbox" id="c2" name="cc"/>
+                                        <label for="c2"><span></span>I want exclusive email updates from Trish</label>
+                                    </div>
+                                </div>
+                                <p class="form-headline">Shipping Speed</p>
+                                <div class="radioButton_block">
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c3" name="cc"/>
+                                        <label for="c3"><span></span>UPS Ground - $13.23</label>
+                                    </div>
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c4" name="cc"/>
+                                        <label for="c4"><span></span>UPS 2nd Day Air - $43.43</label>
+                                    </div>
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c5" name="cc"/>
+                                        <label for="c5"><span></span>UPS Next Day Air - $56.10</label>
+                                    </div>
+                                </div>
+                                <a href="" class="standart_btn">
+                                    NEXT
+                                    <img src="assets/img/Default/cart-arrow.png" alt="img">
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="checkout-select checkout-select_2">
+                        <div class="checkout-select_btn">Billing and payment info</div>
+                        <div class="checkout-select_info">
+                            <form>
+                                <div class="checkbox-block checkbox-block_2">
+                                    <div class="checkbox_element">
+                                        <input type="checkbox" id="c7" name="cc"/>
+                                        <label for="c7"><span></span>This is also my billing address</label>
+                                    </div>
+                                </div>
+                                <p class="form-headline">Billing Address</p>
+                                <div class="form_block-element form_block-element_two">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>First Name</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Last Name</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Address Line 1</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Address Line 2 (optional)</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_three">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Zip Code</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>City</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="block_select-effect">
+                                        <select class="select-effect">
+                                            <option value="State1">State</option>
+                                            <option value="State2" rel="icon-temperature">State</option>
+                                            <option value="State3">State3</option>
+                                            <option value="State4">State4</option>
+                                            <option value="State5">State5</option>
+                                            <option value="State6">State6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="block_select-effect">
+                                        <select class="select-effect">
+                                            <option value="United States1">United States</option>
+                                            <option value="United States2" rel="icon-temperature">United States</option>
+                                            <option value="United States3">United States3</option>
+                                            <option value="United States4">United States4</option>
+                                            <option value="United States5">United States5</option>
+                                            <option value="United States6">United States6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <p class="form-headline form-headline_2">Payment Method</p>
+                                <div class="form_block-element form_block-element_one form_apply">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Redeem a Gift Card?</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <a href="" class="btn_apply">apply</a>
+                                </div>
+                                <div class="radioButton_block cart-element">
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c9" name="cc"/>
+                                        <label for="c9"><span></span><img class="cart-img visa-cart"
+                                                                          src="assets/img/Default/visa.svg"></label>
+                                    </div>
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c10" name="cc"/>
+                                        <label for="c10"><span></span><img class="cart-img master-cart"
+                                                                           src="assets/img/Default/master-cart.svg"></label>
+                                    </div>
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c11" name="cc"/>
+                                        <label for="c11"><span></span><img class="cart-img amex-cart"
+                                                                           src="assets/img/Default/Amex.svg"></label>
+                                    </div>
+                                    <div class="radioButton_element">
+                                        <input type="radio" id="c12" name="cc"/>
+                                        <label for="c12"><span></span><img class="cart-img discover-cart"
+                                                                           src="assets/img/Default/idiscover.svg"></label>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_one">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Name on Card</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                </div>
+                                <div class="form_block-element form_block-element_three">
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>Zip Code</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="input-effect_focus input-effect">
+                                        <input class="effect-22" type="text" placeholder="">
+                                        <label>City</label>
+                                        <span class="focus-bg"></span>
+                                    </div>
+                                    <div class="block_select-effect">
+                                        <select class="select-effect">
+                                            <option value="State1">State</option>
+                                            <option value="State2" rel="icon-temperature">State</option>
+                                            <option value="State3">State3</option>
+                                            <option value="State4">State4</option>
+                                            <option value="State5">State5</option>
+                                            <option value="State6">State6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <a href="" class="standart_btn">
+                                    NEXT
+                                    <img src="assets/img/Default/cart-arrow.png" alt="img">
+                                </a>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="my-account_right"></div>
+                <div class="checkout-block_right"></div>
             </div>
-
         </div>
     </main>
     <footer class="page-footer">
@@ -1384,8 +1635,11 @@
                             <a href="#"><i class="icon-facebook"></i></a>
                             <a href="#"><i class="icon-gplus"></i></a>
                             <a href="#"><i class="icon-pinterest"></i></a>
-                            <a href="#"><i class="icon-youtube"></i></a>
+                            font-size: 15pt;
+                            font-family: "RobotoMedium"; <a href="#"><i class="icon-youtube"></i></a>
                         </div>
+                        font-size: 15pt;
+                        font-family: "RobotoMedium";
                     </div>
                 </div>
             </div>
