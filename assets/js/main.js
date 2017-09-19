@@ -134,7 +134,7 @@ $('.block-select select').each(function(){
 });
 $(document).ready(function() {
     $('select').wSelect();
-    $('.popup-with-form').magnificPopup({
+    $('.popup-with-form, .select-log').magnificPopup({
         type: 'inline',
         preloader: false,
         focus: '#name',
