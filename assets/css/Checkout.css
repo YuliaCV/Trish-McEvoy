@@ -4743,8 +4743,9 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   width: 100%;
   margin-top: 10px;
   text-align: right;
+  font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003875}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003876}}
 .checkout_page .standart_btn {
   margin: 30px auto 0;
   width: 270px;
