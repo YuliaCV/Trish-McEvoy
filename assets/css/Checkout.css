@@ -4036,15 +4036,576 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
 .checkout-block_left .checkout-select_2 .checkout-select_info form .cart-element .radioButton_element {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003360}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .double-select {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003365}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .double-select .text-date {
+  margin-bottom: 15px;
+  margin-right: 13px;
+  color: #7d7d7d;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003372}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .double-select .block_select-effect:last-child {
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003376}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .cart-number-block {
+  max-width: 260px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003380}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .cart-number {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003383}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .security-block {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003387}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .security-block .input-effect {
+  max-width: 128px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003390}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .security-block .input-effect .effect-22 {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003394}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .security-block .code-text {
+  margin-bottom: 15px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003400}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .cart-element_2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003404}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .cart-element_2 .radioButton_element {
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003409}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .cart-element_2 .radioButton_element .cart-img {
+  height: 23px;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003415}}
+.checkout-block_left .checkout-select_2 .checkout-select_info form .standart_btn {
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003423}}
+.checkout-block_left .checkout-select_3 form .checkout-product {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003429}}
+.checkout-block_left .checkout-select_3 form .checkout-product:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003433}}
+.checkout-block_left .checkout-select_3 form .checkout-product .img-item .item {
+  max-width: 150px;
+  max-height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003438}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item {
+  width: 100%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003445}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_top .item_headline {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003450}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_top .color-headline {
+  margin-top: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003456}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_top .color-headline img {
+  width: 19px;
+  margin-right: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003462}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003468}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom .info-item_left .qty-item {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003472}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom .info-item_left .qty-item span {
+  font-family: "RobotoRegular";
+  margin-left: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003479}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom .info-item_right .item_momey {
+  font-size: 18px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003482}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom .info-item_right .item_momey span {
+  position: relative;
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003485}}
+.checkout-block_left .checkout-select_3 form .checkout-product .info-item_bottom .info-item_right .item_momey span:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #7d7d7d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003501}}
+.checkout-block_left .checkout-select_3 form .all-information {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003507}}
+.checkout-block_left .checkout-select_3 form .all-information .left .edit-cart {
+  display: block;
+  text-transform: uppercase;
+  width: 168px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  font-size: 14px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003519}}
+.checkout-block_left .checkout-select_3 form .all-information .left .edit-cart:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003526}}
+.checkout-block_left .checkout-select_3 form .all-information .right {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003531}}
+.checkout-block_left .checkout-select_3 form .all-information .right .info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003536}}
+.checkout-block_left .checkout-select_3 form .all-information .right .info-line .text-left {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003541}}
+.checkout-block_left .checkout-select_3 form .all-information .right .info-line .text-right {
+  min-width: 90px;
+  font-size: 16px;
+  font-family: "RobotoRegular";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003547}}
+.checkout-block_left .checkout-select_3 form .all-information .right .grand-block {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 18px;
+  width: 204px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003551}}
+.checkout-block_left .checkout-select_3 form .all-information .right .grand-block .info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003556}}
+.checkout-block_left .checkout-select_3 form .all-information .right .grand-block .info-line .text-left {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003561}}
+.checkout-block_left .checkout-select_3 form .all-information .right .grand-block .info-line .text-right {
+  min-width: 90px;
+  font-size: 16px;
+  font-family: "RobotoBold";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003573}}
 .checkout-block_right {
   max-width: 450px;
   width: 100%;
-  height: 750px;
   background-color: #ffffff;
   border: 1px solid #e9e9e9;
+  padding-bottom: 35px;
+  padding-top: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003580}}
+.checkout-block_right .checkout-select_top-headline {
+  width: calc(100% - 60px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #e9e9e9;
+  margin: 0 auto 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003588}}
+.checkout-block_right .checkout-select_top-headline .left {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "RobotoLight";
+  letter-spacing: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003593}}
+.checkout-block_right .checkout-select_top-headline .left span {
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003597}}
+.checkout-block_right .checkout-select_top-headline .right {
+  text-transform: uppercase;
+  display: block;
+  color: #000000;
+  font-size: 13px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003605}}
+.checkout-block_right .checkout-select_info {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003609}}
+.checkout-block_right .checkout-select_info form .checkout-product {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003615}}
+.checkout-block_right .checkout-select_info form .checkout-product:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003619}}
+.checkout-block_right .checkout-select_info form .checkout-product .img-item .item {
+  max-width: 80px;
+  max-height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003624}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item {
+  width: 100%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003630}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_top {
+  margin-bottom: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003632}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_top .item_headline {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003637}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_top .color-headline {
+  margin-top: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003644}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_top .color-headline img {
+  width: 19px;
+  margin-right: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003650}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003656}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom .info-item_left .qty-item {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003660}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom .info-item_left .qty-item span {
+  font-family: "RobotoRegular";
+  margin-left: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003667}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom .info-item_right .item_momey {
+  font-size: 18px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003670}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom .info-item_right .item_momey span {
+  position: relative;
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003673}}
+.checkout-block_right .checkout-select_info form .checkout-product .info-item_bottom .info-item_right .item_momey span:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #7d7d7d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003689}}
+.checkout-block_right .checkout-select_info form .all-information {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003695}}
+.checkout-block_right .checkout-select_info form .all-information .left .edit-cart {
+  display: block;
+  text-transform: uppercase;
+  width: 168px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  font-size: 14px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003707}}
+.checkout-block_right .checkout-select_info form .all-information .left .edit-cart:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003714}}
+.checkout-block_right .checkout-select_info form .all-information .right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003719}}
+.checkout-block_right .checkout-select_info form .all-information .right .info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003724}}
+.checkout-block_right .checkout-select_info form .all-information .right .info-line .text-left {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003729}}
+.checkout-block_right .checkout-select_info form .all-information .right .info-line .text-right {
+  min-width: 90px;
+  font-size: 16px;
+  font-family: "RobotoRegular";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003735}}
+.checkout-block_right .checkout-select_info form .all-information .right .grand-block {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 18px;
+  width: 204px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003739}}
+.checkout-block_right .checkout-select_info form .all-information .right .grand-block .info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003744}}
+.checkout-block_right .checkout-select_info form .all-information .right .grand-block .info-line .text-left {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003749}}
+.checkout-block_right .checkout-select_info form .all-information .right .grand-block .info-line .text-right {
+  min-width: 90px;
+  font-size: 16px;
+  font-family: "RobotoBold";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003763}}
 .standart_btn {
   width: 195px;
   height: 42px;
@@ -4062,7 +4623,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
           justify-content: center;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/Checkout\.less}line{font-family:\00003773}}
 .standart_btn img {
   margin-left: 15px;
 }
