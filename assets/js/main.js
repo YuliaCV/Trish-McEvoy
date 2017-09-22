@@ -1,6 +1,7 @@
 jQuery(function($) {
     if ($(window).width() <= 767) {
 
+
         // Footer dropdown menu
         $('.menu-title').on('click', function () {
             $(this).toggleClass('item-open');
