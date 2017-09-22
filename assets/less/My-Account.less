@@ -79,9 +79,12 @@
     margin-top: 30px;
     .all-block {
       display: flex;
+      flex-wrap: wrap;
       .adderss-book-info {
-        width: 290px;
+        max-width: 290px;
+        width: 100%;
         margin-right: 10px;
+        margin-bottom: 20px;
         .info_line {
           font-family: "RobotoMedium";
           letter-spacing: 0;
@@ -402,6 +405,48 @@
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     body {
       width: 495px;
+    }
+  }
+}
+@media (max-width: 1024px){
+  .all-block_order{
+    #page-wrap{
+      table{
+        tr{
+          border-bottom: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+          td{
+            &:last-child{
+              border-bottom: 0;
+            }
+            border-bottom: 1px dashed #ccc;
+          }
+          td:before{
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .servise{
+      color: #000000;
+      padding-left: 50%;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 944px){
+  .my-account-block{
+    .block_account-info{
+      .all-block{
+        width: 100%;
+        max-width: 640px;
+        .form_block-element_two{
+          flex-wrap: wrap;
+        }
+      }
     }
   }
 }

@@ -3670,28 +3670,32 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000383}}
 .my-account-block .block_adderss-book .all-block .adderss-book-info {
-  width: 290px;
+  max-width: 290px;
+  width: 100%;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000388}}
 .my-account-block .block_adderss-book .all-block .adderss-book-info .info_line {
   font-family: "RobotoMedium";
   letter-spacing: 0;
   font-size: 14px;
   margin-bottom: 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000394}}
 .my-account-block .block_adderss-book .all-block .adderss-book-info .info_line.headline {
   margin-bottom: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000397}}
 .my-account-block .block_adderss-book .all-block .adderss-book-info .info_line.line_1 {
   color: #7d7d7d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003102}}
 .my-account-block .block_adderss-book .standart_btn {
   margin-top: 40px;
   width: 195px;
@@ -3710,26 +3714,26 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   justify-content: center;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003119}}
 .my-account-block .block_adderss-book .standart_btn img {
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003124}}
 .my-account-block .block_account-info {
   margin-top: 30px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003127}}
 .my-account-block .block_account-info .all-block {
   width: 640px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003130}}
 .my-account-block .block_account-info .span-text {
   letter-spacing: 0;
   color: #7d7d7d;
   margin-bottom: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003136}}
 .my-account-block .form_block-element {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3738,11 +3742,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003139}}
 .my-account-block .form_block-element .input-effect {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003142}}
 .my-account-block .form_block-element input[type="text"] {
   font-family: "RobotoRegular";
   font-size: 13px;
@@ -3754,7 +3758,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   z-index: 2;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003152}}
 .my-account-block .form_block-element .subtitle {
   color: #7d7d7d;
   font-family: "RobotoRegular";
@@ -3764,21 +3768,21 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   margin-top: 7px;
   letter-spacing: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003161}}
 .my-account-block .form_block-element .input-effect {
   margin-bottom: 15px;
   max-width: 310px;
   width: 100%;
   background-color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003167}}
 .my-account-block .form_block-element .effect-22 {
   padding: 7px 15px;
   border: 1px solid #c2c2c2;
   position: relative;
   background: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003173}}
 .my-account-block .form_block-element .effect-22 ~ .focus-bg {
   position: absolute;
   left: 0;
@@ -3790,7 +3794,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   transition: 0.4s;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003183}}
 .my-account-block .form_block-element .effect-22:focus ~ .focus-bg,
 .my-account-block .form_block-element .has-content.effect-22 ~ .focus-bg {
   -webkit-transition: 0.4s;
@@ -3798,7 +3802,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   width: 100%;
   background-color: #ededed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003189}}
 .my-account-block .form_block-element .effect-22 ~ label {
   position: absolute;
   left: 14px;
@@ -3814,7 +3818,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-size: 13px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003202}}
 .my-account-block .form_block-element .effect-22:focus ~ label,
 .my-account-block .form_block-element .has-content.effect-22 ~ label {
   top: -1px;
@@ -3830,7 +3834,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   z-index: 3;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003216}}
 .my-account-block .hint-text {
   width: 320px;
   color: #7d7d7d;
@@ -3839,11 +3843,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-style: italic;
   line-height: 1.4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003224}}
 .my-account-block .account-phone {
   margin-top: 36px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003226}}
 .my-account-block .account-phone .phone-headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3853,15 +3857,15 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
           align-items: center;
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003230}}
 .my-account-block .account-phone .phone-headline img {
   margin-left: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003234}}
 .my-account-block .account-phone .checkbox-block {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003237}}
 .my-account-block .account-phone .checkbox-block label {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3875,12 +3879,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   text-transform: uppercase;
   letter-spacing: 0.6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003246}}
 .my-account-block .account-phone .checkbox-block input[type="checkbox"] {
   display: none;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003250}}
 .my-account-block .account-phone .checkbox-block input[type="checkbox"] + label span {
   display: inline-block;
   width: 20px;
@@ -3888,25 +3892,25 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   border: 1px solid #c2c2c2;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003257}}
 .my-account-block .account-phone .checkbox-block input[type="checkbox"]:checked + label span {
   background-image: url('../../assets/img/Default/checkbox.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003267}}
 .all-block_order {
   /* Zebra striping */
   /* Smartphones (portrait and landscape) ----------- */
   /* iPads (portrait and landscape) ----------- */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003268}}
 .all-block_order table {
   width: 100%;
   border-collapse: collapse;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003276}}
 .all-block_order th {
   background: #f5f5f5;
   color: #000000;
@@ -3915,7 +3919,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   letter-spacing: 0;
   font-family: "RobotoMedium";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003284}}
 .all-block_order td,
 .all-block_order th {
   padding: 6px;
@@ -3924,20 +3928,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-family: "RobotoMedium";
   line-height: 1.4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003292}}
 .all-block_order td {
   padding: 23px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003295}}
 .all-block_order th {
   padding: 18px 23px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003299}}
 .all-block_order tr a {
   color: #000000;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003303}}
 .all-block_order tr button {
   width: 120px;
   height: 41px;
@@ -3946,13 +3950,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003309}}
 .all-block_order tr button:hover {
   background-color: #000000;
   color: #ffffff;
   border-color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003316}}
 .all-block_order .servise {
   color: #7d7d7d;
   font-size: 13px;
@@ -3960,7 +3964,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding: 18px 23px;
 }
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003319}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003322}}
   .all-block_order {
     /* Force table to not be like tables anymore */
     /* Hide table headers (but not display: none;, for accessibility) */
@@ -3968,7 +3972,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     Label the data
     */
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003323}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003326}}
   .all-block_order table,
   .all-block_order thead,
   .all-block_order tbody,
@@ -3977,17 +3981,17 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   .all-block_order tr {
     display: block;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003328}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003331}}
   .all-block_order thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003334}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003337}}
   .all-block_order tr {
     border: 1px solid #ccc;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003338}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003341}}
   .all-block_order td {
     /* Behave  like a "row" */
     border: none;
@@ -3995,7 +3999,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     position: relative;
     padding-left: 50%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003346}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003349}}
   .all-block_order td:before {
     /* Now like a table header */
     position: absolute;
@@ -4007,37 +4011,37 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     white-space: nowrap;
     text-transform: uppercase;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003361}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003364}}
   .all-block_order td:nth-of-type(1):before {
     content: "ORDER NUMBER";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003365}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003368}}
   .all-block_order td:nth-of-type(2):before {
     content: "ORDER DATE";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003369}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003372}}
   .all-block_order td:nth-of-type(3):before {
     content: "payment Status";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003373}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003376}}
   .all-block_order td:nth-of-type(4):before {
     content: "Shipping Status";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003377}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003380}}
   .all-block_order td:nth-of-type(5):before {
     content: "Order total";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003381}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003384}}
   .all-block_order td:nth-of-type(6):before {
     content: "Customer service notes";
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003385}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003388}}
   .all-block_order td:nth-of-type(7):before {
     content: "order again";
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003394}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003397}}
   .all-block_order body {
     padding: 0;
     margin: 0;
@@ -4045,18 +4049,59 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003403}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003406}}
   .all-block_order body {
     width: 495px;
   }
 }
+@media (max-width: 1024px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003415}}
+  .all-block_order #page-wrap table tr {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003419}}
+  .all-block_order #page-wrap table tr td {
+    border-bottom: 1px dashed #ccc;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003420}}
+  .all-block_order #page-wrap table tr td:last-child {
+    border-bottom: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003425}}
+  .all-block_order #page-wrap table tr td:before {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 14px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003433}}
+  .all-block_order .servise {
+    color: #000000;
+    padding-left: 50%;
+    text-align: center;
+  }
+}
+@media (max-width: 944px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003443}}
+  .my-account-block .block_account-info .all-block {
+    width: 100%;
+    max-width: 640px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003446}}
+  .my-account-block .block_account-info .all-block .form_block-element_two {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 @media (max-width: 925px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003411}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003456}}
   .block_wish-list .all-catalog_product .product-element {
     width: 47%;
     height: auto;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003414}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\00003459}}
   .block_wish-list .all-catalog_product .product-element .product-element_img {
     width: 100%;
     height: auto;
