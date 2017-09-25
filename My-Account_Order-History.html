@@ -1436,106 +1436,1238 @@
             </div>
         </header>
         <main>
-            <div class="container wrap-account">
+            <div class="container wrap-account tabs">
                 <div class="my-account-block">
                     <div class="my-account_left">
                         <div class="headline">
                             My Trish Account
                         </div>
-                        <div class="my-account_menu">
-                            <div class="left_menu-item">
-                                <a href="My-Account_Order-History.html" class="item act">Order History</a>
-                            </div>
-                            <div class="left_menu-item">
-                                <a href="My-Account_Account-Info.html" class="item">Account Info</a>
-                            </div>
-                            <div class="left_menu-item">
-                                <a href="My-Account_Address-Book.html" class="item">Address Book</a>
-                            </div>
-                            <div class="left_menu-item">
-                                <a href="My-Account_Wish-List.html" class="item">My Wish List</a>
-                            </div>
+                        <div class="tabs clearfix my-account_menu" data-tabgroup="first-tab-group">
+                            <li class="left_menu-item"><a href="#tab1" class="item active">Order History</a></li>
+                            <li class="left_menu-item"><a href="#tab2" class="item">Account Info</a></li>
+                            <li class="left_menu-item"><a href="#tab3" class="item">Address Book</a></li>
+                            <li class="left_menu-item"><a href="#tab4" class="item">My Wish List</a></li>
                         </div>
                     </div>
-                    <div class="my-account_right">
-                        <div class="headline-element_account">Address Book</div>
-                        <div class="all-block_order">
-                            <div id="page-wrap">
-                                <table>
-                                    <thead>
-                                    <tr>
-                                        <th>ORDER NUMBER</th>
-                                        <th>ORDER DATE</th>
-                                        <th>payment Status</th>
-                                        <th>Shipping Status</th>
-                                        <th>Order total</th>
-                                        <th>Customer service notes</th>
-                                        <th>order again</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><a href="">95731</a></td>
-                                        <td>04/07/17</td>
-                                        <td>Paid</td>
-                                        <td>Delivered</td>
-                                        <td>$58.00</td>
-                                        <td class="servise">None lorem ipsum dolor</td>
-                                        <td>
-                                            <button>ADD TO BAG</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="">95731</a></td>
-                                        <td>04/07/17</td>
-                                        <td>Paid</td>
-                                        <td>Delivered</td>
-                                        <td>$58.00</td>
-                                        <td class="servise">None lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                            .
-                                        </td>
-                                        <td>
-                                            <button>ADD TO BAG</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="">95731</a></td>
-                                        <td>04/07/17</td>
-                                        <td>Paid</td>
-                                        <td>Delivered</td>
-                                        <td>$58.00</td>
-                                        <td class="servise">None lorem ipsum dolor</td>
-                                        <td>
-                                            <button>ADD TO BAG</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="">95731</a></td>
-                                        <td>04/07/17</td>
-                                        <td>Paid</td>
-                                        <td>Delivered</td>
-                                        <td>$58.00</td>
-                                        <td class="servise">None lorem ipsum dolor sit amet, consectetur adipiscing
-                                            elit.
-                                        </td>
-                                        <td>
-                                            <button>ADD TO BAG</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="">95731</a></td>
-                                        <td>04/07/17</td>
-                                        <td>Paid</td>
-                                        <td>Delivered</td>
-                                        <td>$58.00</td>
-                                        <td class="servise">None lorem ipsum dolor</td>
-                                        <td>
-                                            <button>ADD TO BAG</button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                    <div class="my-account_right_position">
+                        <div class="headline-element_account">Headline</div>
+                        <div class="my-account_right tabgroup" id="first-tab-group">
+                            <div class="all-block_order block-item_account" id="tab1">
+                                <div id="page-wrap">
+                                    <table>
+                                        <thead>
+                                        <tr>
+                                            <th>ORDER NUMBER</th>
+                                            <th>ORDER DATE</th>
+                                            <th>payment Status</th>
+                                            <th>Shipping Status</th>
+                                            <th>Order total</th>
+                                            <th>Customer service notes</th>
+                                            <th>order again</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><a href="">95731</a></td>
+                                            <td>04/07/17</td>
+                                            <td>Paid</td>
+                                            <td>Delivered</td>
+                                            <td>$58.00</td>
+                                            <td class="servise"><span class="text-align">None lorem ipsum dolor</span></td>
+                                            <td>
+                                                <button>ADD TO BAG</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="">95731</a></td>
+                                            <td>04/07/17</td>
+                                            <td>Paid</td>
+                                            <td>Delivered</td>
+                                            <td>$58.00</td>
+                                            <td class="servise"><span class="text-align">None lorem ipsum dolor sit
+                                                amet, consectetur
+                                                                       adipiscing elit.</span>
+                                            </td>
+                                            <td>
+                                                <button>ADD TO BAG</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="">95731</a></td>
+                                            <td>04/07/17</td>
+                                            <td>Paid</td>
+                                            <td>Delivered</td>
+                                            <td>$58.00</td>
+                                            <td class="servise"><span class="text-align">None lorem ipsum dolor</span></td>
+                                            <td>
+                                                <button>ADD TO BAG</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="">95731</a></td>
+                                            <td>04/07/17</td>
+                                            <td>Paid</td>
+                                            <td>Delivered</td>
+                                            <td>$58.00</td>
+                                            <td class="servise"><span class="text-align">None lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit.</span>
+                                            </td>
+                                            <td>
+                                                <button>ADD TO BAG</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="">95731</a></td>
+                                            <td>04/07/17</td>
+                                            <td>Paid</td>
+                                            <td>Delivered</td>
+                                            <td>$58.00</td>
+                                            <td class="servise"><span class="text-align">None lorem ipsum dolor</span></td>
+                                            <td>
+                                                <button>ADD TO BAG</button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
 
+                                </div>
+                            </div>
+                            <div class="block_account-info block-item_account" id="tab2">
+                                <div class="span-text">Your account information is used to login to the site. Please
+                                    save
+                                    your
+                                    password in a safe place.
+                                </div>
+                                <div class="all-block">
+                                    <form>
+                                        <div class="form_block-element form_block-element_two">
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>First Name*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>Last Name*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form_block-element form_block-element_two">
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>Email*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>Confirm Email*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form_block-element form_block-element_two">
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>Password*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                            <div class="input-effect_focus input-effect">
+                                                <input class="effect-22" type="text" placeholder="">
+                                                <label>Confirm Password*</label>
+                                                <span class="focus-bg"></span>
+                                            </div>
+                                        </div>
+                                        <div class="hint-text">
+                                            At least 8 characters long and include at least one upper case character,
+                                            one
+                                            lower case character, one number, and one "symbol" character (e.g. ?, &, #,
+                                            $,
+                                            %, etc.
+                                        </div>
+                                        <div class="account-phone">
+                                            <div class="phone-headline">Phone*<img src="assets/img/Default/help.png">
+                                            </div>
+                                            <div class="form_block-element form_block-element_two">
+                                                <div class="input-effect_focus input-effect">
+                                                    <input class="effect-22" type="text" placeholder="">
+                                                    <label>Phone</label>
+                                                    <span class="focus-bg"></span>
+                                                </div>
+                                            </div>
+                                            <div class="checkbox-block">
+                                                <div class="checkbox_element">
+                                                    <input id="c41" name="cc" type="checkbox">
+                                                    <label for="c41"><span></span>I want exclusive email updates from
+                                                        Trish</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="block_adderss-book block-item_account" id="tab3">
+                                <div class="all-block">
+                                    <div class="adderss-book-info">
+                                        <div class="info_line headline">Primary Billing Address</div>
+                                        <div class="info_line line_1">Jane Doe</div>
+                                        <div class="info_line line_2">1000 Tilden Ave</div>
+                                        <div class="info_line line_3">Los Angeles, California 90064</div>
+                                        <div class="info_line line_5">United States</div>
+                                    </div>
+                                    <div class="adderss-book-info">
+                                        <div class="info_line headline">Primary Billing Address</div>
+                                        <div class="info_line line_1">Jane Doe</div>
+                                        <div class="info_line line_2">1000 Tilden Ave</div>
+                                        <div class="info_line line_3">Los Angeles, California 90064</div>
+                                        <div class="info_line line_5">United States</div>
+                                    </div>
+                                </div>
+                                <a href="" class="standart_btn">
+                                    Edit Addresses
+                                    <img src="assets/img/Default/cart-arrow.png" alt="img">
+                                </a>
+                            </div>
+                            <div class="block_wish-list block-item_account" id="tab4">
+                                <div class="all-block-catalog">
+                                    <div class="wrap-catalog">
+                                        <div class="all-catalog_product">
+                                            <section class="product-element">
+                                                <div class="product-element_img">
+                                                    <img class="prod-block" src="assets/img/Product/prod1.png"
+                                                         alt="product">
+                                                    <img class="prod-none" src="assets/img/Product/prod-hover.png">
+                                                    <a class="btn-product popup-with-form" href="#test-forms">Preview 8
+                                                        Shades</a>
+                                                </div>
+                                                <div class="mobile-preview">Preview 25 Shades <img class="mobile-plus"
+                                                                                                   src="assets/img/Default/img-plus.png"
+                                                                                                   alt="img">
+                                                </div>
+                                                <div class="product-text">
+                                                    <div class="collection">NEW SHADES</div>
+                                                    <a href="" class="product-name">Sheer Lip Color Collection</a>
+                                                    <div class="product-money">$28.50</div>
+                                                    <div class="product-stars">
+                                                        <img src="assets/img/Default/stars.png" alt="stars">
+                                                    </div>
+                                                </div>
+                                                <form id="test-forms" class="white-popup-block mfp-hide prod-pop_up">
+                                                    <div class="bg-pop_up">
+                                                        <div class="block-popup_slider">
+                                                            <div class="slider-pro example5">
+                                                                <div class="sp-slides">
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/pomada.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod1.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod2.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod3.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod4.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="sp-thumbnails">
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/pomada.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod1.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod2.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod3.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod4.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block-popup_info">
+                                                            <p class="popup_headline">Sheer Lip Color Collection</p>
+                                                            <div class="product-stars flex-stars">
+                                                                <img src="assets/img/Default/stars.png" alt="stars">
+                                                                <a href="" class="star-comment">(302)</a>
+                                                            </div>
+                                                            <p class="popup-money">$28.50</p>
+                                                            <select class="demo" tabindex="1">
+                                                                <option value="1"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach
+                                                                </option>
+                                                                <option value="2"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach2
+                                                                </option>
+                                                                <option value="3"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach3
+                                                                </option>
+                                                                <option value="4"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach4
+                                                                </option>
+                                                                <option value="5"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach5
+                                                                </option>
+                                                            </select>
+                                                            <div class="block-color">
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="block-add_cart">
+                                                                <div class="quantity-block">
+                                                                    <p>QTy</p>
+                                                                    <select class="qty-input">
+                                                                        <option value="1">1</option>
+                                                                        <option value="2" rel="icon-temperature">2
+                                                                        </option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="add-element">
+                                                                    <a href="" class="btn-add_cart">ADD TO BAG
+                                                                        <img src="assets/img/Default/cart-arrow.png"
+                                                                             alt="img">
+                                                                    </a>
+                                                                    <a class="wish-btn"></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="popup_text-info">
+                                                                <p class="popup_text-headline">Description</p>
+                                                                <div class="popup_text-b">
+                                                                    Trish’s innovative Sheer Lip Colors combine buildab
+                                                                    color, a
+                                                                    sheer finish
+                                                                    and lip care all in one. The weightless formula
+                                                                    conditions
+                                                                    lips and is
+                                                                    infused with a collagen synthesizer to boost lips
+                                                                    moisture
+                                                                    levels and volume
+                                                                    with continued wear.
+                                                                </div>
+                                                                <a href="" class="link-see_full">SEE Full Product
+                                                                    Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </section>
+                                            <section class="product-element">
+                                                <div class="product-element_img">
+                                                    <img class="prod-block" src="assets/img/Product/prod1.png"
+                                                         alt="product">
+                                                    <img class="prod-none" src="assets/img/Product/prod-hover.png">
+                                                    <a class="btn-product popup-with-form" href="#test-forms2">Preview 8
+                                                        Shades</a>
+                                                </div>
+                                                <div class="mobile-preview">Preview 25 Shades <img class="mobile-plus"
+                                                                                                   src="assets/img/Default/img-plus.png"
+                                                                                                   alt="img">
+                                                </div>
+                                                <div class="product-text">
+                                                    <div class="collection">NEW SHADES</div>
+                                                    <a href="" class="product-name">Sheer Lip Color Collection</a>
+                                                    <div class="product-money">$28.50</div>
+                                                    <div class="product-stars">
+                                                        <img src="assets/img/Default/stars.png" alt="stars">
+                                                    </div>
+                                                </div>
+                                                <form id="test-forms2" class="white-popup-block mfp-hide prod-pop_up">
+                                                    <div class="bg-pop_up">
+                                                        <div class="block-popup_slider">
+                                                            <div class="slider-pro example5">
+                                                                <div class="sp-slides">
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/pomada.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod1.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod2.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod3.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod4.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="sp-thumbnails">
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/pomada.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod1.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod2.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod3.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod4.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block-popup_info">
+                                                            <p class="popup_headline">Sheer Lip Color Collection</p>
+                                                            <div class="product-stars flex-stars">
+                                                                <img src="assets/img/Default/stars.png" alt="stars">
+                                                                <a href="" class="star-comment">(302)</a>
+                                                            </div>
+                                                            <p class="popup-money">$28.50</p>
+                                                            <select class="demo" tabindex="1">
+                                                                <option value="1"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach
+                                                                </option>
+                                                                <option value="2"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach2
+                                                                </option>
+                                                                <option value="3"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach3
+                                                                </option>
+                                                                <option value="4"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach4
+                                                                </option>
+                                                                <option value="5"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach5
+                                                                </option>
+                                                            </select>
+                                                            <div class="block-color">
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="block-add_cart">
+                                                                <div class="quantity-block">
+                                                                    <p>QTy</p>
+                                                                    <select class="qty-input">
+                                                                        <option value="1">1</option>
+                                                                        <option value="2" rel="icon-temperature">2
+                                                                        </option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="add-element">
+                                                                    <a href="" class="btn-add_cart">ADD TO BAG
+                                                                        <img src="assets/img/Default/cart-arrow.png"
+                                                                             alt="img">
+                                                                    </a>
+                                                                    <a class="wish-btn"></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="popup_text-info">
+                                                                <p class="popup_text-headline">Description</p>
+                                                                <div class="popup_text-b">
+                                                                    Trish’s innovative Sheer Lip Colors combine buildab
+                                                                    color, a
+                                                                    sheer finish
+                                                                    and lip care all in one. The weightless formula
+                                                                    conditions
+                                                                    lips and is
+                                                                    infused with a collagen synthesizer to boost lips
+                                                                    moisture
+                                                                    levels and volume
+                                                                    with continued wear.
+                                                                </div>
+                                                                <a href="" class="link-see_full">SEE Full Product
+                                                                    Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </section>
+                                            <section class="product-element">
+                                                <div class="product-element_img">
+                                                    <img class="prod-block" src="assets/img/Product/prod1.png"
+                                                         alt="product">
+                                                    <img class="prod-none" src="assets/img/Product/prod-hover.png">
+                                                    <a class="btn-product popup-with-form" href="#test-forms3">Preview 8
+                                                        Shades</a>
+                                                </div>
+                                                <div class="mobile-preview">Preview 25 Shades <img class="mobile-plus"
+                                                                                                   src="assets/img/Default/img-plus.png"
+                                                                                                   alt="img">
+                                                </div>
+                                                <div class="product-text">
+                                                    <a href="" class="product-name">Sheer Lip Color Collection</a>
+                                                    <div class="product-money">$28.50</div>
+                                                    <div class="product-stars">
+                                                        <img src="assets/img/Default/stars.png" alt="stars">
+                                                    </div>
+                                                </div>
+                                                <form id="test-forms3" class="white-popup-block mfp-hide prod-pop_up">
+                                                    <div class="bg-pop_up">
+                                                        <div class="block-popup_slider">
+                                                            <div class="slider-pro example5">
+                                                                <div class="sp-slides">
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/pomada.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod1.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod2.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod3.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod4.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="sp-thumbnails">
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/pomada.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod1.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod2.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod3.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod4.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block-popup_info">
+                                                            <p class="popup_headline">Sheer Lip Color Collection</p>
+                                                            <div class="product-stars flex-stars">
+                                                                <img src="assets/img/Default/stars.png" alt="stars">
+                                                                <a href="" class="star-comment">(302)</a>
+                                                            </div>
+                                                            <p class="popup-money">$28.50</p>
+                                                            <select class="demo" tabindex="1">
+                                                                <option value="1"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach
+                                                                </option>
+                                                                <option value="2"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach2
+                                                                </option>
+                                                                <option value="3"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach3
+                                                                </option>
+                                                                <option value="4"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach4
+                                                                </option>
+                                                                <option value="5"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach5
+                                                                </option>
+                                                            </select>
+                                                            <div class="block-color">
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="block-add_cart">
+                                                                <div class="quantity-block">
+                                                                    <p>QTy</p>
+                                                                    <select class="qty-input">
+                                                                        <option value="1">1</option>
+                                                                        <option value="2" rel="icon-temperature">2
+                                                                        </option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="add-element">
+                                                                    <a href="" class="btn-add_cart">ADD TO BAG
+                                                                        <img src="assets/img/Default/cart-arrow.png"
+                                                                             alt="img">
+                                                                    </a>
+                                                                    <a class="wish-btn"></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="popup_text-info">
+                                                                <p class="popup_text-headline">Description</p>
+                                                                <div class="popup_text-b">
+                                                                    Trish’s innovative Sheer Lip Colors combine buildab
+                                                                    color, a
+                                                                    sheer finish
+                                                                    and lip care all in one. The weightless formula
+                                                                    conditions
+                                                                    lips and is
+                                                                    infused with a collagen synthesizer to boost lips
+                                                                    moisture
+                                                                    levels and volume
+                                                                    with continued wear.
+                                                                </div>
+                                                                <a href="" class="link-see_full">SEE Full Product
+                                                                    Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </section>
+                                            <section class="product-element">
+                                                <div class="product-element_img">
+                                                    <img class="prod-block" src="assets/img/Product/prod1.png"
+                                                         alt="product">
+                                                    <img class="prod-none" src="assets/img/Product/prod-hover.png">
+                                                    <a class="btn-product popup-with-form" href="#test-forms4">Preview 8
+                                                        Shades</a>
+                                                </div>
+                                                <div class="mobile-preview">Preview 25 Shades <img class="mobile-plus"
+                                                                                                   src="assets/img/Default/img-plus.png"
+                                                                                                   alt="img">
+                                                </div>
+                                                <div class="product-text">
+                                                    <div class="collection">NEW SHADES</div>
+                                                    <a href="" class="product-name">Sheer Lip Color Collection</a>
+                                                    <div class="product-money">$28.50</div>
+                                                    <div class="product-stars">
+                                                        <img src="assets/img/Default/stars.png" alt="stars">
+                                                    </div>
+                                                </div>
+                                                <form id="test-forms4" class="white-popup-block mfp-hide prod-pop_up">
+                                                    <div class="bg-pop_up">
+                                                        <div class="block-popup_slider">
+                                                            <div class="slider-pro example5">
+                                                                <div class="sp-slides">
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/pomada.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod1.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod2.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod3.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                    <div class="sp-slide">
+                                                                        <img style="float: left; margin: 0 3em 0 0;"
+                                                                             class="sp-image zoom_mw"
+                                                                             src="assets/img/Product/prod4.png"
+                                                                             data-zoom-image="assets/img/Product/pomada.png"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="sp-thumbnails">
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/pomada.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod1.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod2.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod3.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sp-thumbnail">
+                                                                        <div class="sp-thumbnail-image-container">
+                                                                            <img class="sp-thumbnail-image"
+                                                                                 src="assets/img/Product/prod4.png"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block-popup_info">
+                                                            <p class="popup_headline">Sheer Lip Color Collection</p>
+                                                            <div class="product-stars flex-stars">
+                                                                <img src="assets/img/Default/stars.png" alt="stars">
+                                                                <a href="" class="star-comment">(302)</a>
+                                                            </div>
+                                                            <p class="popup-money">$28.50</p>
+                                                            <select class="demo" tabindex="1">
+                                                                <option value="1"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach
+                                                                </option>
+                                                                <option value="2"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach2
+                                                                </option>
+                                                                <option value="3"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach3
+                                                                </option>
+                                                                <option value="4"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach4
+                                                                </option>
+                                                                <option value="5"
+                                                                        data-icon="assets/img/Color/select-img.png">
+                                                                    White Peach5
+                                                                </option>
+                                                            </select>
+                                                            <div class="block-color">
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                                <div class="color-element">
+                                                                    <img class="img-color"
+                                                                         src="assets/img/Color/pink.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="block-add_cart">
+                                                                <div class="quantity-block">
+                                                                    <p>QTy</p>
+                                                                    <select class="qty-input">
+                                                                        <option value="1">1</option>
+                                                                        <option value="2" rel="icon-temperature">2
+                                                                        </option>
+                                                                        <option value="3">3</option>
+                                                                        <option value="4">4</option>
+                                                                        <option value="5">5</option>
+                                                                        <option value="6">6</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="add-element">
+                                                                    <a href="" class="btn-add_cart">ADD TO BAG
+                                                                        <img src="assets/img/Default/cart-arrow.png"
+                                                                             alt="img">
+                                                                    </a>
+                                                                    <a class="wish-btn"></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="popup_text-info">
+                                                                <p class="popup_text-headline">Description</p>
+                                                                <div class="popup_text-b">
+                                                                    Trish’s innovative Sheer Lip Colors combine buildab
+                                                                    color, a
+                                                                    sheer finish
+                                                                    and lip care all in one. The weightless formula
+                                                                    conditions
+                                                                    lips and is
+                                                                    infused with a collagen synthesizer to boost lips
+                                                                    moisture
+                                                                    levels and volume
+                                                                    with continued wear.
+                                                                </div>
+                                                                <a href="" class="link-see_full">SEE Full Product
+                                                                    Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
