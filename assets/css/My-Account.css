@@ -3644,10 +3644,6 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   text-transform: uppercase;
   font-family: "RobotoLight";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000361}}
-.my-account-block .my-account_left .my-account_menu .left_menu-item .item-hide {
-  display: none;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/elogic\/Dev_files\/Projects\/Trish-McEvoy git\/assets\/less\/My-Account\.less}line{font-family:\0000364}}
 .my-account-block .my-account_left .my-account_menu .left_menu-item .active {
   display: block;
