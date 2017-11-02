@@ -3,7 +3,7 @@
 .ld-top-info-wrapper {
   display: block;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 57px;
   border-bottom: 1px solid #e0e0e0;
   clear: both;
   float: left;
@@ -69,5 +69,61 @@
     text-transform: uppercase;
     font-family: "RobotoLight";
     letter-spacing: 0.8px;
+  }
+  .steps-block-small {
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;
+    .left-side{
+      display: inline-block;
+      float: left;
+      width: 100%;
+      max-width: 554px;
+      vertical-align: middle;
+      position: absolute;
+      top: calc(~"50% + 32px");
+      transform: translateY(-50%);
+      left: 45px;
+    }
+    .right-side {
+      display: inline-block;
+      float: right;
+      width: 100%;
+      max-width: 538px;
+      vertical-align: middle;
+      .steps-list-small {
+        margin-top: 3px;
+        li {
+          list-style: none;
+          margin-top: 28px;
+          &:first-child {
+            margin-top: 0;
+          }
+          .step-header {
+            font-family: "RobotoLight";
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 1px;
+          }
+          .description {
+            font-family: "RobotoRegular";
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: -0.1px;
+            .bold {
+              font-family: "RobotoMedium";
+            }
+          }
+        }
+      }
+      .simple-button-style {
+        margin-top: 33px;
+        width: 186px;
+      }
+    }
   }
 }

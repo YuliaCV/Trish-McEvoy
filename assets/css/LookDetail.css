@@ -3613,7 +3613,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
 .ld-top-info-wrapper {
   display: block;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 57px;
   border-bottom: 1px solid #e0e0e0;
   clear: both;
   float: left;
@@ -3692,4 +3692,71 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   text-transform: uppercase;
   font-family: "RobotoLight";
   letter-spacing: 0.8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\0000373}}
+.bring-look-wrapper .steps-block-small {
+  width: 100%;
+  margin-top: 40px;
+  display: block;
+  float: left;
+  clear: both;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\0000380}}
+.bring-look-wrapper .steps-block-small .left-side {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  max-width: 554px;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(50% + 32px);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\0000391}}
+.bring-look-wrapper .steps-block-small .right-side {
+  display: inline-block;
+  float: right;
+  width: 100%;
+  max-width: 538px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\0000397}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small {
+  margin-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\0000399}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small li {
+  list-style: none;
+  margin-top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003102}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small li:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003105}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small li .step-header {
+  font-family: "RobotoLight";
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003112}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small li .description {
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003117}}
+.bring-look-wrapper .steps-block-small .right-side .steps-list-small li .description .bold {
+  font-family: "RobotoMedium";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003123}}
+.bring-look-wrapper .steps-block-small .right-side .simple-button-style {
+  margin-top: 33px;
+  width: 186px;
 }
