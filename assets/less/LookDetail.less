@@ -1,9 +1,22 @@
 @import "../less/_Theme.less";
 
 .ld-top-info-wrapper {
+  display: block;
   padding-top: 50px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #e0e0e0;
+  clear: both;
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   .left-side {
-    margin-top: 20px;
+    margin-top: 6px;
+    max-width: 386px;
+    width: 100%;
+    display: inline-block;
+    clear: both;
     .top-title {
       display: block;
       font-size: 15px;
@@ -20,10 +33,41 @@
     }
     .text {
       display: block;
-      margin-top: 40px;
+      margin-top: 33px;
       font-size: 16px;
-      line-height: 28px;
+      line-height: 27px;
       font-family: "Gotham-Medium";
     }
+    .simple-button-style {
+      margin-top: 34px;
+    }
+  }
+  .right-side {
+    max-width: 740px;
+    width: 100%;
+    float: right;
+    display: inline-block;
+    clear: both;
+    .img-video-block{
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.bring-look-wrapper {
+  margin-top: 43px;
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  .top-header {
+    display: block;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "RobotoLight";
+    letter-spacing: 0.8px;
   }
 }
