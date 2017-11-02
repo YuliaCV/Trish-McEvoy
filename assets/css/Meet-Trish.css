@@ -107,6 +107,7 @@
   font-style: normal;
 }
 /******************Reset CSS******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\000033}}
 html,
 body,
 div,
@@ -196,6 +197,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000324}}
 article,
 aside,
 details,
@@ -209,18 +211,22 @@ nav,
 section {
   display: block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000328}}
 body {
   line-height: 1;
   letter-spacing: 0.4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000332}}
 ol,
 ul {
   list-style: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000335}}
 blockquote,
 q {
   quotes: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000338}}
 blockquote:before,
 blockquote:after,
 q:before,
@@ -228,11 +234,13 @@ q:after {
   content: '';
   content: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Reset\.less}line{font-family:\0000343}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 /******************HEADER******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\000032}}
 body {
   background: #fff;
   color: #000;
@@ -240,14 +248,17 @@ body {
   font-family: 'RobotoRegular';
   outline: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\000039}}
 * {
   outline: none;
 }
 /*Header*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000313}}
 header {
   position: relative;
   z-index: 999;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000318}}
 .page-header {
   padding-bottom: 0;
   margin: 0;
@@ -256,34 +267,43 @@ header {
   z-index: 10;
   background: #fff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000326}}
 .page-header .find-a-store i {
   color: #666;
   font-size: 16px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000330}}
 .page-header .find-a-store a {
   padding-left: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000336}}
 .page-header.fixed .items-counter {
   left: 12px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000341}}
 .header {
   text-align: center;
   padding: 20px 0 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000346}}
 .header a.logo img {
   width: 238px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000350}}
 .top-line-header {
   background: #e9e9e9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000353}}
 .top-line-header strong {
   font-family: 'RobotoMedium';
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000356}}
   .top-line-header {
     padding: 7px 45px 7px 20px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000360}}
 .top-line-header p {
   margin: 8px 0;
   font-size: 12px;
@@ -292,6 +312,7 @@ header {
   letter-spacing: 0.5px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000367}}
   .top-line-header p {
     max-width: 320px;
     margin: 0 auto 2px !important;
@@ -300,33 +321,40 @@ header {
     line-height: 18px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000377}}
 .sections.nav-sections {
   position: relative;
   background: #080503;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000381}}
 .sections.nav-sections li.level0.ui-menu-item {
   display: inline-block;
   padding: 15px;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000386}}
 .sections.nav-sections li.level0.ui-menu-item a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000392}}
 .sections.nav-sections nav {
   text-align: center;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000395}}
   .sections.nav-sections nav {
     text-align: left;
     padding: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003100}}
 .sections.nav-sections nav #nav-icon {
   left: 10px;
   width: 22px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003105}}
 .sections.nav-sections span.nav-mobile {
   color: #666;
   top: 5px;
@@ -334,33 +362,40 @@ header {
   position: absolute;
   font-size: 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003114}}
 .sections.nav-sections.fixed {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 12;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003125}}
 .hero.fixed {
   padding-top: 44px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003128}}
   .hero.fixed {
     padding-top: 54px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003133}}
 #user-login {
   text-decoration: none;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003138}}
 .cart {
   cursor: pointer;
   margin-left: 15px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003141}}
   .cart {
     margin-left: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003146}}
 .login-lnk {
   color: #000;
   text-transform: uppercase;
@@ -370,6 +405,7 @@ header {
   top: 10px;
   margin-right: 2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003156}}
 .items-counter {
   display: inline-block;
   width: 22px;
@@ -386,22 +422,26 @@ header {
   top: 1px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003171}}
   .items-counter {
     background-color: #fff;
     color: #000000;
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003178}}
   .cart .items-counter {
     background-color: #fff;
     color: #000000;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003184}}
 .login,
 .cart {
   display: inline-block;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003190}}
 .nav-mobile {
   color: #666;
   top: 14px !important;
@@ -412,30 +452,39 @@ header {
   height: 15px;
   background: url("../img/Default/homepage-sprite.png") no-repeat;
   background-position-y: -96px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003202}}
 .nav-mobile.open {
   background-position-x: -25px;
   background-position-y: -97px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003209}}
 nav {
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003212}}
 nav .nav-toggle {
   width: 35px;
   height: 18px;
   display: inline-block;
   margin: 17px 15px 17px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003218}}
 nav #nav-icon {
   width: 35px;
   height: 35px;
   position: relative;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003226}}
 nav #nav-icon span {
   display: block;
   position: absolute;
@@ -445,38 +494,51 @@ nav #nav-icon span {
   border-radius: 9px;
   opacity: 1;
   left: 0;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003238}}
 nav #nav-icon span:nth-child(1) {
   top: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003241}}
 nav #nav-icon span:nth-child(2) {
   top: 8px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003244}}
 nav #nav-icon span:nth-child(3) {
   top: 16px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003250}}
 nav #nav-icon.open span:nth-child(1) {
   top: 8px;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003254}}
 nav #nav-icon.open span:nth-child(2) {
   opacity: 0;
   left: -60px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003258}}
 nav #nav-icon.open span:nth-child(3) {
   top: 8px;
-  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003264}}
 nav .search {
   position: absolute;
   top: 16px;
   left: 65px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003269}}
 nav .header-content {
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003272}}
 nav .mobile-logo {
   margin: 0 auto;
   left: 0;
@@ -485,6 +547,7 @@ nav .mobile-logo {
   top: 17px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003281}}
   nav ul.main-menu {
     width: 270px;
     position: absolute;
@@ -494,6 +557,7 @@ nav .mobile-logo {
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003290}}
   nav ul.main-menu li.level0.ui-menu-item {
     display: inline-block;
     padding: 15px;
@@ -502,10 +566,12 @@ nav .mobile-logo {
     border-bottom: 1px solid #333;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003298}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat {
   display: none;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003301}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat {
     background: #333;
     margin: 0 -15px;
@@ -514,15 +580,18 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat {
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003309}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item {
     padding: 15px 0 15px 45px;
     border-bottom: 1px solid #404040;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003314}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: none;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003324}}
 .search-visible {
   display: none;
   position: absolute;
@@ -530,6 +599,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   left: 0;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003332}}
 .search-visible:before {
   content: '';
   display: block;
@@ -538,6 +608,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003341}}
 .block-header_search {
   height: 90px;
   width: 100%;
@@ -545,25 +616,36 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-bottom: 1px solid #e1e1e1;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003349}}
 .wrap-search {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 1040px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0 auto;
   height: 90px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   z-index: 999;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003360}}
 .wrap-search .search-element {
   border-bottom: 1px solid #c2c2c2;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003366}}
 .wrap-search .search-element input {
   width: 100%;
   border-radius: 0;
@@ -576,35 +658,44 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-right: 18px;
   letter-spacing: 0.1px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003378}}
 .wrap-search .search-element a {
   color: #000000;
   font-size: 13px;
   text-transform: uppercase;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003387}}
 .block_search-product {
   background-color: #f5f5f5;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003390}}
 .block_search-product .all-catalog_product {
   padding-top: 20px;
   margin-top: 0;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003395}}
 .block_search-product .wrap-catalog {
   max-width: 1020px;
   width: 100%;
   overflow-y: scroll;
   height: 474px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003401}}
 .block_search-product .all-catalog_product .product-element {
   width: 237px;
   margin-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003405}}
 .block_search-product .all-catalog_product .product-element_img {
   width: 237px;
   height: 237px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003409}}
 .block_search-product .search-position {
   text-align: left;
   font-size: 14px;
@@ -613,6 +704,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-top: 29px;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003417}}
 .block_search-product .search-position a {
   font-family: "RobotoLight";
   font-weight: 300;
@@ -621,6 +713,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-left: 25px;
   letter-spacing: 0.6px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003428}}
 .search-line {
   font-family: "RobotoMedium";
   font-weight: 500;
@@ -628,6 +721,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-align: center;
   margin-top: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003436}}
 .block_mini-cart {
   width: 402px;
   height: auto;
@@ -637,10 +731,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   right: 26px;
   z-index: 10;
   display: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid #c2c2c2;
   padding: 27px 30px 30px 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003437}}
 .block_mini-cart:before {
   display: block;
   content: '';
@@ -650,11 +746,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: absolute;
   top: -7px;
   right: 21px;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
   background-color: #fff;
   border-right: 0;
   border-top: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003463}}
 .block_mini-cart .mini-cart_headline {
   text-transform: uppercase;
   text-align: center;
@@ -665,33 +763,51 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-bottom: 15px;
   border-bottom: 1px solid #e0e0e0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003472}}
 .block_mini-cart .mini-cart_headline span {
   font-size: 18px;
   color: #7d7d7d;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003477}}
 .block_mini-cart .mini-cart_prod {
   border-bottom: 1px solid #e0e0e0;
   padding-top: 10px;
   padding-bottom: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003481}}
 .block_mini-cart .mini-cart_prod .mini-cart_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003484}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_info {
   margin-right: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003486}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_info .mini-cart_img {
   width: 80px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003490}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003492}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003496}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt .edit-btn {
   font-size: 13px;
   text-transform: uppercase;
@@ -699,6 +815,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   cursor: pointer;
   letter-spacing: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003503}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .control-bnt .remove-btn {
   display: block;
   background-image: url("../img/Default/mob-close.png");
@@ -709,6 +826,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   cursor: pointer;
   background-size: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003515}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .mini-block_name .mini-headline {
   font-family: "RobotoMedium";
   font-weight: 500;
@@ -716,11 +834,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: 0px;
   margin-bottom: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003522}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-block_text .mini-block_name .mini-secondline {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003529}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .line-btn {
   margin-left: 7px;
   margin-right: 7px;
@@ -728,15 +848,26 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 1px;
   background-color: #e0e0e0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003536}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 39px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003540}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003543}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .mini_qty {
   letter-spacing: 0;
   font-size: 13px;
@@ -744,22 +875,26 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   font-weight: 300;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003550}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .qty-number {
   font-family: "RobotoBold";
   font-weight: 500;
   font-size: 14px;
   margin-left: 4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003556}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-qty_block .mini-cart_color {
   width: 12px;
   height: 12px;
   margin-left: 3px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003562}}
 .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-cart_money {
   font-family: "RobotoLight";
   font-weight: 300;
   font-size: 18px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003570}}
 .block_mini-cart .all-mini_money {
   text-align: right;
   font-family: "RobotoLight";
@@ -768,53 +903,79 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: uppercase;
   margin-top: 12px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003577}}
 .block_mini-cart .all-mini_money span {
   font-size: 18px;
   font-family: "RobotoBold";
   font-weight: 500;
   margin-left: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003584}}
 .block_mini-cart .block-mini_buy {
   margin-top: 25px;
   letter-spacing: -0.3px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003587}}
 .block_mini-cart .block-mini_buy p {
   font-size: 15px;
   font-family: "RobotoBold";
   font-weight: 500;
   text-align: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003593}}
 .block_mini-cart .block-mini_buy .mini_buy_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003597}}
 .block_mini-cart .block-mini_buy .mini_buy_btns a {
   display: block;
   width: 166px;
   height: 42px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003603}}
 .block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-1 {
   border: 1px solid #c2c2c2;
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003610}}
 .block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-2 {
   text-transform: uppercase;
   background-color: #000000;
   border: 1px solid #000000;
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003619}}
 .block_mini-cart .block-mini_buy .mini_buy_btns .mini_buy-2 img {
   margin-left: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003625}}
 .block_mini-cart .in_basket {
   display: block;
   text-align: center;
@@ -823,15 +984,18 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 20px;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003635}}
 .fixed-cart {
   top: 72px;
   position: fixed;
   right: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003641}}
 .all_mini-prod {
   max-height: 414px;
   overflow-y: scroll;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003645}}
 .block_mini-log {
   width: 320px;
   height: auto;
@@ -846,6 +1010,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border: 1px solid #c2c2c2;
   padding: 27px 30px 30px 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003658}}
 .block_mini-log:before {
   display: block;
   content: '';
@@ -861,24 +1026,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-right: 0;
   border-top: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003675}}
 .mini-log_center {
   width: 250px;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003678}}
 .mini-log_center .mini_log-headline {
   font-family: 'RobotoMedium';
   text-align: center;
   font-size: 14px;
   letter-spacing: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003683}}
 .mini-log_center .mini_log-headline .link_regist {
   color: #000000;
   text-transform: uppercase;
   font-family: 'RobotoRegular';
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003687}}
 .mini-log_center .mini_log-headline .link_regist:hover {
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003692}}
 .mini-log_center .log-form_headline {
   text-transform: uppercase;
   font-family: 'RobotoLight';
@@ -887,6 +1057,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003700}}
 .mini-log_center .mini-input {
   width: 100%;
   height: 33px;
@@ -895,6 +1066,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003708}}
 .mini-log_center .forgot-pass {
   font-size: 13px;
   text-transform: uppercase;
@@ -903,6 +1075,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: block;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003716}}
 .mini-log_center .log-link {
   margin: 27px auto 0;
   color: #ffffff;
@@ -921,34 +1094,43 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   justify-content: center;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003733}}
 .mini-log_center .log-link img {
   margin-left: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003738}}
 .fixed-login {
   top: 72px;
   position: fixed;
   right: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003742}}
 .fixed-login:before {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003747}}
 .fixed-cart:before {
   display: none;
 }
 /******************FOOTER******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\000032}}
 .page-footer {
   position: relative;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   border-top: 1px solid #e0e0e0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\000037}}
 .page-footer .footer-content {
   padding: 30px 0 10px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000310}}
   .page-footer .footer-content {
     padding: 25px 0 45px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000314}}
 .page-footer .footer-content i.icon-mail {
   position: absolute;
   top: 23px;
@@ -960,6 +1142,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 26px;
   height: 18px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000325}}
 .page-footer .footer-content .find-a-store {
   text-align: center;
   padding-top: 20px;
@@ -968,11 +1151,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin: 10px auto 0;
   border-top: 1px solid #e5e5e5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000333}}
 .page-footer .footer-content .find-a-store a {
   text-transform: uppercase;
   color: #000;
   font-family: 'RobotoLight';
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000338}}
 .page-footer .footer-content .find-a-store i {
   display: block;
   margin-bottom: 15px;
@@ -982,19 +1167,23 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin: 0 auto 15px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000348}}
   .page-footer .footer-content .footer-nav {
     text-align: center;
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000352}}
   .page-footer .footer-content .footer-nav h2.menu-title:after {
     content: '';
     display: inline-block;
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
     background: url("../img/Default/homepage-sprite.png") no-repeat;
     background-position: -98px -88px;
     color: #a7a7a7;
     padding-left: 5px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     font-size: 22px;
     font-family: "fontello";
@@ -1005,10 +1194,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     height: 15px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000370}}
 .page-footer .footer-content .footer-nav h2.menu-title.item-open:after {
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000375}}
 .page-footer .footer-content h2.menu-title {
   position: relative;
   font-family: 'RobotoLight';
@@ -1016,17 +1209,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding: 15px 0;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000381}}
   .page-footer .footer-content h2.menu-title {
     text-align: center;
     width: auto;
     display: inline-block;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000387}}
 .page-footer .footer-content ul.footer-menu-list {
   padding: 0 0 10px;
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000391}}
   .page-footer .footer-content ul.footer-menu-list {
     display: none;
     text-align: center;
@@ -1034,6 +1230,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     border-bottom: 1px solid #e9e9e9;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000398}}
 .page-footer .footer-content ul.footer-menu-list li a {
   color: #000;
   line-height: 40px;
@@ -1041,17 +1238,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: 0px;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003106}}
 .page-footer .footer-content .field.newsletter {
   width: calc(100% - 100px);
   display: inline-block;
   margin-right: 5px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003111}}
   .page-footer .footer-content .field.newsletter {
     width: 100%;
     margin-right: 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003116}}
 .page-footer .footer-content .field.newsletter input#newsletter {
   width: 100%;
   height: 38px;
@@ -1059,10 +1259,12 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border: 1px solid #c2c2c2;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003122}}
   .page-footer .footer-content .field.newsletter input#newsletter {
     padding: 5px 85px 5px 40px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003127}}
 .page-footer .footer-content button.subscribe-btn {
   width: 90px;
   height: 38px;
@@ -1075,6 +1277,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: 1px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003138}}
   .page-footer .footer-content button.subscribe-btn {
     position: absolute;
     top: 14px;
@@ -1082,6 +1285,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003145}}
   .page-footer .footer-content .footer-subscribe-form {
     margin: 25px -15px 0 -15px;
     border-top: 1px solid #e9e9e9;
@@ -1090,87 +1294,107 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: center;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003152}}
 .page-footer .footer-content .footer-subscribe-form .menu-title {
   border-bottom: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003155}}
 .page-footer .footer-content .footer-subscribe-form .form.subscribe {
   position: relative;
   top: -10px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003159}}
   .page-footer .footer-content .footer-subscribe-form .form.subscribe {
     max-width: calc(100% - 30px);
     margin: 0 auto;
     top: 0px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003166}}
 .page-footer .footer-content .social-media {
   padding: 11px 0 10px;
   letter-spacing: -0.4px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003170}}
   .page-footer .footer-content .social-media {
     text-align: center;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003173}}
 .page-footer .footer-content .social-media .menu-title {
   border-bottom: none;
   margin-bottom: 20px;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003178}}
 .page-footer .footer-content .social-media i {
   width: 25px;
   height: 25px;
   display: inline-block;
   background: url("../img/Default/homepage-sprite.png") no-repeat;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003184}}
 .page-footer .footer-content .social-media i.icon-instagram {
   background-position: 0 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003187}}
 .page-footer .footer-content .social-media i.icon-twitter {
   background-position: -25px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003190}}
 .page-footer .footer-content .social-media i.icon-facebook {
   background-position: -49px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003193}}
 .page-footer .footer-content .social-media i.icon-gplus {
   background-position: -70px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003196}}
 .page-footer .footer-content .social-media i.icon-pinterest {
   background-position: -97px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003199}}
 .page-footer .footer-content .social-media i.icon-youtube {
   background-position: -120px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003203}}
 .page-footer .footer-content .social-media a {
   color: #000;
   text-decoration: none;
   margin: 0 6px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003210}}
 .page-footer .copyrights {
   background: #1c1c1c;
   color: #fff;
   padding: 39px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003215}}
 .page-footer .copyrights .links {
   max-width: 240px;
   margin: 0 auto;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003220}}
 .page-footer .copyrights .links a {
   color: #fff;
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003224}}
 .page-footer .copyrights .links .dash {
   color: #9d9d9d;
   padding: 0 8px;
   margin-top: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003229}}
 .page-footer .copyrights .links span {
   margin-top: 20px;
   display: inline-block;
   font-size: 12px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003239}}
 .nav-opened main#maincontent:after,
 .nav-opened .page-footer:after {
   content: '';
@@ -1180,9 +1404,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   left: 0;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   z-index: 9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003254}}
 .icon {
   display: inline-block;
   width: 20px;
@@ -1190,12 +1416,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: absolute;
   background: url("../img/Default/homepage-sprite.png") no-repeat;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003261}}
 .icon.icon-close {
   background-position-y: -76px;
   background-position-x: -30px;
   top: 15px;
   right: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003267}}
 .icon.icon-search,
 .icon.icon-cart,
 .icon.icon-login {
@@ -1203,31 +1431,38 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 22px;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003274}}
 .icon.icon-search {
   height: 20px;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003278}}
 .icon.icon-search {
   background-position-y: -76px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003281}}
 .icon.icon-cart {
   background-position-y: -53px;
   background-position-x: -18px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003284}}
   .icon.icon-cart {
     background-position-x: 0px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003288}}
 .icon.icon-login {
   background-position-y: -26px;
   background-position-x: -19px;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003291}}
   .icon.icon-login {
     background-position-x: 0px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003297}}
 .icon-location-1 {
   background: url("../img/Default/homepage-sprite.png") no-repeat;
   background-position-y: -79px;
@@ -1237,23 +1472,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: inline-block;
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003308}}
 .page-header.fixed .icon.icon-cart {
   background-position-x: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003311}}
 .page-header.fixed .icon.icon-login {
   background-position-x: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003314}}
 .page-header.fixed .items-counter {
   background-color: #fff;
   color: #000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003318}}
 .page-header.fixed .main-menu {
   margin-left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003321}}
 .page-header.fixed .login-lnk {
   display: none;
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003331}}
   ul.subcat .col-sm-8,
   ul.subcat .col-sm-12,
   ul.subcat .col-sm-4,
@@ -1263,18 +1504,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 /******************Catalog Items******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\000035}}
 .img-headline {
   height: 300px;
   width: 100%;
   overflow: hidden;
   position: relative;
   font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-bottom: 1px solid #c2c2c2;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000316}}
 .img-headline img {
   position: absolute;
   left: 0;
@@ -1282,6 +1534,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   min-width: 100%;
   height: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000323}}
 .img-headline .catalog-headline_m {
   font-size: 15px;
   text-transform: uppercase;
@@ -1291,6 +1544,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: relative;
   z-index: 2;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000332}}
 .img-headline .catalog-headline_b {
   font-size: 60px;
   font-weight: 300;
@@ -1300,21 +1554,36 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   z-index: 2;
 }
 /******************SELECT**********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000343}}
 .block-select {
   max-width: 1200px;
   height: 85px;
   border-bottom: 1px solid #c2c2c2;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000353}}
 .all-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Roboto', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000358}}
 .all-select p {
   font-size: 12px;
   font-weight: 300;
@@ -1322,11 +1591,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: uppercase;
   margin-right: 11px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000367}}
 .select-hidden {
   display: none;
   visibility: hidden;
   padding-right: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000373}}
 .select {
   cursor: pointer;
   display: inline-block;
@@ -1337,10 +1608,15 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 40px;
   border: 1px solid #e9e9e9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000384}}
 .select-styled {
   font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -1348,9 +1624,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   left: 0;
   background-color: #ffffff;
   padding: 8px 15px;
+  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\0000397}}
 .select-styled:after {
   content: "";
   display: block;
@@ -1362,13 +1640,17 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   top: 16px;
   right: 18px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003112}}
 .select-styled:active:after,
 .select-styled.active:after {
   border-color: transparent transparent #000000 transparent;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003118}}
 .select-styled.active:after {
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003122}}
 .select-options {
   display: none;
   position: absolute;
@@ -1384,96 +1666,133 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border: 1px solid #e9e9e9;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003136}}
 .select-options li {
   margin: 0;
   padding: 12px 0;
   text-indent: 15px;
+  -webkit-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003142}}
 .select-options li[rel="hide"] {
   display: none;
 }
 /******************SELECT END**********************/
 /**********************CATALOG PRODUCT*******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003150}}
 .wrap-catalog {
   max-width: 1220px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003157}}
 .all-catalog_product {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003163}}
 .all-catalog_product .product-element {
   width: 282px;
   min-height: 380px;
   margin-bottom: 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003168}}
 .all-catalog_product .product-element_img {
   width: 280px;
   height: 280px;
   border: 1px solid transparent;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003176}}
 .all-catalog_product .product-element_img .btn-product {
   width: 160px;
   height: 35px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   bottom: 39px;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   left: 50%;
   opacity: 0;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003192}}
 .all-catalog_product .product-element_img .btn-product:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003195}}
 .all-catalog_product .product-element_img img {
   max-width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003198}}
 .all-catalog_product .product-element_img .prod-block {
   opacity: 1;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003202}}
 .all-catalog_product .product-element_img .prod-none {
   opacity: 0;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   position: absolute;
   top: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003210}}
 .all-catalog_product .product-element_img:hover {
   border: 1px solid #e9e9e9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003213}}
 .all-catalog_product .product-element_img:hover .btn-product {
   opacity: 1;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003217}}
 .all-catalog_product .product-element_img:hover .prod-block {
   opacity: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003220}}
 .all-catalog_product .product-element_img:hover .prod-none {
   opacity: 1;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003223}}
 .all-catalog_product .product-element .product-text {
   text-align: center;
   position: relative;
   min-height: 120px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003227}}
 .all-catalog_product .product-element .product-text .collection {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
@@ -1481,6 +1800,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   min-height: 12px;
   margin-top: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003234}}
 .all-catalog_product .product-element .product-text .product-name {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -1490,23 +1810,29 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: block;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003242}}
 .all-catalog_product .product-element .product-text .product-name:hover {
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003247}}
 .all-catalog_product .product-element .product-text .product-money {
   font-size: 14px;
   color: #7d7d7d;
   margin-top: 9px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003254}}
 .all-catalog_product .product-element:nth-child(4n) {
   margin-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003259}}
 .product-stars {
   margin-top: 11px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003263}}
 .mobile-preview {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003267}}
 .btn-more {
   width: 118px;
   height: 40px;
@@ -1515,34 +1841,52 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   color: #000000;
   font-size: 14px;
   margin: 20px auto 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.2px;
 }
 /*********************POP UP************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003284}}
 .mfp-content {
   background-color: #ffffff;
   padding: 50px 40px;
   max-width: 1280px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003291}}
 .bg-pop_up {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003297}}
 .block-popup_slider {
   max-width: 725px;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003302}}
 .example5 {
   padding-left: 110px !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003306}}
 .block-popup_info {
   width: 430px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003310}}
 .popup_headline {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -1550,12 +1894,18 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   font-size: 24px;
   letter-spacing: 0.9px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003318}}
 .flex-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 13px;
   letter-spacing: 0.1px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003325}}
 .star-comment {
   color: #7d7d7d;
   font-weight: 500;
@@ -1565,6 +1915,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: block;
   margin-left: 7px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003335}}
 .popup-money {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
@@ -1573,64 +1924,100 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-bottom: 35px;
   letter-spacing: 1px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003344}}
 .select-img {
   width: 428px;
   height: 40px;
   border: 1px solid #e9e9e9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003350}}
 .block-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003358}}
 .color-element {
   width: 44px;
   height: 44px;
   border: 1px solid transparent;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 6px;
   margin-right: 4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003371}}
 .color-element:nth-child(9n) {
   margin-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003375}}
 .borders_act {
   border: 1px solid #c7c7c7;
   background-color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003380}}
 .img-color {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003387}}
 .block-add_cart {
   height: 102px;
   margin-top: 23px;
   width: 100%;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003398}}
 .quantity-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003402}}
 .quantity-block p {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 12px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003408}}
 .quantity-block input {
   border: 1px solid #e9e9e9;
   width: 80px;
@@ -1645,11 +2032,19 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   padding-left: 21px;
   padding-right: 31px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003424}}
 .add-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003427}}
 .add-element .btn-add_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 220px;
   height: 40px;
@@ -1657,12 +2052,18 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003437}}
 .add-element .btn-add_cart img {
   margin-left: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003441}}
 .add-element .wish-btn {
   display: block;
   background-image: url("../img/Default/heart.png");
@@ -1674,12 +2075,15 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-right: 13px;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003452}}
 .add-element .wish-btn:hover {
   background-position: 0px -47px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003457}}
 .popup_text-info {
   margin-top: 28px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003461}}
 .popup_text-headline {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
@@ -1687,6 +2091,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003469}}
 .popup_text-b {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -1694,6 +2099,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   letter-spacing: -0.1px;
   line-height: 1.6;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003477}}
 .link-see_full {
   font-size: 14px;
   text-transform: uppercase;
@@ -1702,6 +2108,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   display: block;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003487}}
 .block-popup_info .wSelect-theme-classic.wSelect {
   width: 100% !important;
   height: 40px;
@@ -1709,12 +2116,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   max-width: 100%;
   border-radius: 0;
   background-color: #ffffff;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #000000;
   font-size: 14px;
   text-transform: uppercase;
   margin-top: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003500}}
 .block-popup_info .wSelect-theme-classic .wSelect-options-holder {
   width: 100%;
   max-width: 100%;
@@ -1724,27 +2133,33 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-top: 1px solid transparent;
   border-radius: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003509}}
 .block-popup_info .wSelect-option-value {
   background-size: 19px;
   padding: 10px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003513}}
 .block-popup_info .wSelect-selected {
   padding: 9px 0;
   margin: 0px 35px 0px 12px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003517}}
 .block-popup_info .wSelect-option-icon {
   padding-left: 28px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003522}}
 .block-popup_info .wSelect-options {
   max-height: 250px !important;
   height: 160px !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003526}}
 .block-popup_info .wSelect-theme-classic .wSelect-options {
   border-radius: 0;
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003533}}
 .quantity-block .wSelect-theme-classic.wSelect {
   width: 80px !important;
   height: 40px;
@@ -1752,7 +2167,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   max-width: 100%;
   border-radius: 0;
   background-color: #ffffff;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #000000;
   font-size: 14px;
   text-transform: uppercase;
@@ -1760,6 +2176,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   min-width: 80px !important;
   margin-bottom: 0 !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003548}}
 .quantity-block .wSelect-theme-classic .wSelect-options-holder {
   width: 100%;
   max-width: 100%;
@@ -1771,6 +2188,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   min-width: 80px;
   left: -1px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003559}}
 .quantity-block .wSelect-option-value {
   background-size: 19px;
   padding: 10px 0;
@@ -1778,6 +2196,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003566}}
 .quantity-block .wSelect-selected {
   padding: 9px 0;
   margin: 0px 35px 0px 12px;
@@ -1785,71 +2204,90 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003573}}
 .quantity-block .wSelect-option-icon {
   padding-left: 28px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003578}}
 .quantity-block .wSelect-options {
   max-height: 250px !important;
   height: 160px !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003582}}
 .quantity-block .wSelect-theme-classic .wSelect-options {
   border-radius: 0;
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003588}}
 .sp-thumbnail-image {
   max-width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003592}}
 .zoomWindow {
   width: 460px;
   height: 450px;
   border: none !important;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   top: 70px !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003600}}
 .zoomWindowContainer {
   cursor: pointer;
 }
 /*********************POP UP END************/
 @media screen and (max-width: 1280px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003606}}
   .zoomWindow {
     left: 605px !important;
   }
 }
 @media screen and (max-width: 1250px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003612}}
   .zoomWindow {
     left: 560px !important;
   }
 }
 @media screen and (max-width: 1176px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003622}}
   .zoomWindow {
     left: 500px !important;
   }
 }
 @media screen and (max-width: 1160px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003628}}
   .add-element {
     margin-left: 15px;
   }
 }
 @media screen and (max-width: 1130px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003634}}
   .in-product .block-in_video {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003638}}
   .in-product div.block-in_video-left {
     width: 100%;
     margin-bottom: 30px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003643}}
   .in-product .block-in_video-left p {
     text-align: justify;
   }
 }
 @media screen and (max-width: 1107px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003649}}
   .zoomWindow {
     left: 400px !important;
   }
 }
 @media screen and (max-width: 1000px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003655}}
   .zoomWindow {
     left: 450px !important;
     width: 360px !important;
@@ -1857,6 +2295,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media screen and (max-width: 920px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003663}}
   .zoomWindow {
     left: 350px !important;
     width: 360px !important;
@@ -1864,18 +2303,25 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media screen and (max-width: 820px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003671}}
   .bg-pop_up {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003675}}
   .block-popup_info {
     width: 430px;
     margin: 50px auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003680}}
   .zoomContainer {
     display: none !important;
   }
 }
 @media screen and (max-width: 790px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003686}}
   .zoomWindow {
     left: 300px !important;
     width: 360px !important;
@@ -1883,110 +2329,145 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003694}}
   .img-headline img {
     position: static;
     height: 300px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003699}}
   .catalog-headline_m {
     margin-top: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003703}}
   .catalog-headline_b {
     margin-bottom: 11px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003707}}
   .img-headline {
     height: auto;
     border-bottom: 1px solid #c2c2c2;
   }
 }
 @media screen and (max-width: 631px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003714}}
   .all-catalog_product .product-element:nth-child(n) {
     margin-right: 0;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003719}}
   .all-catalog_product .product-element .product-text,
   .all-catalog_product .product-element {
     height: auto;
   }
 }
 @media screen and (max-width: 583px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003725}}
   .wrap-catalog {
     padding-right: 0;
     padding-left: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003730}}
   .all-catalog_product .product-element {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003734}}
   .all-catalog_product .product-element_img:hover {
     border: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003738}}
   .prod-none {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003742}}
   .all-catalog_product .product-element_img:hover .prod-none {
     border: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003746}}
   .all-catalog_product .product-element_img:hover .prod-block {
     opacity: 1;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003750}}
   .btn-product {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003754}}
   .all-catalog_product .product-element_img .btn-product {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003758}}
   .all-catalog_product .product-element_img {
     border: none;
     margin: 0 auto 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003763}}
   .mobile-preview {
     width: 160px;
     height: 35px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border: 1px solid #e9e9e9;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor: pointer;
     position: relative;
     font-size: 13px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003779}}
   form.mobile-preview_act {
     display: block !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003783}}
   .block-popup_slider {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003787}}
   .popup_headline,
   .bg-pop_up .product-stars,
   .popup-money {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003791}}
   .block-popup_info {
     margin: 0 auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003795}}
   .white-popup-block {
     padding-top: 10px;
     padding-bottom: 40px;
     background-color: #f5f5f5;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003801}}
   .product-text_act {
     background-color: #f5f5f5;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003805}}
   .mobile-preview_bg {
     background-color: #f5f5f5;
     width: 100%;
     border: none;
     font-size: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003812}}
   .mobile-preview_bg img {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003816}}
   .mobile-plus {
     margin-left: 8px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003820}}
   .mobile-preview_bg:before {
     content: '';
     display: block;
@@ -1994,14 +2475,22 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     border-bottom: 17px solid #f5f5f5;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: -36px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003832}}
   .mobile-preview_bg:after {
     content: '';
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-image: url("../img/Default/mob-close.png");
     background-repeat: no-repeat;
     width: 15px;
@@ -2010,83 +2499,105 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     background-position: center;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     top: 50%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003849}}
   .add-element .btn-add_cart {
     width: 160px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003853}}
   .block-select {
     border-bottom: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003857}}
   .img-headline img {
     height: 180px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003861}}
   .img-headline .catalog-headline_m {
     font-size: 13px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003865}}
   .img-headline .catalog-headline_b {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 450px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003871}}
   .block-popup_info {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003877}}
   .block-color {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (max-width: 400px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003883}}
   .quantity-block p {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003887}}
   .wSelect-theme-classic .wSelect-options-holder {
     min-width: 68px !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003891}}
   .block-popup_info .quantity-block .wSelect-theme-classic.wSelect {
     margin-left: 0;
     margin-right: 0;
     width: 68px !important;
     min-width: 68px !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003898}}
   .block-popup_info .quantity-block .wSelect-arrow {
     right: 15px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003902}}
   .block-popup_info .quantity-block .wSelect-option-value {
     margin: 0 16px;
   }
 }
 @media screen and (max-width: 360px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003908}}
   .add-element .wish-btn {
     margin-left: 14px;
     margin-right: 0;
   }
 }
 @media screen and (max-width: 375px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003915}}
   .my-account-block .block_wish-list .all-catalog_product section.product-element {
     width: 46%;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003920}}
 .slider-pro {
   padding-left: 110px !important;
 }
 /**********************CATALOG PRODUCT END*******************/
 /*Media*/
 @media screen and (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\000033}}
   .description .name .hidden-md.hidden-lg {
     display: block !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\000037}}
   .sections.nav-sections li.level0.ui-menu-item {
     display: inline-block;
     padding: 15px;
     position: initial;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000313}}
   .sections.nav-sections li.level0.ui-menu-item.parent a {
     position: relative;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000316}}
   .sections.nav-sections li.level0.ui-menu-item.parent:hover > a:after {
     content: '';
     width: 0;
@@ -2099,6 +2610,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     margin-left: -7px;
     left: 50%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000330}}
   .sections.nav-sections .header-icons {
     position: relative;
     bottom: 68px;
@@ -2108,31 +2620,45 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     top: -48px;
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000340}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .prod-img + a {
     text-transform: none;
     font-size: 15px;
     font-family: 'RobotoMedium';
     letter-spacing: -0.2px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000346}}
   .prod-img {
     max-height: 320px;
     margin-right: 15px;
     overflow: hidden;
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #ffffff;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000357}}
   .prod-img_b {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000360}}
   img.img-label {
     position: absolute;
     top: 65px;
     left: -20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000365}}
   .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk {
     color: #000;
     font-family: 'RobotoLight';
@@ -2140,12 +2666,16 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     display: block;
     width: auto;
     margin-bottom: 20px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000374}}
   .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk:hover {
     text-decoration: underline;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000379}}
   .mega-menu-img {
     position: relative;
     padding: 0;
@@ -2155,6 +2685,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     display: block;
     top: -15px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000388}}
   .mega-menu-img img {
     height: 100%;
     width: auto;
@@ -2165,11 +2696,13 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     right: -50%;
     margin: auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\0000398}}
   .mega-menu-img .img-actions {
     position: absolute;
     top: 0;
     padding: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003103}}
   .mega-menu-img .img-actions .title {
     color: #000;
     font-family: 'RobotoLight';
@@ -2178,30 +2711,38 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     width: 100%;
     display: inline-block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003111}}
   .mega-menu-img .img-actions .lnk {
     color: #000 !important;
     display: inline-block;
     padding: 13px 23px;
     border: 1px solid #000;
     margin-top: 15px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003119}}
   .mega-menu-img .img-actions .lnk:hover {
     color: #fff !important;
     background: #000;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003127}}
   nav {
     position: initial;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003130}}
   nav .level1 ul.subcat {
     margin-top: 15px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003134}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item {
     display: inline-block;
     vertical-align: top;
     width: calc((100% - 30px) / 4);
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003139}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     color: #000;
     text-transform: uppercase;
@@ -2209,6 +2750,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     font-family: 'RobotoLight';
     letter-spacing: 0.2px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003147}}
   nav ul.main-menu li.level1.ui-menu-item.all-items {
     width: 100% !important;
     text-align: center;
@@ -2219,6 +2761,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     font-family: 'RobotoLight';
     margin-top: 47px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003157}}
   nav ul.main-menu li.level0.ui-menu-item > ul.subcat {
     background: #f9f8f8;
     position: absolute;
@@ -2228,86 +2771,108 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: left;
     padding: 40px calc((100% - 1170px) / 2);
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003166}}
   nav ul.main-menu li.level0.ui-menu-item > ul.subcat > div {
     margin-top: 7px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003169}}
   nav ul.main-menu li.level0.level-top.ui-menu-item.parent:hover ul.subcat {
     display: block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003172}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .subcat li a {
     text-transform: none;
     line-height: 43px;
     font-size: 16px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003178}}
   nav .menu {
     position: initial;
     display: inline-block;
     width: auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003183}}
   nav .search {
     position: relative;
     display: inline-block;
     top: 5px;
     left: 17px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003190}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat .all-offers-lnk ~ li.level1.ui-menu-item {
     width: calc((100% - 30px) / 3);
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003193}}
   li.level1.ui-menu-item.hidden-xs {
     width: 100% !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003196}}
   .top-line-header {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003202}}
   .page-footer .footer-content .social-media a:nth-child(2) {
     margin-left: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003205}}
   .page-header.fixed {
     z-index: 15;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003208}}
   .page-header.fixed .sections.nav-sections {
     position: fixed;
     width: 100%;
     top: 28px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003213}}
   .page-header.fixed .white-logo {
     display: inline-block;
     margin-right: 40px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003217}}
   .page-header.fixed .sections.nav-sections nav {
     text-align: left;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003220}}
   .page-header.fixed .header-icons {
     top: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003224}}
   .header {
     text-align: center;
     padding: 20px 0 10px;
     margin-top: 28px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003229}}
   .white-logo,
   .main-menu {
     display: inline-block;
     vertical-align: middle;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003234}}
   .main-menu {
     margin-left: 115px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003237}}
   .white-logo {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003240}}
   i.icon-instagram:before {
     margin-left: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003243}}
   .page-footer .footer-content .social-media .menu-title {
     margin-bottom: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003249}}
   .section.hero .separate-txt-xs .hero-img img {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003252}}
   .section.hero .separate-txt-xs .hero-img .description {
     text-align: left;
     max-width: 427px;
@@ -2315,33 +2880,44 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     top: 41px;
     z-index: 1;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003261}}
   .section .separate-txt-xs .main-img img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003265}}
   .section .description {
     padding-top: 40px;
     bottom: 0;
     z-index: 9;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003271}}
   .section .main-img:not(.video) .action,
   .section .main-img:not(.video) .short-descr {
     opacity: 0;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003278}}
   .section .main-img:not(.video):hover .action,
   .section .main-img:not(.video):hover .short-descr {
     opacity: 1;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003283}}
   .section .main-img:not(.video):hover:hover:after {
     background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003287}}
   .section .main-img:not(.video):hover .name,
   .section .main-img:not(.video):hover .short-name {
     color: #fff;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003293}}
   .section .main-img:not(.video):after {
     content: '';
     position: absolute;
@@ -2350,8 +2926,10 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003304}}
   .section .main-img:not(.video) .action {
     position: absolute;
     top: 50%;
@@ -2359,6 +2937,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     left: 0;
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003312}}
   .section .divided .description {
     padding: 40px 10px 40px;
     z-index: 9;
@@ -2366,131 +2945,165 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
     text-align: right;
     right: 40px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003319}}
   .section .divided .video .description {
     left: 40px;
     text-align: left;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003329}}
   .section .description {
     padding-top: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003332}}
   .section .description .name {
     font-size: 34px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003336}}
   .section .separate-txt-xs .description .name {
     font-size: 50px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003340}}
   .section .divided .description {
     padding: 20px 10px 20px;
     right: 20px;
     max-width: 215px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003345}}
   .section .divided .description .short-descr {
     margin-bottom: 5px;
     margin-top: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003350}}
   .section .divided .video .description {
     left: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003353}}
   .section .divided .video .description .short-descr {
     margin-bottom: 30px;
     margin-top: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003361}}
   .section.hero .separate-txt-xs .hero-img .description {
     right: 60px;
     top: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003367}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003373}}
   .section .separate-txt-xs .description .name {
     font-size: 40px!important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003377}}
   .section .divided .description {
     padding: 20px 10px 20px;
     right: 20px;
     max-width: 215px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003382}}
   .section .divided .description .short-descr {
     margin-bottom: 5px;
     margin-top: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003387}}
   .section .divided .video .description {
     left: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003390}}
   .section .divided .video .description .short-descr {
     margin-bottom: 5px;
     margin-top: 5px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003396}}
   .section .description {
     padding: 20px 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003399}}
   .section .description .name {
     font-size: 28px!important;
     line-height: 1!important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003403}}
   .section .description .short-descr {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003412}}
   .section.hero .separate-txt-xs .hero-img .description {
     right: 20px;
     top: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003417}}
   .section.hero .separate-txt-xs .hero-img .description .name {
     font-size: 40px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003422}}
   nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .subcat li a {
     line-height: 30px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003425}}
   nav .menu,
   .main-menu {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003429}}
   .main-menu {
     margin-left: 0;
     width: auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003433}}
   .page-header.fixed .white-logo {
     margin-right: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003436}}
   .fixed a.white-logo.hidden-xs {
     display: inline-block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003440}}
   .sections.nav-sections li.level0.ui-menu-item a {
     text-transform: capitalize;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003443}}
   .sections.nav-sections li.level0.ui-menu-item.parent:hover > a:after {
     bottom: -14px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003446}}
   .sections.nav-sections span.nav-mobile {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003449}}
   .sections.nav-sections .header-icons {
     top: -94px;
     height: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003453}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 4px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003456}}
   .sections.nav-sections li.level0.ui-menu-item a {
     font-size: 12px !important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003460}}
   .page-header.fixed .header-icons {
     top: -34px;
   }
 }
 @media (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003465}}
   .container {
     width: 100% !important;
   }
 }
 @media only screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003470}}
   .header-icons {
     position: absolute;
     right: 20px;
@@ -2499,36 +3112,50 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   }
 }
 @media (min-width: 992px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003481}}
   .container {
     width: 100% !important;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003485}}
 .page-header.fixed .nav-sections > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003490}}
 .page-header.fixed .header-icons {
   top: 0;
   margin-left: 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003494}}
 .page-footer .footer-content {
   max-width: 1230px;
   width: 100%;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003499}}
 .section .separate-txt-xs .description .name,
 .section .description .short-name,
 .section .description .name {
   letter-spacing: 0.4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003502}}
 .mega-menu-img .img-actions .title {
   letter-spacing: -2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003505}}
 .mega-menu-img .img-actions .lnk {
   padding: 12px 19px;
   letter-spacing: -0.2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003509}}
 nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-btn,
 .sections.nav-sections li.level0.ui-menu-item a.menu-btn {
   font-size: 14px;
@@ -2536,39 +3163,57 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-weight: 300;
   letter-spacing: 0.7px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003515}}
 .page-footer .footer-content h2.menu-title {
   font-size: 15px;
   letter-spacing: 0.4px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003519}}
 .center-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003524}}
 .divided .main-img .center-element span.action a {
+  display: -webkit-box!important;
+  display: -ms-flexbox!important;
   display: flex!important;
   margin-left: 65px;
   margin-top: 10px;
   position: relative;
   top: 2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003531}}
 .description .name > span {
   display: block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003534}}
 .section .description .action a {
   letter-spacing: 0.2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003542}}
 .section .video .description .action a {
   line-height: 64px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003545}}
 .section .description .action .short-descr2 {
   margin-top: 37px;
   margin-bottom: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003549}}
 .s-bth {
   padding: 13px 17px;
   width: 153px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003562}}
 .main-img:hover img {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-transition-timing-function: ease-out;
@@ -2577,276 +3222,368 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 550ms;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003570}}
 .main-img img {
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003573}}
 .footer-menu-list {
   text-transform: capitalize;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003576}}
 .page-footer .copyrights .links {
   max-width: 300px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003579}}
 .page-footer .copyrights .links a {
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.2px;
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003586}}
 .sections.nav-sections .header-icons {
   right: 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003589}}
 .page-header.fixed .header-icons {
   right: 0;
 }
 @media (max-width: 1340px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003593}}
   .section .divided .description2 {
     max-width: 317px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003596}}
   .description2 .s-bth {
     float: left;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003599}}
   .description2 .s-bth:last-child {
     margin-left: 10px;
   }
 }
 @media (max-width: 1230px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003604}}
   .page-footer .footer-content {
     width: auto;
   }
 }
 @media (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003609}}
   .section .description h2.name2 {
     line-height: 1;
   }
 }
 @media (max-width: 1040px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003614}}
   .page-header.fixed .white-logo {
     margin-right: 0px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003617}}
   .page-header.fixed .header-icons {
     margin-left: 30px;
   }
 }
 @media (max-width: 1000px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003623}}
   .sections.nav-sections li.level0.ui-menu-item {
     padding: 15px 4px;
   }
 }
 @media (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003628}}
   .page-header.fixed .header-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003633}}
   .page-header.fixed .main-menu {
     margin-right: 15px;
   }
 }
 @media (max-width: 940px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003638}}
   .section .description h2.name3 {
     margin-top: 0!important;
   }
 }
 @media (max-width: 900px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003643}}
   .sections.nav-sections .header-icons {
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003646}}
   .block_mini-cart {
     right: 5px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003649}}
   .block_mini-cart:before {
     right: 12px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003652}}
   .block_mini-log:before {
     right: 40px;
   }
 }
 @media (max-width: 790px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003657}}
   .page-header.fixed .main-menu {
     margin-right: 0;
   }
 }
 @media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003662}}
   .search-visible {
     top: 53px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003665}}
   .items-counter {
     left: 12px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003668}}
   .mega-menu-img .img-actions .title {
     font-size: 40px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003671}}
   .sections.nav-sections .header-icons {
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003674}}
   .block_mini-cart {
     right: 10px;
     top: 54px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003678}}
   .fixed-cart {
     right: 10px;
     top: 54px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003682}}
   .block_mini-cart:before {
     right: 19px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003685}}
   .fixed-cart:before {
     right: 19px;
     left: auto;
     display: block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003690}}
   .block_mini-log {
     right: 10px;
     top: 54px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003694}}
   .block_mini-log:before {
     right: 53px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003697}}
   .fixed-log {
     display: block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003700}}
   .fixed-login:before {
     display: block;
   }
 }
 @media (max-width: 880px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003705}}
   .section .description .action .short-descr2 {
     margin-top: 24px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003708}}
   .section .description h2.name2 {
     line-height: 40px;
   }
 }
 @media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003713}}
   nav ul.main-menu {
     height: calc(100vh - 54px);
     overflow-y: scroll;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003717}}
   .sections.nav-sections .header-icons {
     right: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003720}}
   .section .description h2.name4 {
     font-size: 26px!important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003723}}
   .divided .main-img .center-element span.action a {
     margin-left: auto;
     margin-top: auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003727}}
   .section.hero .separate-txt-xs .hero-img .description .name {
     line-height: 1;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003730}}
   .section .description h4.short-name2 {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
 @media (max-width: 583px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003737}}
   .block_search-product .all-catalog_product {
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003742}}
   .search-element img {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003745}}
   .search-clear {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003748}}
   .wrap-search {
     padding-left: 0;
     padding-right: 0;
     height: 50px;
     background-color: #f3f3f3;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003754}}
   .block-header_search {
     height: 50px;
     background-color: #f3f3f3;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003758}}
   .search-element .search-inp {
     background-color: #f3f3f3;
     font-size: 20px!important;
     height: 50px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003763}}
   .block_search-product .all-catalog_product .product-element {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003766}}
   .block_search-product {
     background-color: #ffffff;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003769}}
   .block_search-product .search-position {
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003776}}
   .block_search-product .search-position a {
     margin-left: 0;
     margin-top: 15px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003781}}
   .block_search-product .wrap-catalog {
     height: 100vh;
   }
 }
 @media (max-width: 480px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003787}}
   .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail:before {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003790}}
   .sp-bottom-thumbnails.sp-has-pointer .sp-selected-thumbnail::after {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003793}}
   .sp-thumbnail-container {
     background-color: #e9e9e9;
     border-radius: 50%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003797}}
   .sp-selected-thumbnail {
     background-color: #9f9f9f;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003800}}
   .sp-thumbnail-image {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003803}}
   .sp-image {
     margin-right: 0!important;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003806}}
   .block_mini-cart {
     width: 100%;
     left: 0;
     padding: 20px;
     height: 100vh;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003812}}
   .all_mini-prod {
     height: calc(100vh - 352px);
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003815}}
   .edit-btn {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003818}}
   .control-bnt .line-btn {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003821}}
   .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom .mini-cart_money {
     font-size: 16px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003824}}
   .block_mini-cart .mini-cart_prod .mini-cart_top .mini-cart_bottom {
     margin-top: 20px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003827}}
   .fixed-cart::before {
     right: 30px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003830}}
   .block_mini-cart .mini-cart_prod {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003834}}
   .block_mini-log {
     width: 100%;
     right: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003838}}
   .block_mini-log:before {
     right: 63px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Media\.less}line{font-family:\00003841}}
   .block_mini-cart:before {
     right: 30px;
   }
 }
-/******** BUTTONS WITH TRANSPARENT BACKGROUND COLOR AND WITH GREY BORDER *********/
+/******** BUTTONS WITH TRANSPARENT BACKGROUND COLOR AND WITH GREY BORDER START *********/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_CommonStyles\.less}line{font-family:\000034}}
 .simple-button-style {
   border: 1px solid #e9e9e9;
   color: #000000;
@@ -2855,40 +3592,57 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   font-size: 14px;
   display: block;
   padding: 15px 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   text-decoration: none;
   outline: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_CommonStyles\.less}line{font-family:\0000320}}
 .add-to-bag-btn.simple-button-style {
   padding: 15px 15px;
   margin: 0 auto;
   margin-top: 20px;
 }
+/******** BUTTONS WITH TRANSPARENT BACKGROUND COLOR AND WITH GREY BORDER END *********/
 /***************************Meet-Trish************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\000033}}
 .wrap-meet {
   max-width: 1220px;
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000310}}
 .meet-element_global {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000314}}
 .meet-element_global img {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000318}}
 .meet-element_1 {
   margin-top: 49px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000320}}
 .meet-element_1 .meet_left {
   width: 47%;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000323}}
 .meet-element_1 .meet_left .headline {
   font-size: 60px;
   text-transform: uppercase;
@@ -2899,6 +3653,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000332}}
 .meet-element_1 .meet_left .headline span {
   font-size: 15px;
   text-transform: uppercase;
@@ -2908,6 +3663,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   letter-spacing: 0.3px;
   margin-bottom: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000342}}
 .meet-element_1 .meet_left .meet-text {
   font-size: 16px;
   margin-bottom: 29px;
@@ -2917,14 +3673,17 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000352}}
 .meet-element_1 .meet-right {
   width: 53%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000357}}
 .meet-element_2 .meet_left,
 .meet-element_2 .meet-right {
   width: 53%;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000360}}
 .meet-element_2 .meet_left .headline,
 .meet-element_2 .meet-right .headline {
   font-size: 34px;
@@ -2938,6 +3697,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000371}}
 .meet-element_2 .meet_left .headline span,
 .meet-element_2 .meet-right .headline span {
   font-size: 15px;
@@ -2948,6 +3708,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   letter-spacing: 0.3px;
   margin-bottom: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000381}}
 .meet-element_2 .meet_left .meet-text,
 .meet-element_2 .meet-right .meet-text {
   font-size: 16px;
@@ -2958,81 +3719,103 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding-left: 14%;
   padding-right: 14%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000391}}
 .meet-element_2 .meet-right {
   width: 47%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000394}}
 .meet-element_2 .img-trish_2 {
   position: relative;
   top: -30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\0000398}}
 .meet-element_2 .book-trish {
   max-width: 415px;
   float: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003103}}
 .meet-element_2 .meet_left .headline {
   margin-top: 62px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003106}}
 .meet-element_2 .meet_left .meet-text {
   padding-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003109}}
 .meet-element_2 .meet_left .disabled_text {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003114}}
 .meet-video {
   width: 100%;
   max-width: 900px;
   height: 510px;
   margin: 30px auto 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003121}}
 .meet_img_b1 {
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003125}}
 .meet_img_b2 {
   text-align: center;
   margin-bottom: 50px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003128}}
 .meet_img_b2 img {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003132}}
 .meet-element_1 .meet_left .img-trish_1 {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003135}}
 .meet-element_2 .meet_left .disabled_text_2 {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003138}}
 .meet-element_2 .meet_left .disabled_text {
   display: block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003141}}
 .meet-element_2 .meet-right .disabled_text {
   display: none;
 }
 @media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003145}}
   .meet-element_2 .meet_left .disabled_text_2 {
     display: block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003148}}
   .meet-element_2 .meet-right .disabled_text {
     display: block;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003151}}
   .meet-element_1 {
     margin-top: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003154}}
   .meet-element_1 .meet_left .headline {
     margin-top: 20px;
     margin-bottom: 25px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003158}}
   .meet-element_1 .meet_left .img-trish_1 {
     display: block;
     margin-bottom: 30px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003164}}
   .meet-element_1 .meet-right {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003167}}
   .meet-element_1 .meet_left,
   .meet-element_2 .meet_left,
   .meet-element_1 .meet-right,
   .meet-element_2 .meet-right {
     width: 100%;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003172}}
   .meet-element_1 .meet_left .headline,
   .meet-element_2 .meet_left .headline,
   .meet-element_1 .meet-right .headline,
@@ -3041,6 +3824,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     padding-right: 0;
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003177}}
   .meet-element_1 .meet_left .meet-text,
   .meet-element_2 .meet_left .meet-text,
   .meet-element_1 .meet-right .meet-text,
@@ -3049,37 +3833,50 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     padding-right: 0;
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003183}}
   .meet-element_2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003186}}
   .meet-element_2 .meet_left .headline {
     margin-top: 21px;
     margin-bottom: 21px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003190}}
   .meet-element_2 .meet_left .img-trish_2 {
     top: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003193}}
   .meet-element_2 .meet_left .disabled_text {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003197}}
   .meet-element_2 .meet-right {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003199}}
   .meet-element_2 .meet-right .headline {
     margin-top: 21px;
     margin-bottom: 21px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003203}}
   .meet-element_2 .meet-right .book-trish {
     float: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003206}}
   .meet-element_2 .meet-right .disabled_text_2 {
     display: none;
   }
 }
 @media (max-width: 480px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003213}}
   .meet-element_1 .meet_left .headline {
     font-size: 35px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Meet-Trish\.less}line{font-family:\00003216}}
   .meet-element_2 .meet_left .headline,
   .meet-element_2 .meet-right .headline {
     font-size: 24px;
