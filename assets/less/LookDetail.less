@@ -56,7 +56,8 @@
   }
 }
 
-.bring-look-wrapper {
+.bring-look-wrapper,
+.bring-look-big-wrapper {
   margin-top: 43px;
   display: block;
   float: left;
@@ -126,6 +127,29 @@
         margin-top: 33px;
         width: 186px;
       }
+    }
+  }
+}
+
+.bring-look-big-wrapper {
+  .steps-block-small {
+    .left-side {
+      max-width: 800px;
+      vertical-align: middle;
+       position: initial;
+       top: initial;
+       transform: none;
+       left: initial;
+      img {
+        max-width: 100%;
+      }
+    }
+    .right-side {
+      max-width: 365px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 }
