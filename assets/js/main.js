@@ -1,4 +1,11 @@
 jQuery(function ($) {
+
+    $('.tips-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4
+    });
+
     if ($(window).width() <= 767) {
         //$('.my-account_menu li.left_menu-item a.item').click(function () {
         //    $('.my-account_menu li.left_menu-item a.item').addClass('item-hide');
