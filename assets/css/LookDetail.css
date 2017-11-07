@@ -2064,8 +2064,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 .add-element .btn-add_cart img {
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003442}}
-.add-element .wish-btn {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003445}}
+.popup_text-info {
+  margin-top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003449}}
+.popup_text-headline {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003456}}
+.wish-btn {
   display: block;
   background-image: url("../img/Default/heart.png");
   background-repeat: no-repeat;
@@ -2076,21 +2088,9 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-right: 13px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003453}}
-.add-element .wish-btn:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003467}}
+.wish-btn:hover {
   background-position: 0px -47px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003458}}
-.popup_text-info {
-  margin-top: 28px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003462}}
-.popup_text-headline {
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-bottom: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003470}}
 .popup_text-b {
@@ -2110,7 +2110,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   color: #000000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003488}}
-.block-popup_info .wSelect-theme-classic.wSelect {
+.wSelect-theme-classic.wSelect {
   width: 100% !important;
   height: 40px;
   border: 1px solid #e9e9e9;
@@ -2125,7 +2125,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003501}}
-.block-popup_info .wSelect-theme-classic .wSelect-options-holder {
+.wSelect-theme-classic .wSelect-options-holder {
   width: 100%;
   max-width: 100%;
   border-left: 1px solid #e9e9e9;
@@ -2135,28 +2135,28 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-radius: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003510}}
-.block-popup_info .wSelect-option-value {
+.wSelect-option-value {
   background-size: 19px;
   padding: 10px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003514}}
-.block-popup_info .wSelect-selected {
+.wSelect-selected {
   padding: 9px 0;
   margin: 0px 35px 0px 12px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003518}}
-.block-popup_info .wSelect-option-icon {
+.wSelect-option-icon {
   padding-left: 28px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003523}}
-.block-popup_info .wSelect-options {
+.wSelect-options {
   max-height: 250px !important;
   height: 160px !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003527}}
-.block-popup_info .wSelect-theme-classic .wSelect-options {
+.wSelect-theme-classic .wSelect-options {
   border-radius: 0;
   border: none;
 }
@@ -3869,4 +3869,149 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   text-align: center;
   width: 100%;
   margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003227}}
+.the-look-ease-popup-wrapper .header {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "RobotoLight";
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003236}}
+.the-look-ease-popup-wrapper .items-wrapper {
+  border-bottom: 3px solid #e0e0e0;
+  margin-top: 57px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003239}}
+.the-look-ease-popup-wrapper .items-wrapper .all-catalog_product {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003243}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element {
+  width: 100%;
+  margin: 0;
+  min-height: initial;
+  border-top: 1px solid #e0e0e0;
+  padding: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003250}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element_img,
+.the-look-ease-popup-wrapper .items-wrapper .product-text {
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003255}}
+.the-look-ease-popup-wrapper .items-wrapper .product-text {
+  text-align: left;
+  margin-left: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003259}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element_img {
+  width: 150px;
+  height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003263}}
+.the-look-ease-popup-wrapper .items-wrapper .product-name {
+  line-height: 18px;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003268}}
+.the-look-ease-popup-wrapper .items-wrapper select {
+  width: 100%;
+  max-width: 365px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003272}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element {
+  position: relative;
+  padding-right: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003275}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element .price-block {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003279}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element .price-block .product-old-price {
+  margin-right: 18px;
+  text-decoration: line-through;
+  color: #7d7d7d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003284}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element .price-block .product-old-price,
+.the-look-ease-popup-wrapper .items-wrapper .product-element .price-block .product-money {
+  font-family: "RobotoLight";
+  font-size: 18px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003291}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element .remove-btn {
+  position: absolute;
+  top: 33px;
+  right: 0;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "RobotoLight";
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 10px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003303}}
+.the-look-ease-popup-wrapper .items-wrapper .product-element .remove-btn img {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003313}}
+.the-look-ease-popup-wrapper .wSelect-options-holder {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  left: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003317}}
+.the-look-ease-popup-wrapper .wSelect-option-value {
+  margin: 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003320}}
+.the-look-ease-popup-wrapper .wish-btn {
+  margin-top: 40px;
+  margin-left: 0;
+  text-transform: uppercase;
+  color: #010101;
+  width: auto;
+  padding-left: 30px;
+  line-height: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003329}}
+.the-look-ease-popup-wrapper .mCustomScrollBox {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003332}}
+.the-look-ease-popup-wrapper .all-catalog_product-scroll {
+  height: 474px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003335}}
+.the-look-ease-popup-wrapper .mCSB_draggerRail {
+  background-color: transparent!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003338}}
+.the-look-ease-popup-wrapper .mCSB_dragger_bar {
+  background-color: #999999!important;
+  opacity: 1!important;
+  border-radius: 4px;
+  width: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003344}}
+.the-look-ease-popup-wrapper .mCSB_dragger:hover .mCSB_dragger_bar,
+.the-look-ease-popup-wrapper .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #999999!important;
+  opacity: 1!important;
 }

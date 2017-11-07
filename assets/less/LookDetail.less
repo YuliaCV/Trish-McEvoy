@@ -222,3 +222,128 @@
     }
   }
 }
+
+.the-look-ease-popup-wrapper {
+  .header {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "RobotoLight";
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .items-wrapper {
+    border-bottom: 3px solid #e0e0e0;
+    margin-top: 57px;
+    .all-catalog_product {
+      margin: 0;
+      padding: 0;
+    }
+    .product-element {
+      width: 100%;
+      margin: 0;
+      min-height: initial;
+      border-top: 1px solid #e0e0e0;
+      padding: 20px 0;
+    }
+    .product-element_img,
+    .product-text {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .product-text {
+      text-align: left;
+      margin-left: 18px;
+    }
+    .product-element_img {
+      width: 150px;
+      height: 150px;
+    }
+    .product-name {
+      line-height: 18px;
+      font-size: 15px;
+      //margin-bottom: 20px;
+    }
+    select {
+      width: 100%;
+      max-width: 365px;
+    }
+    .product-element {
+      position: relative;
+      padding-right: 80px;
+      .price-block {
+        position: absolute;
+        bottom: 18px;
+        right: 0;
+        .product-old-price{
+          margin-right: 18px;
+          text-decoration: line-through;
+          color: #7d7d7d;
+        }
+        .product-old-price,
+        .product-money {
+          font-family: "RobotoLight";
+          font-size: 18px;
+          display: inline-block;
+        }
+      }
+      .remove-btn {
+        position: absolute;
+        top: 33px;
+        right: 0;
+        text-transform: uppercase;
+        color: #000;
+        font-family: "RobotoLight";
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 10px;
+        cursor: pointer;
+        img {
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 9px;
+        }
+      }
+    }
+  }
+  .wSelect-options-holder {
+    box-sizing: content-box;
+    left: -1px;
+  }
+  .wSelect-option-value {
+    margin: 0 12px;
+  }
+  .wish-btn {
+    margin-top: 40px;
+    margin-left: 0;
+    text-transform: uppercase;
+    color: #010101;
+    width: auto;
+    padding-left: 30px;
+    line-height: 16px;
+  }
+  .mCustomScrollBox {
+    width: 100%;
+  }
+  .all-catalog_product-scroll {
+    height: 474px;
+  }
+  .mCSB_draggerRail {
+    background-color: transparent!important;
+  }
+  .mCSB_dragger_bar {
+    background-color: #999999!important;
+    opacity: 1!important;
+    border-radius: 4px;
+    width: 7px;
+  }
+  .mCSB_dragger:hover .mCSB_dragger_bar,
+  .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #999999!important;
+    opacity: 1!important;
+  }
+}

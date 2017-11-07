@@ -2064,8 +2064,20 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 .add-element .btn-add_cart img {
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003442}}
-.add-element .wish-btn {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003445}}
+.popup_text-info {
+  margin-top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003449}}
+.popup_text-headline {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003456}}
+.wish-btn {
   display: block;
   background-image: url("../img/Default/heart.png");
   background-repeat: no-repeat;
@@ -2076,21 +2088,9 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-right: 13px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003453}}
-.add-element .wish-btn:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003467}}
+.wish-btn:hover {
   background-position: 0px -47px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003458}}
-.popup_text-info {
-  margin-top: 28px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003462}}
-.popup_text-headline {
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-bottom: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003470}}
 .popup_text-b {
@@ -2110,7 +2110,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   color: #000000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003488}}
-.block-popup_info .wSelect-theme-classic.wSelect {
+.wSelect-theme-classic.wSelect {
   width: 100% !important;
   height: 40px;
   border: 1px solid #e9e9e9;
@@ -2125,7 +2125,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003501}}
-.block-popup_info .wSelect-theme-classic .wSelect-options-holder {
+.wSelect-theme-classic .wSelect-options-holder {
   width: 100%;
   max-width: 100%;
   border-left: 1px solid #e9e9e9;
@@ -2135,28 +2135,28 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   border-radius: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003510}}
-.block-popup_info .wSelect-option-value {
+.wSelect-option-value {
   background-size: 19px;
   padding: 10px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003514}}
-.block-popup_info .wSelect-selected {
+.wSelect-selected {
   padding: 9px 0;
   margin: 0px 35px 0px 12px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003518}}
-.block-popup_info .wSelect-option-icon {
+.wSelect-option-icon {
   padding-left: 28px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003523}}
-.block-popup_info .wSelect-options {
+.wSelect-options {
   max-height: 250px !important;
   height: 160px !important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Item\.less}line{font-family:\00003527}}
-.block-popup_info .wSelect-theme-classic .wSelect-options {
+.wSelect-theme-classic .wSelect-options {
   border-radius: 0;
   border: none;
 }
