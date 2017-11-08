@@ -2,8 +2,36 @@ jQuery(function ($) {
 
     $('.tips-slider').slick({
         infinite: true,
+        dots: false,
         slidesToShow: 4,
-        slidesToScroll: 4
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 660,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $(".items-wrapper .all-catalog_product-scroll").mCustomScrollbar({
+        theme:"dark-thick"
     });
 
     if ($(window).width() <= 767) {
