@@ -3053,8 +3053,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   opacity: 1!important;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003392}}
-.mfp-content {
-  padding: 50px 40px 121px 40px;
+div.mfp-content {
+  padding: 50px 40px 35px 40px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003396}}
 .look-total-wrapper {
