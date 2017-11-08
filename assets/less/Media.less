@@ -1,3 +1,5 @@
+@import "../less/_Theme.less";
+
 /*Media*/
 @media screen and (min-width: 768px) {
   .description .name .hidden-md.hidden-lg {
@@ -841,4 +843,123 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   .block_mini-cart:before{
     right: 30px;
   }
+}
+
+
+/*----------Look-Detail.html----------*/
+
+@media (max-width: 980px) {
+
+  .ld-top-info-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .left-side {
+      margin-top: 30px;
+      max-width: 100%;
+      width: 100%;
+      display: block;
+      clear: none;
+      float: left;
+      text-align: center;
+      .simple-button-style {
+        margin: 34px auto 0 auto;
+      }
+    }
+    .right-side {
+      max-width: 100%;
+      width: 100%;
+      float: left;
+      display: block;
+      clear: none;
+      text-align: center;
+    }
+  }
+
+}
+
+@media @xs {
+
+  .ld-top-info-wrapper{
+    padding-top: 0;
+    .left-side{
+      padding: 0 20px;
+      .top-header {
+        font-size: 35px;
+      }
+      .text{
+        margin-top: 30px;
+      }
+      .simple-button-style {
+        margin: 30px auto 0 auto;
+        width: 260px;
+      }
+    }
+  }
+
+}
+
+@media @laptopL {
+
+  .bring-look-wrapper,
+  .bring-look-big-wrapper {
+    .steps-block-small {
+      .right-side {
+        max-width: 438px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1050px) {
+
+  .bring-look-wrapper,
+  .bring-look-big-wrapper {
+    .steps-block-small {
+      position: relative;
+      .left-side {
+        left: 0px;
+        max-width: 554px;
+        top: 50%;
+      }
+    }
+  }
+
+}
+
+@media @laptopS {
+
+  .bring-look-wrapper,
+  .bring-look-big-wrapper {
+    .steps-block-small {
+      .left-side {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        vertical-align: top;
+        position: initial;
+        top: initial;
+        transform: none;
+        left: initial;
+        text-align: center;
+      }
+      .right-side {
+        max-width: 100%;
+        padding: 0 20px;
+        .simple-button-style {
+          margin: 30px auto 0 auto;
+          width: 260px;
+        }
+      }
+    }
+  }
+
+  .ld-header-common-style {
+    padding: 0 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+
 }
