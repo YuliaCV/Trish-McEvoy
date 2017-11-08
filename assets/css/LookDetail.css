@@ -2917,7 +2917,6 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003274}}
 .the-look-ease-popup-wrapper .items-wrapper {
-  border-bottom: 3px solid #e0e0e0;
   margin-top: 57px;
   padding: 0 60px;
 }
@@ -3034,21 +3033,50 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003372}}
 .the-look-ease-popup-wrapper .all-catalog_product-scroll {
   height: 474px;
+  border-bottom: 3px solid #e0e0e0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003376}}
 .the-look-ease-popup-wrapper .mCSB_draggerRail {
   background-color: transparent!important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003379}}
 .the-look-ease-popup-wrapper .mCSB_dragger_bar {
   background-color: #999999!important;
   opacity: 1!important;
   border-radius: 4px;
   width: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003385}}
 .the-look-ease-popup-wrapper .mCSB_dragger:hover .mCSB_dragger_bar,
 .the-look-ease-popup-wrapper .mCSB_dragger .mCSB_dragger_bar {
   background-color: #999999!important;
   opacity: 1!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003392}}
+.mfp-content {
+  padding: 50px 40px 121px 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003396}}
+.look-total-wrapper {
+  position: absolute;
+  bottom: 51px;
+  right: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003400}}
+.look-total-wrapper .text {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "RobotoLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003405}}
+.look-total-wrapper .price {
+  color: #000;
+  font-family: "RobotoMedium";
+  font-size: 20px;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/LookDetail\.less}line{font-family:\00003413}}
+.add-all-items-to-bag.simple-button-style {
+  margin: 21px auto 0 auto;
+  width: 230px;
 }

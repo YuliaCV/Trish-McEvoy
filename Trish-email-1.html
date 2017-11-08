@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+</head>
+<body style="background-color: #ffffff; margin: 0;">
+<style>
+    @font-face {
+        font-family: "RobotoLight";
+        src: url('assets/fonts/Roboto/RobotoLight.eot');
+        src: url('assets/fonts/Roboto/RobotoLight.woff2') format('woff2'),
+        url('assets/fonts/Roboto/RobotoLight.woff') format('woff'),
+        url('assets/fonts/Roboto/RobotoLight.ttf') format('truetype'),
+        url('assets/fonts/Roboto/RobotoLight.svg#RobotoLight') format('svg'),
+        url('assets/fonts/Roboto/RobotoLight.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "RobotoRegular";
+        src: url('assets/fonts/Roboto/RobotoRegular.eot');
+        src: url('assets/fonts/Roboto/RobotoRegular.woff2') format('woff2'),
+        url('assets/fonts/Roboto/RobotoRegular.woff') format('woff'),
+        url('assets/fonts/Roboto/RobotoRegular.ttf') format('truetype'),
+        url('assets/fonts/Roboto/RobotoRegular.svg#RobotoRegular') format('svg'),
+        url('assets/fonts/Roboto/RobotoRegular.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "RobotoMedium";
+        src: url('assets/fonts/Roboto/RobotoMedium.eot');
+        src: url('assets/fonts/Roboto/RobotoMedium.woff2') format('woff2'),
+        url('assets/fonts/Roboto/RobotoMedium.woff') format('woff'),
+        url('assets/fonts/Roboto/RobotoMedium.ttf') format('truetype'),
+        url('assets/fonts/Roboto/RobotoMedium.svg#RobotoMedium') format('svg'),
+        url('assets/fonts/Roboto/RobotoMedium.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "PlayfairDisplayRegular";
+        src: url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.eot');
+        src: url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.woff2') format('woff2'),
+        url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.woff') format('woff'),
+        url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.ttf') format('truetype'),
+        url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg'),
+        url('assets/fonts/PlayfairDisplay/PlayfairDisplayRegular.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+</style>
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px" style="margin: 0 auto">
+    <tr style="width: 100%; height: 30px; background-color: #e9e9e9" collapse="100">
+        <td style="text-align: center; text-transform: uppercase; color: #000000; font-weight: 300; font-family: RobotoLight;font-size: 13px;">
+            Free shipping on
+            orders over
+            $50
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="#" style="display: block; text-align: center; height: 70px; line-height: 70px;">
+                <img src="assets/img/Default/logos1.svg" alt="img" style="width: 235px; vertical-align: middle;">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td style="height: 42px; width: 100%; background-color: #000000;">
+            <ul class="header-menu-email" style="text-align: center;">
+                <li style="display: inline-block;">
+                    <a href="#"
+                       style="text-align: center;text-transform: uppercase;color: #ffffff;font-family: RobotoRegular;font-size: 14px;text-decoration: none;outline: none; margin: 0px 22px;">New</a>
+                </li>
+                <li style="display: inline-block;">
+                    <a href="#"
+                       style="text-align: center;text-transform: uppercase;color: #ffffff;font-family: RobotoRegular;font-size: 14px;text-decoration: none;outline: none; margin: 0px 22px;">BEST
+                        SELLERS</a>
+                </li>
+                <li style="display: inline-block;">
+                    <a href="#"
+                       style="text-align: center;text-transform: uppercase;color: #ffffff;font-family: RobotoRegular;font-size: 14px;text-decoration: none;outline: none; margin: 0px 22px;">MakeUp</a>
+                </li>
+                <li style="display: inline-block;">
+                    <a href="#"
+                       style="text-align: center;text-transform: uppercase;color: #ffffff;font-family: RobotoRegular;font-size: 14px;text-decoration: none;outline: none; margin: 0px 22px;">Skincare</a>
+                </li>
+                <li style="display: inline-block;">
+                    <a href="#"
+                       style="text-align: center;text-transform: uppercase;color: #ffffff;font-family: RobotoRegular;font-size: 14px;text-decoration: none;outline: none; margin: 0px 22px;">Brushes</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-transform: uppercase; color: #000000; font-weight: 300;
+            font-family: RobotoLight;font-size: 23px;padding-top: 38px;">
+            Hi [name]!
+        </td>
+    </tr>
+    <tr>
+        <td class="top-info" style="border-bottom: 1px solid #e0e0e0;padding-bottom: 16px;">
+            <p style="font-family:RobotoMedium;color: #7d7d7d;line-height: 0.7;font-size: 13px;">Thank you for
+                shopping at TrishMcEvoy.com! </p>
+            <p style="font-family:RobotoMedium;color: #7d7d7d;line-height: 0.7;font-size: 13px;">We are delighted to
+                confirm that your order has been received.</p>
+            <p style="font-family:RobotoMedium;color: #7d7d7d;line-height: 0.7;font-size: 13px;">Details of your order
+                below.</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="headline-order"
+            style="font-family: RobotoMedium;color: #000000;font-size: 17px;padding-top: 27px;padding-bottom: 7px;">
+            Order Number: 2020883299
+        </td>
+    </tr>
+    <tr>
+        <td class="top-info">
+            <p style="font-family:RobotoMedium;color: #7d7d7d;line-height: 0.7;font-size: 13px;">Customer ID: 541778</p>
+            <p style="font-family:RobotoMedium;color: #7d7d7d;line-height: 0.7;font-size: 13px;">WeOrder Date: 12/9/2016
+                4:41:14 PM</p>
+        </td>
+    </tr>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;border-bottom: 1px solid #e0e0e0;padding-bottom: 24px;">
+        <tr class="address-element">
+            <td class="adress-block">
+                <p class="address-headline"
+                   style="font-family: RobotoMedium;color: #000000;font-size: 17px;padding-top: 7px;padding-bottom: 1px;">
+                    Shipping Address</p>
+                <ul>
+                    <li class="name-li"
+                        style="font-family: RobotoMedium;font-size: 14px;color: #7d7d7d;line-height: 1.6;">Jane Doe
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">1000 Tilden
+                        Ave
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">Los Angeles,
+                        California 90064
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">United
+                        States
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">(310)
+                        090-0000
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">
+                        jjdoe@email.com
+                    </li>
+                </ul>
+            </td>
+            <td class="adress-block">
+                <p class="address-headline"
+                   style="font-family: RobotoMedium;color: #000000;font-size: 17px;padding-top: 7px;padding-bottom: 1px;">
+                    Shipping Address</p>
+                <ul>
+                    <li class="name-li"
+                        style="font-family: RobotoMedium;font-size: 14px;color: #7d7d7d;line-height: 1.6;">Jane Doe
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">1000 Tilden
+                        Ave
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">Los Angeles,
+                        California 90064
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">United
+                        States
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">(310)
+                        090-0000
+                    </li>
+                    <li style="font-family: RobotoMedium;font-size: 14px;color: #000000;line-height: 1.6;">
+                        jjdoe@email.com
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;border-bottom: 1px solid #e0e0e0;padding: 20px 0;">
+        <tr class="global-info-block">
+            <td class="global-info" style="font-family: RobotoMedium;font-size: 14px;color: #7d7d7d;line-height: 1.6;">
+                <ul>
+                    <li>Order Date: 12/9/2016 4:41:14 PM</li>
+                    <li>Payment Method: CREDITCARD</li>
+                    <li>Card Type: VISA</li>
+                </ul>
+            </td>
+            <td class="global-info" style="font-family: RobotoMedium;font-size: 14px;color: #7d7d7d;line-height: 1.6;">
+                <ul>
+                    <li>Locale/Currency: en-US / USD</li>
+                    <li>Name On Card: Jane Doe</li>
+                    <li>Card Number: ****0000</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table class="order-item" border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;border-bottom: 1px solid #e0e0e0;">
+        <tr style="height: 40px; background-color: #f5f5f5;">
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;"></th>
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;">
+                SKU
+            </th>
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;">
+                PRODUCT
+            </th>
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;">
+                QTY
+            </th>
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;">
+                PRICE
+            </th>
+            <th style="font-family: RobotoMedium;font-weight: 400;font-size: 14px;color: #000000;margin-bottom: 24px;">
+                EXT. PRICE
+            </th>
+        </tr>
+        <tr style="height: 24px"></tr>
+        <tr style="text-align: center; vertical-align: top;">
+            <td class="img-block"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                <img class="img-item" style="width: 100%;" src="assets/img/Email/lip-booser.png" alt="img"></td>
+            <td class="item-id"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                95731
+            </td>
+            <td class="item-name"
+                style="width: 170px;text-align: left;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                Light & Lift Face Color Duo-Light & Lift Face Color Duo
+            </td>
+            <td class="item-qty"
+                style="width: 35px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                1
+            </td>
+            <td class="item-price"
+                style="width: 70px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+            <td class="item-all-price"
+                style="width: 90px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+        </tr>
+        <tr style="text-align: center; vertical-align: top;">
+            <td class="img-block"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                <img class="img-item" style="width: 100%;" src="assets/img/Email/lip-booser.png" alt="img"></td>
+            <td class="item-id"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                95731
+            </td>
+            <td class="item-name"
+                style="width: 170px;text-align: left;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                Light & Lift Face Color Duo-Light & Lift Face Color Duo
+            </td>
+            <td class="item-qty"
+                style="width: 35px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                1
+            </td>
+            <td class="item-price"
+                style="width: 70px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+            <td class="item-all-price"
+                style="width: 90px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+        </tr>
+        <tr style="text-align: center; vertical-align: top;">
+            <td class="img-block"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                <img class="img-item" style="width: 100%;" src="assets/img/Email/lip-booser.png" alt="img"></td>
+            <td class="item-id"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                95731
+            </td>
+            <td class="item-name"
+                style="width: 170px;text-align: left;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                Light & Lift Face Color Duo-Light & Lift Face Color Duo
+            </td>
+            <td class="item-qty"
+                style="width: 35px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                1
+            </td>
+            <td class="item-price"
+                style="width: 70px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+            <td class="item-all-price"
+                style="width: 90px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+        </tr>
+        <tr style="text-align: center; vertical-align: top;">
+            <td class="img-block"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                <img class="img-item" style="width: 100%;" src="assets/img/Email/lip-booser.png" alt="img"></td>
+            <td class="item-id"
+                style="width: 60px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                95731
+            </td>
+            <td class="item-name"
+                style="width: 170px;text-align: left;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                Light & Lift Face Color Duo-Light & Lift Face Color Duo
+            </td>
+            <td class="item-qty"
+                style="width: 35px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                1
+            </td>
+            <td class="item-price"
+                style="width: 70px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+            <td class="item-all-price"
+                style="width: 90px;font-family: RobotoMedium;font-weight: 400;font-size: 13px;color: #000000;padding-bottom: 15px;">
+                $68.00
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto; padding-top: 13px;">
+        <tr>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 15px;text-transform: uppercase;padding-bottom: 10px;">
+                ORDER NOTES:
+            </td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 13px;text-transform: uppercase;
+            padding-bottom: 10px;text-align: right;">
+                Subtotal
+            </td>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoLight;color: #000;font-size: 18px;text-transform: uppercase;padding-bottom:
+             10px;text-align: right;">$115.00
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: RobotoMedium;font-size: 14px;color: #7d7d7d;">None</td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 13px;text-transform: uppercase;padding-bottom: 10px;text-align: right;">
+                Shipping
+            </td>
+            <td style="font-family: RobotoLight;color: #000;font-size: 14px;padding-bottom: 10px;padding-left: 15px;">
+                UPS 2nd Day
+                Air
+            </td>
+            <td style="font-family: RobotoLight;color: #000;font-size: 18px;text-transform: uppercase;padding-bottom:
+             10px;text-align: right;">Free
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 13px;text-transform: uppercase;padding-bottom: 10px;text-align: right;">
+                Gift card
+            </td>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoLight;color: #000;font-size: 18px;text-transform: uppercase;padding-bottom:
+             10px;text-align: right;">$ -7.50
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 13px;text-transform: uppercase;padding-bottom: 10px;text-align: right;">
+                Tax
+            </td>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoLight;color: #000;font-size: 18px;text-transform: uppercase;padding-bottom:
+             10px;text-align: right;">---
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;"></td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 14px;text-transform: uppercase;padding-top: 10px;text-align: right;border-top: 1px solid #e0e0e0;">
+                Grand Total
+            </td>
+            <td style="padding-left: 15px;border-top: 1px solid #e0e0e0;"></td>
+            <td style="font-family: RobotoMedium;color: #000;font-size: 18px;text-transform: uppercase;padding-top:
+             10px;text-align: right;border-top: 1px solid #e0e0e0;">$107.50
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;border-bottom: 3px solid #000000; padding-top: 13px;padding-bottom:22px;">
+        <tr>
+            <td>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Complete Details for Order
+                    37xxxx can be
+                    found <a href="#" style="color: #000000; text-decoration: underline">here</a>.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Nunc aliquam arcu sit amet nunc
+                    molestie, eu pulvinar eros interdum.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Fusce nulla est, interdum a eros
+                    vel, tempus faucibus est.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px; font-weight: 600">Questions or
+                    comments about
+                    your order?</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Please do not reply to this
+                    post-only email. Call our Customer Service Line at <span style="font-weight: 600;">1-855-559
+                        -8800</span> or
+                    send an email to <span style="font-weight: 600">custsvc@tmcos.com.</span></p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Thank you again for shopping at
+                    TrishMcEvoy.com!</p>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;border-bottom: 1px solid #e0e0e0; padding-top: 13px;padding-bottom:30px;">
+        <tr>
+            <td style="font-family:PlayfairDisplayRegular;font-size: 54px; text-transform: uppercase;text-align:
+            center;letter-spacing: 1px;">
+                #Trishmcevoy
+            </td>
+        </tr>
+        <tr>
+            <td style="text-transform: uppercase;text-align: center;font-family: RobotoLight;color: #000;font-size:
+            17px;padding-top: 11px;padding-bottom: 22px;">
+                SOCIAL GRACES
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                <a style="border-right:1px solid #444444;display: inline-block;padding-right: 15px;font-family:RobotoMedium;color: #000;font-size: 14px;">Follow
+                    Us</a>
+                <a href="#" style="display: inline-block;vertical-align: middle; margin: 0 15px;">
+                    <img src="assets/img/Email/icon-email.png" alt="img"></a>
+                <a href="#" style="display: inline-block;vertical-align: middle;margin: 0 15px;"> <img
+                        src="assets/img/Email/icon-email2.png" alt="img"></a>
+                <a href="#" style="display: inline-block;vertical-align: middle;margin: 0 15px;"> <img
+                        src="assets/img/Email/icon-email-3.png" alt="img"></a>
+                <a href="#" style="display: inline-block;vertical-align: middle;margin: 0 15px;"> <img
+                        src="assets/img/Email/icon-email-4.png" alt="img"></a>
+                <a href="#" style="display: inline-block;vertical-align: middle;margin: 0 15px;"> <img
+                        src="assets/img/Email/icon-email-5.png" alt="img"></a>
+                <a href="#" style="display: inline-block;vertical-align: middle;margin: 0 15px;"> <img
+                        src="assets/img/Email/icon-email-6.png" alt="img"></a>
+                <a style="border-left:1px solid #444444;padding-left: 15px;font-family: RobotoMedium;color: #000;font-size: 14px;">@TrishMcEvoy</a>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto; padding-top: 13px;padding-bottom:14px;">
+        <tr>
+            <td style="padding-top: 11px;">
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 11px;">Promotional Offers not
+                    applicable to previous purchases.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 11px;"><span
+                        style="font-weight: 600;">Have
+                    Questions
+                    ?</span><br>
+                    Please do not reply to this post-only email. Call our Customer Service Line at <span
+                            style="font-weight: 600;">1-855-559-8800</span> or
+                    send an email to <span
+                            style="font-weight: 600;">custsvc@tmcos.com.</span></p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 11px;">To ensure you continue to
+                    receive e-mails from Trish McEvoy (and to prevent them from being filtered
+                    as spam), please add TM@tm.tmcos.com to your e-mail address book.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 11px;"><span
+                        style="font-weight: 600;">Unsubscribe:</span> This email was
+                    sent to you at wandalau.01@gmail.com because you signed up with
+                    TrishMcEvoy.com. If you would like to update your email address please click here. If you do not
+                    wish to receive emails from TrishMcEvoy.com, please click here. For more information
+                    <a href="#" style="color: #000000;text-decoration: underline;">click here</a>.</p>
+                <p style="font-family: RobotoRegular; color: #000000; font-size: 13px;">Trish McEvoy, Ltd., 5 East
+                    57th Street, New York, Suite 5, NY 10022</p>
+            </td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px"
+           style="margin: 0 auto;">
+        <tr>
+            <td style="background-color: #000000;height: 95px;">
+                <p style="text-align: center; margin-bottom: 0;">
+                    <a href="#" style="font-family: RobotoRegular; color: #ffffff; font-size: 12px;
+                    text-decoration:none;text-transform: uppercase;">Terms &
+                        Conditions</a>
+                    <a href="#"
+                       style="font-family: RobotoRegular; color: #ffffff;
+                       font-size: 14px;text-decoration:none;text-transform: uppercase; margin: 0 12px">|</a>
+                    <a href="#"
+                       style="font-family: RobotoRegular; color: #ffffff;
+                       font-size: 12px;text-decoration:none;text-transform: uppercase;">Privacy
+                        Policy</a>
+                </p>
+                <p style="font-family: RobotoRegular; color: #ffffff;font-size: 11px; text-align: center;">
+                    © 2017 Trish McEvoy
+                </p>
+            </td>
+        </tr>
+    </table>
+</table>
+</body>
+</html>
