@@ -24,11 +24,12 @@
   #map {
     display: inline-block;
     height: 100%;
-    width: 80%;
+    width: calc(~"80% - 20px");
     float: left;
   }
   .search-address-block {
     width: 20%;
+    min-width: 400px;
     height: 100px;
     background-color: #fff;
     display: inline-block;
@@ -36,11 +37,12 @@
     float: left;
     .input-block {
       background-color: #000000;
-      padding: 25px 20px;
+      padding: 20px 20px;
       position: relative;
       input {
         width: 100%;
-        padding: 15px 51px 15px 15px;
+        padding: 12px 51px 11px 15px;
+        letter-spacing: -0.1px;
         border: 1px solid #c2c2c2;
         color: #7d7d7d;
         font-family: "RobotoRegular";
@@ -53,7 +55,7 @@
       }
       .search-btn {
         position: absolute;
-        top: 39px;
+        top: 32px;
         right: 35px;
         display: block;
         cursor: pointer;
@@ -62,7 +64,7 @@
     .address-items-block {
       background-color: #fff;
       width: 100%;
-      height: calc(~"100vh - 201px");
+      height: calc(~"100vh - 183px");
       .mCSB_inside>.mCSB_container {
         margin-right: 9px;
       }
@@ -72,15 +74,16 @@
       .address-item-block {
         display: block;
         background-color: #f5f5f5;
-        padding: 28px 21px 0 30px;
+        padding: 25px 21px 0 27px;
         .content-block {
           max-width: 340px;
           width: 100%;
           margin: 0 auto;
-          padding: 0 0 18px 0;
+          padding: 0 0 35px 0;
           border-bottom: 1px solid #e0e0e0;
           .text-block {
             width: 100%;
+            position: relative;
             .title {
               font-family: "RobotoLight";
               text-transform: uppercase;
@@ -90,6 +93,8 @@
               display: block;
               max-width: 250px;
               width: 100%;
+              letter-spacing: 0.6px;
+              margin-bottom: 7px;
             }
             .address,.street {
               font-family: "RobotoMedium";
@@ -99,6 +104,7 @@
               display: block;
               max-width: 180px;
               width: 100%;
+              letter-spacing: 0px;
             }
             .number {
               font-family: "RobotoMedium";
@@ -106,16 +112,47 @@
               text-decoration: none;
               font-size: 14px;
               line-height: 24px;
+              display: inline-block;
+              margin-top: 7px;
+              letter-spacing: 0px;
+            }
+            .miles {
+              position: absolute;
+              top: 3px;
+              right: -3px;
               display: block;
+              font-family: "RobotoMedium";
+              color: #000;
+              font-size: 14px;
+              line-height: 19px;
+              letter-spacing: 0px;
+            }
+            .get-direction {
+              position: absolute;
+              bottom: -19px;
+              right: -1px;
+              display: block;
+              font-family: "RobotoRegular";
+              color: #000;
+              font-size: 14px;
+              line-height: 20px;
+              text-transform: uppercase;
+              letter-spacing: 0.1px;
+              cursor: pointer;
             }
           }
         }
         &.active {
           background-color: #fff;
           border-bottom: 1px solid #e0e0e0;
+          padding: 25px 21px 18px 27px;
           .content-block {
             border-bottom: none;
+            padding: 0 0 18px 0;
           }
+        }
+        &:last-child {
+          border-bottom: none;
         }
       }
     }
