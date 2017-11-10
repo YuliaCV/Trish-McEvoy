@@ -1251,3 +1251,85 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   }
 
 }
+
+
+/*----------Were to buy page----------*/
+
+
+@media (max-width: 1300px) {
+
+  .were-to-buy-wrapper {
+    .header {
+      font-size: 24px;
+      line-height: inherit;
+      padding: 20px 0 23px 0;
+    }
+  }
+
+  .were-to-buy-map-block {
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 51px;
+    #map {
+      width: 100%;
+      height: 415px;
+      float: none;
+      display: block;
+    }
+    .search-address-block {
+      width: 100%;
+      height: 656px;
+      float: none;
+      display: block;
+      overflow: hidden;
+      .input-block {
+        padding: 5px 0 0 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        input {
+          font-size: 16px;
+          padding: 12px 15px 11px 15px;
+        }
+        .search-btn {
+          display: none;
+        }
+      }
+      .address-items-block {
+        height: 100%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 425px) {
+  
+  .were-to-buy-map-block {
+    .search-address-block {
+      min-width: initial;
+      .address-items-block {
+        height: 100%;
+        .address-item-block {
+          padding: 25px 17px 0 17px;
+          .content-block {
+
+            .text-block {
+
+              .title {
+                max-width: 190px;
+              }
+            }
+          }
+          &.active {
+            padding: 25px 17px 18px 17px;
+          }
+        }
+      }
+    }
+  }
+
+}
