@@ -33,6 +33,9 @@ jQuery(function ($) {
     $(".items-wrapper .all-catalog_product-scroll").mCustomScrollbar({
         theme:"dark-thick"
     });
+    $(".were-to-buy-map-block .search-address-block .address-items-block").mCustomScrollbar({
+        theme:"dark"
+    });
 
     if ($(window).width() <= 767) {
         //$('.my-account_menu li.left_menu-item a.item').click(function () {

@@ -16,11 +16,108 @@
 }
 
 .were-to-buy-map-block {
-  height: 100vh;
-  width: 100vw;
+  height: calc(~"100vh - 101px");
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   #map {
-    display: block;
+    display: inline-block;
     height: 100%;
     width: 80%;
+    float: left;
+  }
+  .search-address-block {
+    width: 20%;
+    height: 100px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    .input-block {
+      background-color: #000000;
+      padding: 25px 20px;
+      position: relative;
+      input {
+        width: 100%;
+        padding: 15px 51px 15px 15px;
+        border: 1px solid #c2c2c2;
+        color: #7d7d7d;
+        font-family: "RobotoRegular";
+        background-color: #fff;
+        font-size: 13px;
+        &::-webkit-input-placeholder {
+          font-family: "RobotoRegular";
+          color: #7d7d7d;
+        }
+      }
+      .search-btn {
+        position: absolute;
+        top: 39px;
+        right: 35px;
+        display: block;
+        cursor: pointer;
+      }
+    }
+    .address-items-block {
+      background-color: #fff;
+      width: 100%;
+      height: calc(~"100vh - 201px");
+      .mCSB_inside>.mCSB_container {
+        margin-right: 9px;
+      }
+      .mCSB_scrollTools {
+        width: 9px;
+      }
+      .address-item-block {
+        display: block;
+        background-color: #f5f5f5;
+        padding: 28px 21px 0 30px;
+        .content-block {
+          max-width: 340px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 0 18px 0;
+          border-bottom: 1px solid #e0e0e0;
+          .text-block {
+            width: 100%;
+            .title {
+              font-family: "RobotoLight";
+              text-transform: uppercase;
+              color: #000;
+              font-size: 16px;
+              line-height: 22px;
+              display: block;
+              max-width: 250px;
+              width: 100%;
+            }
+            .address,.street {
+              font-family: "RobotoMedium";
+              color: #1c1c1c;
+              font-size: 14px;
+              line-height: 24px;
+              display: block;
+              max-width: 180px;
+              width: 100%;
+            }
+            .number {
+              font-family: "RobotoMedium";
+              color: #1c1c1c;
+              text-decoration: none;
+              font-size: 14px;
+              line-height: 24px;
+              display: block;
+            }
+          }
+        }
+        &.active {
+          background-color: #fff;
+          border-bottom: 1px solid #e0e0e0;
+          .content-block {
+            border-bottom: none;
+          }
+        }
+      }
+    }
   }
 }
