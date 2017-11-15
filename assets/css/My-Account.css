@@ -242,8 +242,8 @@ table {
 /******************HEADER******************/
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\000032}}
 body {
-  background: #fff;
-  color: #000;
+  background: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-family: 'RobotoRegular';
   outline: none;
@@ -265,7 +265,7 @@ header {
   border-bottom: 0;
   position: relative;
   z-index: 10;
-  background: #fff;
+  background: #ffffff;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000326}}
 .page-header .find-a-store i {
@@ -334,7 +334,7 @@ header {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\0000386}}
 .sections.nav-sections li.level0.ui-menu-item a {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -397,7 +397,7 @@ header {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003146}}
 .login-lnk {
-  color: #000;
+  color: #000000;
   text-transform: uppercase;
   font-size: 10px;
   vertical-align: top;
@@ -410,8 +410,8 @@ header {
   display: inline-block;
   width: 22px;
   height: 22px;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 50%;
   text-align: center;
   font-size: 11px;
@@ -424,14 +424,14 @@ header {
 @media only screen and (max-width: 767px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003171}}
   .items-counter {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
   }
 }
 @media only screen and (max-width: 767px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003178}}
   .cart .items-counter {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
   }
 }
@@ -490,7 +490,7 @@ nav #nav-icon span {
   position: absolute;
   height: 1px;
   width: 100%;
-  background: #fff;
+  background: #ffffff;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -748,7 +748,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   right: 21px;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
-  background-color: #fff;
+  background-color: #ffffff;
   border-right: 0;
   border-top: 0;
 }
@@ -1154,7 +1154,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000333}}
 .page-footer .footer-content .find-a-store a {
   text-transform: uppercase;
-  color: #000;
+  color: #000000;
   font-family: 'RobotoLight';
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000338}}
@@ -1232,7 +1232,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\0000398}}
 .page-footer .footer-content ul.footer-menu-list li a {
-  color: #000;
+  color: #000000;
   line-height: 40px;
   text-decoration: none;
   letter-spacing: 0px;
@@ -1269,8 +1269,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 90px;
   height: 38px;
   text-transform: uppercase;
-  color: #fff;
-  background: #000;
+  color: #ffffff;
+  background: #000000;
   border: none;
   padding: 5px;
   font-size: 12px;
@@ -1361,14 +1361,14 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003203}}
 .page-footer .footer-content .social-media a {
-  color: #000;
+  color: #000000;
   text-decoration: none;
   margin: 0 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003210}}
 .page-footer .copyrights {
   background: #1c1c1c;
-  color: #fff;
+  color: #ffffff;
   padding: 39px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003215}}
@@ -1379,7 +1379,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003220}}
 .page-footer .copyrights .links a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: underline;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003224}}
@@ -1482,8 +1482,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003314}}
 .page-header.fixed .items-counter {
-  background-color: #fff;
-  color: #000;
+  background-color: #ffffff;
+  color: #000000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\00003318}}
 .page-header.fixed .main-menu {
@@ -2765,8 +2765,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 40px;
   width: 195px;
   height: 42px;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2815,7 +2815,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 .my-account-block .form_block-element input[type="text"] {
   font-family: "RobotoRegular";
   font-size: 13px;
-  color: #000;
+  color: #000000;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3154,8 +3154,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   margin-top: 40px;
   width: 195px;
   height: 42px;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;

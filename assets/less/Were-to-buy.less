@@ -6,7 +6,7 @@
     font-size: 32px;
     line-height: 38px;
     text-transform: uppercase;
-    color: #000;
+    color: @main-black-color;
     text-align: center;
     display: block;
     padding: 30px 0 33px 0;
@@ -31,26 +31,26 @@
   .search-address-block {
     width: 20%;
     min-width: 400px;
-    background-color: #fff;
+    background-color: @white-color;
     display: inline-block;
     vertical-align: top;
     float: left;
     .input-block {
-      background-color: #000000;
+      background-color: @main-black-color;
       padding: 20px 20px;
       position: relative;
       input {
         width: 100%;
         padding: 12px 51px 11px 15px;
         letter-spacing: -0.1px;
-        border: 1px solid #c2c2c2;
-        color: #7d7d7d;
+        border: 1px solid @light-grey-color2;
+        color: @grey-color2;
         font-family: "RobotoRegular";
-        background-color: #fff;
+        background-color: @white-color;
         font-size: 13px;
         &::-webkit-input-placeholder {
           font-family: "RobotoRegular";
-          color: #7d7d7d;
+          color: @grey-color2;
         }
       }
       .search-btn {
@@ -62,7 +62,7 @@
       }
     }
     .address-items-block {
-      background-color: #fff;
+      background-color: @white-color;
       width: 100%;
       height: calc(~"100vh - 183px");
       .mCSB_inside>.mCSB_container {
@@ -73,7 +73,7 @@
       }
       .address-item-block {
         display: block;
-        background-color: #f5f5f5;
+        background-color: @light-grey-color;
         padding: 25px 21px 0 27px;
         .content-block {
           max-width: 340px;
@@ -87,7 +87,7 @@
             .title {
               font-family: "RobotoLight";
               text-transform: uppercase;
-              color: #000;
+              color: @main-black-color;
               font-size: 16px;
               line-height: 22px;
               display: block;
@@ -122,7 +122,7 @@
               right: -3px;
               display: block;
               font-family: "RobotoMedium";
-              color: #000;
+              color: @main-black-color;
               font-size: 14px;
               line-height: 19px;
               letter-spacing: 0px;
@@ -133,7 +133,7 @@
               right: -1px;
               display: block;
               font-family: "RobotoRegular";
-              color: #000;
+              color: @main-black-color;
               font-size: 14px;
               line-height: 20px;
               text-transform: uppercase;
@@ -143,7 +143,7 @@
           }
         }
         &.active {
-          background-color: #fff;
+          background-color: @white-color;
           border-bottom: 1px solid #e0e0e0;
           padding: 25px 21px 18px 27px;
           .content-block {

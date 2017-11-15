@@ -5,7 +5,7 @@
 
   .right .description .name {
     @media @xs {
-      color: #fff;
+      color: @white-color;
     }
   }
   & > div {
@@ -55,7 +55,7 @@
     }
   }
   .divided {
-    color: #fff;
+    color: @white-color;
 
     .main-img {
       @media @xs {
@@ -130,7 +130,7 @@
     }
     .short-descr {
       font-family: 'RobotoMedium';
-      color: #fff;
+      color: @white-color;
       width: 100%;
       display: block;
       font-size: 18px;
@@ -147,17 +147,17 @@
         //min-width: 150px;
         margin-bottom: 10px;
         padding: 14px 21px;
-        color: #fff;
+        color: @white-color;
         text-transform: uppercase;
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
-        border: 1px solid #fff;
+        border: 1px solid @white-color;
         transition: 0.3s;
 
         &:hover {
-          color: #000;
-          background: #fff;
+          color: @main-black-color;
+          background: @white-color;
           transition: 0.3s;
         }
       }
@@ -218,8 +218,8 @@
   &:not(.hero) .separate-txt-xs {
     .description {
       @media @xs {
-        background: #000;
-        color: #fff;
+        background: @main-black-color;
+        color: @white-color;
       }
     }
   }
@@ -242,18 +242,18 @@
       }
 
       .short-name {
-        color: #fff;
+        color: @white-color;
       }
 
       .action a {
         @media @xs {
-          color: #000;
-          border-color: #000;
+          color: @main-black-color;
+          border-color: @main-black-color;
         }
         &:hover {
           @media @xs {
-            color: #fff;
-            background: #000;
+            color: @white-color;
+            background: @main-black-color;
             transition: 0.3s;
           }
         }
@@ -264,20 +264,20 @@
         .short-name {
           letter-spacing: 0.9px;
           @media @xs {
-            color: #000;
+            color: @main-black-color;
           }
         }
       }
       .description .name {
         font-size: 60px;
-        color: #fff;
+        color: @white-color;
         line-height: 49px;
         margin-top: 14px;
 
         @media @xs {
           margin-top: 5px;
           font-size: 35px;
-          color: #000;
+          color: @main-black-color;
           line-height: 1;
         }
       }
@@ -304,7 +304,7 @@
 
         &:hover {
           background: transparent;
-          color: #000;
+          color: @main-black-color;
           transition: 0.3s;
         }
       }
