@@ -1,12 +1,11 @@
 @charset "UTF-8";
-@import "../less/_Theme";
 
 // Default Variables
 
 @slick-font-path: "../fonts/slick";
 @slick-font-family: "slick";
 @slick-loader-path: "/assets/img/slick/";
-@slick-arrow-color: @light-grey-color2;
+@slick-arrow-color: #c2c2c2;
 @slick-dot-color: black;
 @slick-dot-color-active: @slick-dot-color;
 @slick-prev-character: "\e805";
@@ -19,7 +18,7 @@
 
 /* Slider */
 .slick-loading .slick-list{
-    background: @main-black-color url('@{slick-loader-path}ajax-loader.gif') center center no-repeat;
+    background: #fff url('@{slick-loader-path}ajax-loader.gif') center center no-repeat;
 }
 
 /* Arrows */
@@ -27,6 +26,8 @@
 .slick-next {
     position: absolute;
     display: block;
+    /*height: 20px;
+    width: 20px;*/
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
@@ -34,6 +35,10 @@
     color: transparent;
     top: 93px;
     z-index: 100;
+    /*top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);*/
     padding: 0;
     border: none;
     outline: none;
@@ -61,6 +66,16 @@
     
     & when ( @slick-font-family = 'slick' ) {
         /* Icons */
+       /* @font-face {
+            font-family: 'slick';
+            font-weight: normal;
+            font-style: normal;
+            src: url('@{slick-font-path}slick.eot');
+            src: url('@{slick-font-path}slick.eot?#iefix') format('embedded-opentype'),
+            url('@{slick-font-path}slick.woff') format('woff'),
+            url('@{slick-font-path}slick.ttf') format('truetype'),
+            url('@{slick-font-path}slick.svg#slick') format('svg');
+        }*/
 
         @font-face {
             font-family: 'slick';

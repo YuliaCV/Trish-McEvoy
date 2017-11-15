@@ -3,7 +3,7 @@
 .ld-header-common-style {
   display: block;
   font-size: 24px;
-  color: @main-black-color;
+  color: #000;
   text-transform: uppercase;
   font-family: "RobotoLight";
   letter-spacing: 0.8px;
@@ -75,9 +75,6 @@
   clear: both;
   width: 100%;
   padding-bottom: 57px;
-<<<<<<< HEAD
-  border-bottom: 1px solid @border-color-grey;
-=======
   border-bottom: 1px solid #e0e0e0;
   /*.top-header {
     display: block;
@@ -87,7 +84,6 @@
     font-family: "RobotoLight";
     letter-spacing: 0.8px;
   }*/
->>>>>>> parent of bad1885... variables border-color
   .steps-block-small {
     width: 100%;
     margin-top: 40px;
@@ -159,6 +155,10 @@
     .left-side {
       max-width: 800px;
       vertical-align: middle;
+       /*position: initial;
+       top: initial;
+       transform: none;
+       left: initial;*/
       img {
         max-width: 100%;
       }
@@ -168,6 +168,7 @@
       position: relative;
       right: 0;
       top: 50%;
+      //transform: translateY(-50%);
     }
   }
 }
@@ -175,10 +176,13 @@
 .all-catalog_product {
   padding-bottom: 50px;
   .all-catalog_product-header {
-    font-size: 24px;
+    /*font-family: "RobotoLight";
+    text-transform: uppercase;
+    font-size: 24px;*/
     text-align: left;
     width: 100%;
     margin: 55px 0 22px 0;
+    //display: block;
   }
   .add-all-items.simple-button-style {
     margin: 36px auto 0 auto;
@@ -192,11 +196,17 @@
   border-top: 1px solid #e0e0e0;
   margin-top: 9px;
   .tips-slider-wrapper-header {
+    /*font-family: "RobotoLight";
+    font-size: 24px;
+    color: #000;
+    display: block;*/
     text-align: center;
     margin: 0 auto 30px auto;
     max-width: 400px;
     width: 100%;
+    //text-transform: uppercase;
     line-height: 34px;
+    //letter-spacing: 0.7px;
   }
 }
 
@@ -221,7 +231,7 @@
       line-height: 18px;
       text-transform: uppercase;
       margin-top: 13px;
-      color: @main-black-color;
+      color: #000;
       min-height: 18px;
     }
     .description {
@@ -230,7 +240,7 @@
       font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
-      color: @main-black-color;
+      color: #000;
       text-decoration: none;
       letter-spacing: 0px;
       max-width: 220px;
@@ -253,14 +263,16 @@
 
 .the-look-ease-popup-wrapper {
   .header {
+    /*display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "RobotoLight";
+    font-size: 24px;*/
     margin: 0 auto;
     padding: 0;
   }
   .items-wrapper {
-<<<<<<< HEAD
-=======
     //border-bottom: 3px solid #e0e0e0;
->>>>>>> parent of bad1885... variables border-color
     margin-top: 57px;
     padding: 0 60px;
     .all-catalog_product {
@@ -291,6 +303,7 @@
     .product-name {
       line-height: 18px;
       font-size: 15px;
+      //margin-bottom: 20px;
     }
     select {
       width: 100%;
@@ -306,7 +319,7 @@
         .product-old-price{
           margin-right: 18px;
           text-decoration: line-through;
-          color: @grey-color2;
+          color: #7d7d7d;
         }
         .product-old-price,
         .product-money {
@@ -320,7 +333,7 @@
         top: 23px;
         right: 3px;
         text-transform: uppercase;
-        color: @main-black-color;
+        color: #000;
         font-family: "RobotoLight";
         font-size: 12px;
         display: inline-block;
@@ -390,7 +403,7 @@ div.mfp-content {
     font-family: "RobotoLight";
   }
   .price {
-    color: @main-black-color;
+    color: #000;
     font-family: "RobotoMedium";
     font-size: 20px;
     text-transform: uppercase;

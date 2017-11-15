@@ -21,7 +21,7 @@
           height: 0;
           border-left: 7px solid transparent;
           border-right: 7px solid transparent;
-          border-bottom: 8px solid @white-color;
+          border-bottom: 8px solid white;
           position: absolute;
           bottom: -13px;
           margin-left: -7px;
@@ -54,7 +54,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: @white-color;
+    background-color: #ffffff;
   }
   .prod-img_b{
     width: 100%;
@@ -65,7 +65,7 @@
     left: -20px;
   }
   .sections.nav-sections li.level0.ui-menu-item a.all-offers-lnk {
-    color: @main-black-color;
+    color: #000;
     font-family: 'RobotoLight';
     font-size: 15px;
     display: block;
@@ -103,7 +103,7 @@
       padding: 20px;
 
       .title {
-        color: @main-black-color;
+        color: #000;
         font-family: 'RobotoLight';
         font-size: 50px;
         text-transform: uppercase;
@@ -111,16 +111,16 @@
         display: inline-block;
       }
       .lnk {
-        color: @main-black-color !important;
+        color: #000 !important;
         display: inline-block;
         padding: 13px 23px;
-        border: 1px solid @main-black-color;
+        border: 1px solid #000;
         margin-top: 15px;
         transition: 0.3s;
 
         &:hover {
-          color: @main-black-color !important;
-          background: @main-black-color;
+          color: #fff !important;
+          background: #000;
           transition: 0.3s;
         }
       }
@@ -139,7 +139,7 @@
         width: ~'calc((100% - 30px) / 4)';
 
         a {
-          color: @main-black-color;
+          color: #000;
           text-transform: uppercase;
           font-size: 18px;
           font-family: 'RobotoLight';
@@ -149,7 +149,7 @@
       li.level1.ui-menu-item.all-items {
         width: 100% !important;
         text-align: center;
-        border-top: 1px solid @border-color-grey;
+        border-top: 1px solid #e9e9e9;
         padding-top: 27px;
         font-size: 15px;
         color: #666;
@@ -288,7 +288,7 @@
         }
         .name,
         .short-name {
-          color: @main-black-color;
+          color: #fff;
         }
       }
 
@@ -414,6 +414,7 @@
       .separate-txt-xs .hero-img .description {
         right: 20px;
         top: 0;
+        //max-width: 330px;
       }
       .separate-txt-xs .hero-img .description .name {
         font-size: 40px;
@@ -533,6 +534,11 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   display: block;
 }
 .section .description .action a{
+  //padding: 0;
+  //height: 40px;
+  //text-align: center;
+  //line-height: 37px;
+  //font-size: 14pt;
   letter-spacing: 0.2px;
 }
 .section .video .description .action a{
@@ -546,6 +552,15 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   padding: 13px 17px;
   width: 153px;
 }
+//.b-bth{
+//  width: 250px;
+//}
+//.section > div.left{
+//  width: 37.3%;
+//}
+//.section > div.right{
+//  width: 62.7%;s
+//}
 .main-img:hover img{
   -webkit-transform: scale(1.05,1.05);
   -webkit-transition-timing-function: ease-out;
@@ -564,7 +579,9 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   max-width: 300px;
 }
 .page-footer .copyrights .links a{
+  //text-transform: uppercase;
   font-size: 14px;
+  text-decoration: none;
   letter-spacing: 0.2px;
   text-decoration: underline;
 }
@@ -749,7 +766,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     width: 100%;
   }
   .block_search-product{
-    background-color: @white-color;
+    background-color: #ffffff;
   }
   .block_search-product .search-position{
     text-align: center;
@@ -776,7 +793,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
     display: none;
   }
   .sp-thumbnail-container{
-    background-color: @grey-color;
+    background-color: #e9e9e9;
     border-radius: 50%;
   }
   .sp-selected-thumbnail{
@@ -1155,7 +1172,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
       font-family: "RobotoLight";
     }
     .price {
-      color: @main-black-color;
+      color: #000;
       font-family: "RobotoMedium";
       font-size: 20px;
       text-transform: uppercase;
@@ -1290,7 +1307,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
 }
 
 @media (max-width: 425px) {
-  
+
   .were-to-buy-map-block {
     .search-address-block {
       min-width: initial;
