@@ -6,7 +6,7 @@
 
   .right .description .name {
     @media @xs {
-      color: #fff;
+      color: @main-black-color;
     }
   }
   & > div {
@@ -56,7 +56,7 @@
     }
   }
   .divided {
-    color: #fff;
+    color: @main-black-color;
 
     .main-img {
       @media @xs {
@@ -131,7 +131,7 @@
     }
     .short-descr {
       font-family: 'RobotoMedium';
-      color: #fff;
+      color: @main-black-color;
       width: 100%;
       display: block;
       font-size: 18px;
@@ -148,17 +148,17 @@
         //min-width: 150px;
         margin-bottom: 10px;
         padding: 14px 21px;
-        color: #fff;
+        color: @main-black-color;
         text-transform: uppercase;
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
-        border: 1px solid #fff;
+        border: 1px solid @main-black-color;
         transition: 0.3s;
 
         &:hover {
-          color: #000;
-          background: #fff;
+          color: @main-black-color;
+          background: @main-black-color;
           transition: 0.3s;
         }
       }
@@ -219,8 +219,8 @@
   &:not(.hero) .separate-txt-xs {
     .description {
       @media @xs {
-        background: #000;
-        color: #fff;
+        background: @main-black-color;
+        color: @main-black-color;
       }
     }
   }
@@ -243,18 +243,18 @@
       }
 
       .short-name {
-        color: #fff;
+        color: @main-black-color;
       }
 
       .action a {
         @media @xs {
-          color: #000;
-          border-color: #000;
+          color: @main-black-color;
+          border-color: @main-black-color;
         }
         &:hover {
           @media @xs {
-            color: #fff;
-            background: #000;
+            color: @main-black-color;
+            background: @main-black-color;
             transition: 0.3s;
           }
         }
@@ -265,19 +265,19 @@
         .short-name {
           letter-spacing: 0.9px;
           @media @xs {
-            color: #000;
+            color: @main-black-color;
           }
         }
       }
       .description .name {
         font-size: 60px;
-        color: #fff;
+        color: @main-black-color;
         line-height: 49px;
         margin-top: 14px;
 
         @media @xs {
           font-size: 35px;
-          color: #000;
+          color: @main-black-color;
         }
       }
     }
@@ -303,7 +303,7 @@
 
         &:hover {
           background: transparent;
-          color: #000;
+          color: @main-black-color;
           transition: 0.3s;
         }
       }
@@ -383,26 +383,26 @@
     transform: translateX(-50%);
   }
   .section.hero .separate-txt-xs .hero-img .description .name{
-    color: #000000;
+    color: @main-black-color;
     margin: 10px 0 15px 0;
   }
   .section.hero .separate-txt-xs .hero-img .short-name{
-    color: #000000;
+    color: @main-black-color;
   }
   .section .description .action .first-btn{
-    border-color: #000000;
-    color: #000000;
+    border-color: @main-black-color;
+    color: @main-black-color;
   }
   .section .description .action .first-btn:hover{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: @main-black-color;
+    color: @white-color;
   }
   .section .description.center-text{
     padding-top: 0;
   }
   .hero-img{
     margin-top: -2px;
-    border-top: 1px solid #fff;
+    border-top: 1px solid @main-black-color;
   }
   .f-size_hero .description .action{
     display: flex;
@@ -410,7 +410,7 @@
     flex-direction: column;
   }
   .section .description .action a{
-    color: #000000;
+    color: @main-black-color;
     text-align: center;
     width: 188px;
   }
@@ -511,18 +511,18 @@
       max-height: 100%;
     }
     .bg-b{
-      background-color: #000000;
+      background-color: @main-black-color;
     }
     .section.hero .separate-txt-xs .hero-img.bg-b{
-      color: #ffffff;
+      color: @white-color;
     }
     .section.hero .separate-txt-xs .hero-img.bg-b .description .short-name,
     .section.hero .separate-txt-xs .hero-img.bg-b .description .name,
     .section.hero .separate-txt-xs .hero-img.bg-b .action a{
-      color: #ffffff;
+      color: @white-color;
     }
     .section.hero .separate-txt-xs .hero-img.bg-b .action a{
-      border-color: #ffffff;
+      border-color: @white-color;
     }
     .section.hero .separate-txt-xs .hero-img .description.center-text{
       padding: 20px;
