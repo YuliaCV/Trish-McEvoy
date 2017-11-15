@@ -761,7 +761,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   font-size: 20px;
   letter-spacing: 0px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003472}}
 .block_mini-cart .mini-cart_headline span {
@@ -770,7 +770,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Header\.less}line{font-family:\00003477}}
 .block_mini-cart .mini-cart_prod {
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -1118,7 +1118,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px solid #e0e0e0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_Footer\.less}line{font-family:\000037}}
 .page-footer .footer-content {
@@ -1987,8 +1987,8 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   height: 102px;
   margin-top: 23px;
   width: 100%;
-  border-top: 1px solid #e9e9e9;
-  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2600,7 +2600,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 170px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_CommonStyles\.less}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/_CommonStyles\.less}line{font-family:\0000322}}
 .add-to-bag-btn.simple-button-style {
   padding: 13px 17px;
   margin: 0 auto;
@@ -3065,7 +3065,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 1px solid #e9e9e9;
+  border-top: 1px solid #e0e0e0;
   padding-top: 20px;
   margin-bottom: 19px;
 }
@@ -3148,7 +3148,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Checkout\.less}line{font-family:\00003404}}
 .checkout-block_left .checkout-select_2 .checkout-select_info form .cart-element_2 .radioButton_element {
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 16px;
@@ -3165,7 +3165,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Checkout\.less}line{font-family:\00003423}}
 .checkout-block_left .checkout-select_3 form .checkout-product {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3427,7 +3427,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/Trish-McEvoy\/assets\/less\/Checkout\.less}line{font-family:\00003609}}
 .checkout-block_right .checkout-select_info form .checkout-product {
   padding-bottom: 15px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
   margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
