@@ -314,7 +314,7 @@
     .divided .description {
       padding: 40px 10px 40px;
       z-index: 9;
-      max-width: 280px;
+      max-width: 350px;
       text-align: right;
       right: 40px;
     }
@@ -342,7 +342,6 @@
       .description {
         padding: 20px 10px 20px;
         right: 20px;
-        max-width: 215px;
 
         .short-descr {
           margin-bottom: 5px;
@@ -379,11 +378,23 @@
       .description {
         padding: 20px 10px 20px;
         right: 20px;
-        max-width: 215px;
 
         .short-descr {
           margin-bottom: 5px;
           margin-top: 0;
+        }
+      }
+      .description.center-element{
+        span.action{
+          a{
+            width: 50px;
+            height: 50px;
+            padding: 1px 6px;
+            i{
+              left: 8px;
+              top: 8px;
+            }
+          }
         }
       }
       .video .description {
@@ -606,10 +617,16 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item .menu-b
   .page-footer .footer-content {
     width: auto;
   }
+
 }
 @media (max-width: 1200px){
   .section .description h2.name2{
     line-height: 1;
+  }
+}
+@media (max-width: 1080px){
+  .section .description .name{
+    font-size: 34px;
   }
 }
 @media (max-width: 1040px){
