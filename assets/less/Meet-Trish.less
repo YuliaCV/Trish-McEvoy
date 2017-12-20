@@ -1,0 +1,221 @@
+@import "../less/_Theme";
+/***************************Meet-Trish************************/
+.wrap-meet {
+  max-width: 1220px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.meet-element_global {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  img {
+    width: 100%;
+  }
+}
+.meet-element_1{
+  margin-top: 49px;
+  .meet_left{
+    width: 47%;
+    margin: 0 auto;
+    .headline {
+      font-size: 60px;
+      text-transform: uppercase;
+      font-family: "PlayfairDisplayRegular";
+      letter-spacing: 0px;
+      margin-top: 48px;
+      margin-bottom: 29px;
+      padding-left: 14%;
+      padding-right: 14%;
+      span {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "RobotoLight";
+        font-weight: 300;
+        display: block;
+        letter-spacing: 0.3px;
+        margin-bottom: 5px;
+      }
+    }
+    .meet-text {
+      font-size: 16px;
+      margin-bottom: 29px;
+      line-height: 1.8;
+      letter-spacing: 1.2px;
+      font-family: "RobotoRegular";
+      padding-left: 14%;
+      padding-right: 14%;
+    }
+  }
+  .meet-right {
+    width: 53%;
+  }
+}
+.meet-element_2{
+  .meet_left, .meet-right{
+    width: 53%;
+    margin: 0 auto;
+    .headline {
+      font-size: 34px;
+      text-transform: uppercase;
+      font-family: "RobotoLight";
+      font-weight: 300;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-top: 92px;
+      margin-bottom: 29px;
+      padding-left: 14%;
+      padding-right: 14%;
+      span {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "RobotoLight";
+        font-weight: 300;
+        display: block;
+        letter-spacing: 0.3px;
+        margin-bottom: 5px;
+      }
+    }
+    .meet-text {
+      font-size: 16px;
+      margin-bottom: 29px;
+      line-height: 1.8;
+      letter-spacing: 1.2px;
+      font-family: "RobotoRegular";
+      padding-left: 14%;
+      padding-right: 14%;
+    }
+  }
+  .meet-right {
+    width: 47%;
+  }
+  .img-trish_2{
+    position: relative;
+    top: -30px;
+  }
+    .book-trish {
+      max-width: 415px;
+      float: right;
+    }
+  & .meet_left{
+    .headline{
+      margin-top: 62px;
+    }
+      .meet-text{
+        padding-right: 0;
+      }
+    .disabled_text{
+      display: none;
+    }
+  }
+}
+.meet-video {
+  width: 100%;
+  max-width: 900px;
+  height: 510px;
+  margin: 30px auto 0;
+}
+
+.meet_img_b1 {
+  text-align: center;
+}
+
+.meet_img_b2 {
+  text-align: center;
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+.meet-element_1 .meet_left .img-trish_1 {
+  display: none;
+}
+.meet-element_2 .meet_left .disabled_text_2 {
+  display: none;
+}
+.meet-element_2 .meet_left .disabled_text{
+  display: block;
+}
+.meet-element_2 .meet-right .disabled_text{
+  display: none;
+}
+@media (max-width: 767px){
+  .meet-element_2 .meet_left .disabled_text_2 {
+    display: block;
+  }
+  .meet-element_2 .meet-right .disabled_text{
+    display: block;
+  }
+  .meet-element_1{
+    margin-top: 0;
+    .meet_left{
+      .headline{
+        margin-top: 20px;
+        margin-bottom: 25px;
+      }
+      .img-trish_1 {
+        display: block;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .meet-element_1 .meet-right{
+    display: none;
+  }
+  .meet-element_1 .meet_left,
+  .meet-element_2 .meet_left,
+  .meet-element_1 .meet-right,
+  .meet-element_2 .meet-right{
+    width: 100%;
+      .headline{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+      .meet-text{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+  }
+  .meet-element_2{
+    flex-direction: column;
+    .meet_left{
+      .headline{
+        margin-top: 21px;
+        margin-bottom: 21px;
+      }
+      .img-trish_2{
+        top:0;
+      }
+        .disabled_text{
+          display: none;
+        }
+    }
+    .meet-right{
+      text-align: center;
+      .headline{
+        margin-top: 21px;
+        margin-bottom: 21px;
+      }
+      .book-trish{
+        float: none;
+      }
+      .disabled_text_2{
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 480px){
+  .meet-element_1 .meet_left .headline{
+    font-size: 35px;
+  }
+  .meet-element_2 .meet_left .headline, .meet-element_2 .meet-right .headline{
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+/***************************Page HTML END**************************/

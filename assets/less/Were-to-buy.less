@@ -1,0 +1,160 @@
+@import "../less/_Theme.less";
+
+.were-to-buy-wrapper {
+  .header {
+    font-family: "RobotoLight";
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: @main-black-color;
+    text-align: center;
+    display: block;
+    padding: 30px 0 33px 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.were-to-buy-map-block {
+  height: calc(~"100vh - 101px");
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  #map {
+    display: inline-block;
+    height: 100%;
+    width: calc(~"80% - 20px");
+    float: left;
+  }
+  .search-address-block {
+    width: 20%;
+    min-width: 400px;
+    background-color: @white-color;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    .input-block {
+      background-color: @main-black-color;
+      padding: 20px 20px;
+      position: relative;
+      input {
+        width: 100%;
+        padding: 12px 51px 11px 15px;
+        letter-spacing: -0.1px;
+        border: 1px solid @light-grey-color2;
+        color: @grey-color2;
+        font-family: "RobotoRegular";
+        background-color: @white-color;
+        font-size: 13px;
+        &::-webkit-input-placeholder {
+          font-family: "RobotoRegular";
+          color: @grey-color2;
+        }
+      }
+      .search-btn {
+        position: absolute;
+        top: 32px;
+        right: 35px;
+        display: block;
+        cursor: pointer;
+      }
+    }
+    .address-items-block {
+      background-color: @white-color;
+      width: 100%;
+      height: calc(~"100vh - 183px");
+      .mCSB_inside>.mCSB_container {
+        margin-right: 9px;
+      }
+      .mCSB_scrollTools {
+        width: 9px;
+      }
+      .address-item-block {
+        display: block;
+        background-color: @light-grey-color;
+        padding: 25px 21px 0 27px;
+        .content-block {
+          max-width: 340px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 0 35px 0;
+          border-bottom: 1px solid @border-color-grey3;
+          .text-block {
+            width: 100%;
+            position: relative;
+            .title {
+              font-family: "RobotoLight";
+              text-transform: uppercase;
+              color: @main-black-color;
+              font-size: 16px;
+              line-height: 22px;
+              display: block;
+              max-width: 250px;
+              width: 100%;
+              letter-spacing: 0.6px;
+              margin-bottom: 7px;
+            }
+            .address,.street {
+              font-family: "RobotoMedium";
+              color: #1c1c1c;
+              font-size: 14px;
+              line-height: 24px;
+              display: block;
+              max-width: 180px;
+              width: 100%;
+              letter-spacing: 0px;
+            }
+            .number {
+              font-family: "RobotoMedium";
+              color: #1c1c1c;
+              text-decoration: none;
+              font-size: 14px;
+              line-height: 24px;
+              display: inline-block;
+              margin-top: 7px;
+              letter-spacing: 0px;
+            }
+            .miles {
+              position: absolute;
+              top: 3px;
+              right: -3px;
+              display: block;
+              font-family: "RobotoMedium";
+              color: @main-black-color;
+              font-size: 14px;
+              line-height: 19px;
+              letter-spacing: 0px;
+            }
+            .get-direction {
+              position: absolute;
+              bottom: -19px;
+              right: -1px;
+              display: block;
+              font-family: "RobotoRegular";
+              color: @main-black-color;
+              font-size: 14px;
+              line-height: 20px;
+              text-transform: uppercase;
+              letter-spacing: 0.1px;
+              cursor: pointer;
+            }
+          }
+        }
+        &.active {
+          background-color: @white-color;
+          border-bottom: 1px solid @border-color-grey3;
+          padding: 25px 21px 18px 27px;
+          .content-block {
+            border-bottom: none;
+            padding: 0 0 18px 0;
+          }
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

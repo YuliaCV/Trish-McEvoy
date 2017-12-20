@@ -1,0 +1,54 @@
+@import "../less/_Theme.less";
+
+.error-page {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-image: url('../img/Error/Error-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0 128px 0;
+  height: 565px;
+  .header {
+    text-transform: uppercase;
+    font-family: "PlayfairDisplayRegular";
+    font-size: 60px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    color: @main-black-color;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+  .text {
+    display: block;
+    font-family: "Gotham-Medium";
+    font-size: 16px;
+    line-height: 28px;
+    color: @main-black-color;
+    margin-bottom: 33px;
+    max-width: 545px;
+    width: 100%;
+    letter-spacing: 0px;
+  }
+  .error-link {
+    display: block;
+    border: 1px solid @main-black-color;
+    text-transform: uppercase;
+    text-align: center;
+    color: @main-black-color;
+    width: 195px;
+    word-wrap: break-word;
+    padding: 2px 0;
+    text-decoration: none;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
