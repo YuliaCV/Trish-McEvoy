@@ -2708,3 +2708,6 @@ div.mfp-content {
   margin: 21px auto 0 auto;
   width: 230px;
 }
+.bring-look-wrapper div.margin-position {
+  margin-top: 0;
+}
