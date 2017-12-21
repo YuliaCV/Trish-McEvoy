@@ -2668,6 +2668,7 @@ nav ul.main-menu li.level0.ui-menu-item ul.subcat li.level1.ui-menu-item a {
   width: 100%;
 }
 .the-look-ease-popup-wrapper .all-catalog_product-scroll {
+  overflow-y: scroll;
   height: 474px;
   border-bottom: 3px solid #e0e0e0;
 }

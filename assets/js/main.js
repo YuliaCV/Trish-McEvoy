@@ -30,9 +30,6 @@ jQuery(function ($) {
         ]
     });
 
-    $(".items-wrapper .all-catalog_product-scroll").mCustomScrollbar({
-        theme:"dark-thick"
-    });
     $(".were-to-buy-map-block .search-address-block .address-items-block").mCustomScrollbar({
         theme:"dark"
     });
